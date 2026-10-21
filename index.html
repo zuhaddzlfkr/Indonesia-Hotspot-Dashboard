@@ -1,35 +1,85 @@
 <!doctype html>
-<html lang="id"><head>
+<html lang="id" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dashboard Karhutla Indonesia</title>
+<title>Pantau Karhutla Nusantara</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
- body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f2;color:#222}
- header{padding:12px 20px;background:#7a1f0e;color:#fff}
- .kpi{display:flex;gap:12px;padding:12px 20px;flex-wrap:wrap}
- .kpi div{background:#fff;padding:10px 16px;border-radius:8px;min-width:140px}
- .kpi b{display:block;font-size:24px}
- #map{height:480px;margin:0 20px;border-radius:8px}
+ :root{--bg:#f4f4f2;--card:#fff;--text:#222;--muted:#666;--head:#7a1f0e;--line:#ddd;--grid:rgba(0,0,0,.1)}
+ [data-theme="dark"]{--bg:#12151a;--card:#1c2027;--text:#e7e9ec;--muted:#9aa3ad;--head:#3b0f08;--line:#2d333c;--grid:rgba(255,255,255,.12)}
+ body{font-family:system-ui,sans-serif;margin:0;background:var(--bg);color:var(--text)}
+ header{padding:14px 20px;background:var(--head);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+ header h1{margin:0;font-size:24px}
+ header small{display:block;opacity:.85;margin-top:2px}
+ #theme{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:20px;padding:6px 14px;cursor:pointer;font-size:14px}
+ .kpi,.bar{display:flex;gap:12px;padding:12px 20px;flex-wrap:wrap;align-items:center}
+ .kpi div{background:var(--card);padding:10px 16px;border-radius:8px;min-width:140px;color:var(--muted);font-size:13px}
+ .kpi b{display:block;font-size:24px;color:var(--text)}
+ .bar label{font-size:14px}
+ select{margin-left:4px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:3px 6px}
+ #mapInfo{font-size:14px;color:var(--muted)}
+ #map{height:520px;margin:0 20px;border-radius:8px}
+ #legend{padding:8px 20px;font-size:13px;color:var(--muted)}
+ #legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin:0 4px 0 12px;vertical-align:middle}
  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px;padding:20px}
- .card{background:#fff;padding:12px;border-radius:8px}
+ .card{background:var(--card);padding:12px;border-radius:8px}
+ details.card{margin:0 20px 12px;line-height:1.5;font-size:14px}
+ summary{cursor:pointer;font-size:15px}
+ .foot{padding:0 20px 20px;display:block;color:var(--muted)}
 </style></head><body>
-<header><h2 style="margin:0">Titik Panas Karhutla Indonesia</h2>
-<small id="upd">Memuat data…</small></header>
+<header>
+ <div><h1>Pantau Karhutla Nusantara</h1>
+ <small id="sub">Pemantauan titik panas hutan dan lahan di seluruh Indonesia</small>
+ <small id="upd">Memuat data…</small></div>
+ <button id="theme" type="button">🌙 Mode gelap</button>
+</header>
 <div class="kpi">
  <div>Titik hari terakhir<b id="k1">-</b></div>
- <div>Titik 7 hari<b id="k2">-</b></div>
+ <div>Titik 7 hari terakhir<b id="k2">-</b></div>
  <div>Provinsi terbanyak (7 hari)<b id="k3">-</b></div>
- <div>Tampilkan di peta
+ <div>Total titik sejak awal data<b id="k4">-</b></div>
+</div>
+<div class="bar">
+ <label>Tampilan peta
+  <select id="mode"><option value="recent">Terbaru</option><option value="year">Per tahun</option></select></label>
+ <span id="recentCtl"><label>Rentang
   <select id="days"><option value="1">1 hari</option><option value="3">3 hari</option>
-  <option value="7" selected>7 hari</option></select></div>
+  <option value="7" selected>7 hari</option></select></label></span>
+ <span id="yearCtl" hidden>
+  <label>Tahun <select id="mapYear"></select></label>
+  <label>Bulan <select id="mapMonth"><option value="">Semua bulan</option>
+   <option value="01">Jan</option><option value="02">Feb</option><option value="03">Mar</option>
+   <option value="04">Apr</option><option value="05">Mei</option><option value="06">Jun</option>
+   <option value="07">Jul</option><option value="08">Agu</option><option value="09">Sep</option>
+   <option value="10">Okt</option><option value="11">Nov</option><option value="12">Des</option></select></label>
+ </span>
+ <span id="mapInfo"></span>
 </div>
 <div id="map"></div>
+<div id="legend"></div>
+
+<details class="card" open><summary><b>Cara membaca dashboard ini</b></summary>
+ <p><b>Titik panas</b>: lokasi yang oleh satelit terdeteksi jauh lebih panas dari sekitarnya (area sekitar 375 × 375 m).
+ Ini <u>petunjuk awal</u> kemungkinan ada kebakaran, bukan konfirmasi. Titik panas juga bukan ukuran luas lahan yang terbakar.
+ Satu kebakaran besar bisa muncul sebagai banyak titik, dan api kecil bisa tidak terdeteksi.</p>
+ <p><b>Intensitas panas (FRP)</b>: seberapa besar energi panas yang dipancarkan api saat satelit lewat, dalam megawatt (MW).
+ Semakin besar angkanya, semakin kuat atau besar apinya. Angka ini menggambarkan kekuatan api, bukan luas lahan.</p>
+ <p><b>Tingkat keyakinan</b>: seberapa kuat sinyal panas yang ditangkap satelit.
+ <b>Rendah</b> = sinyal lemah, lebih rawan salah deteksi.
+ <b>Sedang</b> = sinyal jelas.
+ <b>Tinggi</b> = sinyal panas sangat kuat.
+ Untuk membaca tren yang lebih ketat, perhatikan titik berkeyakinan tinggi.</p>
+ <p><b>Peta per tahun</b>: wilayah dibagi menjadi kotak sekitar 11 × 11 km. Warna menunjukkan jumlah titik panas di kotak itu
+ pada periode yang dipilih. Semakin gelap/merah, semakin banyak.</p>
+ <p><b>Catatan</b>: asap atau awan tebal bisa menghalangi deteksi, dan satelit hanya lewat beberapa kali sehari.
+ Untuk luas area terbakar resmi, rujuk SiPongi KLHK.</p>
+</details>
+
 <div class="grid">
- <div class="card"><h4>Pola bulanan per tahun</h4><canvas id="c1"></canvas></div>
+ <div class="card"><h4>Pola bulanan per tahun (jumlah titik panas)</h4><canvas id="c1"></canvas></div>
  <div class="card"><h4>10 provinsi teratas
   <select id="yr"></select></h4><canvas id="c2"></canvas></div>
 </div>
-<small style="padding:0 20px;display:block">Sumber: NASA FIRMS (VIIRS S-NPP 375 m). Titik panas ≠ luas area terbakar.</small>
+<small class="foot">Sumber: NASA FIRMS (VIIRS S-NPP 375 m). Basemap © OpenStreetMap, © CARTO.</small>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
@@ -38,45 +88,117 @@
 const BASE = "https://raw.githubusercontent.com/zuhaddzlfkr/Indonesia-Karhutla-Dashboard/main/data/";
 const $ = id => document.getElementById(id);
 const csv = f => new Promise(ok => Papa.parse(BASE + f + "?t=" + Date.now(),
-  {download:true, header:true, dynamicTyping:true, skipEmptyLines:true, complete:r => ok(r.data)}));
+  {download:true, header:true, dynamicTyping:true, skipEmptyLines:true,
+   complete:r => ok(r.data), error:() => ok(null)}));
+const KEYAKINAN = {h:'Tinggi', n:'Sedang', l:'Rendah'};
+const warna = n => n>=10 ? '#9f1239' : n>=5 ? '#dc2626' : n>=2 ? '#f97316' : '#fcd34d';
+const tgl = s => new Date(s + 'T00:00:00Z').toLocaleDateString('id-ID',
+  {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
 
-const map = L.map('map').setView([-2.5, 118], 5);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-  {attribution:'© OpenStreetMap'}).addTo(map);
+// ---------- Tema (gelap/terang) ----------
+let theme = 'light';
+try { theme = localStorage.getItem('theme') ||
+  (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch (e) {}
+let ready = false, redrawCharts = () => {};
+
+const map = L.map('map', {preferCanvas:true}).setView([-2.5, 118], 5);
+const tiles = {
+  light: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap'}),
+  dark:  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+          {attribution:'© OpenStreetMap © CARTO', subdomains:'abcd'})
+};
 const layer = L.layerGroup().addTo(map);
 
+function applyTheme(t) {
+  theme = t;
+  document.documentElement.setAttribute('data-theme', t);
+  $('theme').textContent = t === 'dark' ? '☀️ Mode terang' : '🌙 Mode gelap';
+  Object.values(tiles).forEach(l => map.removeLayer(l));
+  tiles[t].addTo(map);
+  const css = getComputedStyle(document.documentElement);
+  Chart.defaults.color = css.getPropertyValue('--muted').trim();
+  Chart.defaults.borderColor = css.getPropertyValue('--grid').trim();
+  if (ready) redrawCharts();
+  try { localStorage.setItem('theme', t); } catch (e) {}
+}
+$('theme').onclick = () => applyTheme(theme === 'dark' ? 'light' : 'dark');
+applyTheme(theme);
+
+// ---------- Data ----------
 (async () => {
   const [daily, recent] = await Promise.all([csv('daily_province.csv'), csv('recent.csv')]);
   const latest = recent.map(r => r.acq_date).sort().pop();
+  const first = daily.map(d => String(d.acq_date)).sort()[0];
+  const years = [...new Set(daily.map(d => String(d.acq_date).slice(0,4)))].sort();
 
-  $('upd').textContent = 'Data terakhir: ' + latest + ' (UTC)';
+  $('sub').textContent = 'Pemantauan titik panas hutan dan lahan di seluruh Indonesia · ' +
+    tgl(first) + ' – ' + tgl(latest);
+  $('upd').textContent = 'Data terakhir: ' + tgl(latest) + ' (UTC) · diperbarui otomatis tiap 3 jam';
   $('k1').textContent = recent.filter(r => r.acq_date === latest).length.toLocaleString('id');
   $('k2').textContent = recent.length.toLocaleString('id');
   const pc = {}; recent.forEach(r => pc[r.provinsi] = (pc[r.provinsi] || 0) + 1);
   $('k3').textContent = Object.entries(pc).sort((a,b) => b[1]-a[1])[0]?.[0] ?? '-';
+  $('k4').textContent = daily.reduce((s,d) => s + (d.titik || 0), 0).toLocaleString('id');
 
-  function drawMap() {
+  function drawRecent() {
     layer.clearLayers();
     const n = +$('days').value, cut = new Date(latest); cut.setDate(cut.getDate() - n + 1);
+    let jml = 0;
     recent.filter(r => new Date(r.acq_date) >= cut).forEach(r => {
-      const fresh = r.acq_date === latest;
+      jml++;
       L.circleMarker([r.latitude, r.longitude],
-        {radius:4, color: fresh ? '#d7191c' : '#fdae61', fillOpacity:.7, weight:0})
-       .bindPopup(`${r.provinsi}<br>${r.acq_date} ${r.acq_time}<br>FRP: ${r.frp} MW<br>Kepercayaan: ${r.confidence}`)
+        {radius:4, color: r.acq_date === latest ? '#ef4444' : '#fb923c', fillOpacity:.75, weight:0})
+       .bindPopup(`<b>${r.provinsi}</b><br>${r.acq_date} ${String(r.acq_time).padStart(4,'0')} UTC<br>` +
+         `Intensitas panas (FRP): ${r.frp} MW<br>Tingkat keyakinan: ${KEYAKINAN[r.confidence] ?? r.confidence}`)
        .addTo(layer);
     });
+    $('mapInfo').textContent = jml.toLocaleString('id') + ' titik panas';
+    $('legend').innerHTML = '<i style="background:#ef4444"></i>Hari terakhir<i style="background:#fb923c"></i>Hari sebelumnya';
   }
-  $('days').onchange = drawMap; drawMap();
 
-  const years = [...new Set(daily.map(d => String(d.acq_date).slice(0,4)))].sort();
+  const cache = {};
+  async function drawYear() {
+    const y = $('mapYear').value, mo = $('mapMonth').value;
+    $('mapInfo').textContent = 'Memuat…'; layer.clearLayers();
+    cache[y] ??= await csv('grid_' + y + '.csv');
+    if (!cache[y]) { $('mapInfo').textContent = 'Data peta tahun ' + y + ' belum tersedia.'; return; }
+    const cells = {};
+    cache[y].forEach(r => {
+      if (mo && String(r.ym).slice(5,7) !== mo) return;
+      const c = cells[r.lat + ',' + r.lon] ??= {lat:r.lat, lon:r.lon, n:0, h:0, f:0};
+      c.n += r.titik; c.h += r.high; c.f += r.frp;
+    });
+    const list = Object.values(cells);
+    list.forEach(c => L.circleMarker([c.lat, c.lon], {radius:4, color:warna(c.n), fillOpacity:.8, weight:0})
+      .bindPopup(`Kotak ± 11 × 11 km<br>Titik panas: <b>${c.n}</b><br>Berkeyakinan tinggi: ${c.h}<br>` +
+        `Total intensitas panas (FRP): ${c.f.toFixed(0)} MW`).addTo(layer));
+    $('mapInfo').textContent = list.reduce((s,c) => s + c.n, 0).toLocaleString('id') +
+      ' titik panas di ' + list.length.toLocaleString('id') + ' kotak';
+    $('legend').innerHTML = 'Jumlah titik panas per kotak: <i style="background:#fcd34d"></i>1' +
+      '<i style="background:#f97316"></i>2–4<i style="background:#dc2626"></i>5–9<i style="background:#9f1239"></i>10+';
+  }
+
+  $('mapYear').innerHTML = years.map(y => `<option>${y}</option>`).join('');
+  $('mapYear').value = years.at(-1);
+  function redraw() {
+    const yr = $('mode').value === 'year';
+    $('recentCtl').hidden = yr; $('yearCtl').hidden = !yr;
+    yr ? drawYear() : drawRecent();
+  }
+  ['mode','days','mapYear','mapMonth'].forEach(id => $(id).onchange = redraw);
+  redraw();
+
+  // ---------- Grafik ----------
   const m = {};
   daily.forEach(d => { const s = String(d.acq_date), y = s.slice(0,4), k = +s.slice(5,7) - 1;
     (m[y] ??= Array(12).fill(0))[k] += d.titik; });
-  new Chart($('c1'), {type:'line', data:{
-    labels:['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'],
-    datasets: years.map(y => ({label:y, data:m[y], tension:.3}))}});
-
-  let c2;
+  let c1, c2;
+  function buildC1() {
+    c1?.destroy();
+    c1 = new Chart($('c1'), {type:'line', data:{
+      labels:['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'],
+      datasets: years.map(y => ({label:y, data:m[y], tension:.3}))}});
+  }
   function top(y) {
     const p = {};
     daily.filter(d => String(d.acq_date).startsWith(y) && d.provinsi !== 'Di luar daratan')
@@ -84,9 +206,13 @@ const layer = L.layerGroup().addTo(map);
     const e = Object.entries(p).sort((a,b) => b[1]-a[1]).slice(0,10);
     c2?.destroy();
     c2 = new Chart($('c2'), {type:'bar', data:{labels:e.map(x => x[0]),
-      datasets:[{label:'Titik panas ' + y, data:e.map(x => x[1])}]}, options:{indexAxis:'y'}});
+      datasets:[{label:'Titik panas ' + y, data:e.map(x => x[1]), backgroundColor:'#e4572e'}]},
+      options:{indexAxis:'y'}});
   }
   $('yr').innerHTML = years.map(y => `<option>${y}</option>`).join('');
-  $('yr').value = years.at(-1); $('yr').onchange = e => top(e.target.value); top(years.at(-1));
+  $('yr').value = years.at(-1);
+  $('yr').onchange = e => top(e.target.value);
+  redrawCharts = () => { buildC1(); top($('yr').value); };
+  redrawCharts(); ready = true;
 })();
 </script></body></html>
