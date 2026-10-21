@@ -8,13 +8,24 @@ STEP = 5                       # hari per request (cek batas terbaru di docs FIR
 PROV = gpd.read_file("data/provinces.geojson")[["shapeName", "geometry"]]
 F_DAILY, F_RECENT = "data/daily_province.csv", "data/recent.csv"
 
-def fetch(source, start):
+def fetch(source, start, tries=6):
     url = f"{BASE}/{KEY}/{source}/{BBOX}/{STEP}/{start:%Y-%m-%d}"
-    r = requests.get(url, timeout=180); r.raise_for_status()
-    df = pd.read_csv(io.StringIO(r.text))
-    if "latitude" not in df.columns:
-        raise RuntimeError(f"Respon FIRMS aneh: {r.text[:200]}")
-    return df
+    for i in range(tries):
+        try:
+            r = requests.get(url, timeout=180)
+            if r.status_code in (429, 500, 502, 503, 504):
+                raise requests.HTTPError(f"HTTP {r.status_code}")
+            r.raise_for_status()
+            df = pd.read_csv(io.StringIO(r.text))
+            if "latitude" not in df.columns:
+                raise RuntimeError(f"Respon FIRMS aneh: {r.text[:200]}")
+            print(f"OK {source} {start}", flush=True)
+            return df
+        except (requests.RequestException, pd.errors.EmptyDataError) as e:
+            wait = 15 * (2 ** i)
+            print(f"Gagal {source} {start}: {e}. Coba lagi {wait}s ({i+1}/{tries})", flush=True)
+            time.sleep(wait)
+    raise RuntimeError(f"Menyerah di {source} {start} setelah {tries} percobaan")
 
 def pull(source, d0, d1):
     out, d = [], d0
