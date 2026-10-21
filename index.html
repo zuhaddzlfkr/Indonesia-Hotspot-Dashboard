@@ -11,6 +11,7 @@
  header h1{margin:0;font-size:24px}
  header small{display:block;opacity:.85;margin-top:2px}
  #theme{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:20px;padding:6px 14px;cursor:pointer;font-size:14px}
+ .warn{margin:12px 20px 0;padding:10px 14px;border-radius:8px;background:rgba(249,115,22,.14);border-left:4px solid #f97316;font-size:14px;line-height:1.5}
  .kpi,.bar{display:flex;gap:12px;padding:12px 20px;flex-wrap:wrap;align-items:center}
  .kpi div{background:var(--card);padding:10px 16px;border-radius:8px;min-width:140px;color:var(--muted);font-size:13px}
  .kpi b{display:block;font-size:24px;color:var(--text)}
@@ -24,7 +25,7 @@
  .card{background:var(--card);padding:12px;border-radius:8px}
  details.card{margin:0 20px 12px;line-height:1.5;font-size:14px}
  summary{cursor:pointer;font-size:15px}
- .foot{padding:0 20px 20px;display:block;color:var(--muted)}
+ .foot{padding:0 20px 20px;display:block;color:var(--muted);line-height:1.5}
 </style></head><body>
 <header>
  <div><h1>Pantau Karhutla Nusantara</h1>
@@ -32,6 +33,9 @@
  <small id="upd">Memuat data…</small></div>
  <button id="theme" type="button">🌙 Mode gelap</button>
 </header>
+<div class="warn"><b>Penting:</b> titik di dashboard ini adalah <b>titik panas (hotspot) hasil deteksi satelit NASA</b>,
+bukan data resmi titik karhutla. Tidak semua titik panas adalah kebakaran hutan dan lahan, dan tidak semua kebakaran pasti terdeteksi.
+<a href="#tentang-data" style="color:inherit"><u>Baca penjelasan data</u></a></div>
 <div class="kpi">
  <div>Titik hari terakhir<b id="k1">-</b></div>
  <div>Titik 7 hari terakhir<b id="k2">-</b></div>
@@ -40,7 +44,10 @@
 </div>
 <div class="bar">
  <label>Tampilan peta
-  <select id="mode"><option value="recent">Terbaru</option><option value="year">Per tahun</option></select></label>
+  <select id="mode">
+   <option value="recent">Terbaru</option>
+   <option value="kab">Per tahun: kabupaten/kota</option>
+   <option value="year">Per tahun: sebaran detail (kotak)</option></select></label>
  <span id="recentCtl"><label>Rentang
   <select id="days"><option value="1">1 hari</option><option value="3">3 hari</option>
   <option value="7" selected>7 hari</option></select></label></span>
@@ -52,34 +59,52 @@
    <option value="07">Jul</option><option value="08">Agu</option><option value="09">Sep</option>
    <option value="10">Okt</option><option value="11">Nov</option><option value="12">Des</option></select></label>
  </span>
+ <span id="metricCtl" hidden><label>Ukuran
+  <select id="metric"><option value="n">Jumlah titik</option>
+  <option value="dens">Titik per 1.000 km²</option></select></label></span>
  <span id="mapInfo"></span>
 </div>
 <div id="map"></div>
 <div id="legend"></div>
 
-<details class="card" open><summary><b>Cara membaca dashboard ini</b></summary>
- <p><b>Titik panas</b>: lokasi yang oleh satelit terdeteksi jauh lebih panas dari sekitarnya (area sekitar 375 × 375 m).
- Ini <u>petunjuk awal</u> kemungkinan ada kebakaran, bukan konfirmasi. Titik panas juga bukan ukuran luas lahan yang terbakar.
- Satu kebakaran besar bisa muncul sebagai banyak titik, dan api kecil bisa tidak terdeteksi.</p>
- <p><b>Intensitas panas (FRP)</b>: seberapa besar energi panas yang dipancarkan api saat satelit lewat, dalam megawatt (MW).
- Semakin besar angkanya, semakin kuat atau besar apinya. Angka ini menggambarkan kekuatan api, bukan luas lahan.</p>
- <p><b>Tingkat keyakinan</b>: seberapa kuat sinyal panas yang ditangkap satelit.
- <b>Rendah</b> = sinyal lemah, lebih rawan salah deteksi.
- <b>Sedang</b> = sinyal jelas.
- <b>Tinggi</b> = sinyal panas sangat kuat.
- Untuk membaca tren yang lebih ketat, perhatikan titik berkeyakinan tinggi.</p>
- <p><b>Peta per tahun</b>: wilayah dibagi menjadi kotak sekitar 11 × 11 km. Warna menunjukkan jumlah titik panas di kotak itu
- pada periode yang dipilih. Semakin gelap/merah, semakin banyak.</p>
- <p><b>Catatan</b>: asap atau awan tebal bisa menghalangi deteksi, dan satelit hanya lewat beberapa kali sehari.
- Untuk luas area terbakar resmi, rujuk SiPongi KLHK.</p>
+<details class="card" id="tentang-data" open><summary><b>Cara membaca dashboard ini</b></summary>
+ <p><b>Ini titik panas, bukan semata-mata titik karhutla.</b> Satelit hanya mendeteksi <u>anomali panas</u> di permukaan bumi.
+ Sumber panas yang terdeteksi bisa berupa kebakaran hutan dan lahan, tetapi juga pembakaran lahan pertanian atau perkebunan,
+ pembakaran sampah, mercusuar gas (gas flare), aktivitas industri, atau gunung api. Dashboard ini
+ <u>tidak</u> membedakan penyebabnya dan tidak memverifikasi di lapangan. Anggap titik panas sebagai <i>petunjuk awal</i>.</p>
+ <p><b>Sumber data</b>: NASA FIRMS (Fire Information for Resource Management System), sensor <b>VIIRS</b> di satelit
+ <b>Suomi NPP</b> (resolusi sekitar 375 m). Data historis memakai produk <i>Standard Processing</i> yang sudah diverifikasi
+ (tertunda sekitar 2–3 bulan), data terbaru memakai <i>Near Real-Time</i> yang bisa sedikit direvisi. Satu sensor yang sama dipakai
+ sejak 2018 supaya tren antartahun bisa dibandingkan.</p>
+ <p><b>Variabel yang dipakai</b>:</p>
+ <ul>
+  <li><b>Lokasi</b> (lintang dan bujur) titik panas.</li>
+  <li><b>Tanggal dan jam deteksi</b>, dalam UTC (WIB = UTC + 7).</li>
+  <li><b>Intensitas panas (FRP, <i>Fire Radiative Power</i>)</b>: energi panas yang dipancarkan api saat satelit lewat, dalam megawatt (MW).
+  Semakin besar, semakin kuat apinya. Ini bukan ukuran luas lahan terbakar.</li>
+  <li><b>Tingkat keyakinan</b>: penilaian algoritma NASA atas kekuatan sinyal panas.
+  <b>Rendah</b> = sinyal lemah, lebih rawan salah deteksi. <b>Sedang</b> = sinyal jelas. <b>Tinggi</b> = sinyal sangat kuat.
+  Peta dan grafik menghitung semua tingkat keyakinan, jumlah berkeyakinan tinggi ditampilkan terpisah di popup.</li>
+  <li><b>Kabupaten/kota dan provinsi</b>: dihitung dashboard ini dengan mencocokkan koordinat titik ke batas wilayah
+  (geoBoundaries versi sederhana). Titik dekat perbatasan atau pesisir bisa masuk wilayah tetangga, dan batas administrasi terbaru
+  (misalnya pemekaran provinsi) mungkin belum tercermin. Titik di luar daratan dikelompokkan sebagai "Di luar daratan".</li>
+ </ul>
+ <p><b>Peta per kabupaten/kota</b>: warna menunjukkan jumlah titik panas di wilayah itu pada periode terpilih. Pilihan
+ <i>titik per 1.000 km²</i> menyesuaikan dengan luas wilayah, supaya wilayah luas tidak otomatis tampak lebih parah.
+ <b>Peta kotak</b> membagi wilayah menjadi kotak sekitar 11 × 11 km untuk melihat pola sebaran yang lebih halus.</p>
+ <p><b>Keterbatasan</b>: awan dan asap tebal dapat menghalangi deteksi, api kecil atau di bawah tajuk pohon bisa terlewat,
+ dan satu kebakaran besar dapat muncul sebagai banyak titik. Jumlah titik bukan jumlah kejadian kebakaran.
+ Untuk data resmi luas area terbakar, rujuk <b>SiPongi (KLHK)</b>, serta informasi <b>BMKG</b> dan <b>BNPB</b>.</p>
 </details>
 
 <div class="grid">
  <div class="card"><h4>Pola bulanan per tahun (jumlah titik panas)</h4><canvas id="c1"></canvas></div>
- <div class="card"><h4>10 provinsi teratas
-  <select id="yr"></select></h4><canvas id="c2"></canvas></div>
+ <div class="card"><h4>10 provinsi teratas <select id="yr"></select></h4><canvas id="c2"></canvas></div>
+ <div class="card" id="rank3" hidden><h4 id="t3">10 kabupaten/kota teratas</h4><canvas id="c3"></canvas></div>
 </div>
-<small class="foot">Sumber: NASA FIRMS (VIIRS S-NPP 375 m). Basemap © OpenStreetMap, © CARTO.</small>
+<small class="foot">Sumber data: NASA FIRMS (VIIRS S-NPP 375 m). Batas wilayah: geoBoundaries. Basemap © OpenStreetMap, © CARTO.<br>
+Teknologi: Python, JavaScript, HTML/CSS, Leaflet, Chart.js, GitHub Actions. Dikembangkan oleh <b>M. Zuhad Dzulfikar</b> (vibe coding).
+Dashboard ini bersifat informatif dan bukan sumber data resmi pemerintah.</small>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
@@ -91,16 +116,17 @@ const csv = f => new Promise(ok => Papa.parse(BASE + f + "?t=" + Date.now(),
   {download:true, header:true, dynamicTyping:true, skipEmptyLines:true,
    complete:r => ok(r.data), error:() => ok(null)}));
 const KEYAKINAN = {h:'Tinggi', n:'Sedang', l:'Rendah'};
-const warna = n => n>=10 ? '#9f1239' : n>=5 ? '#dc2626' : n>=2 ? '#f97316' : '#fcd34d';
+const C = ['#fcd34d','#f97316','#dc2626','#9f1239'];
+const warna = n => n>=10 ? C[3] : n>=5 ? C[2] : n>=2 ? C[1] : C[0];
 const tgl = s => new Date(s + 'T00:00:00Z').toLocaleDateString('id-ID',
   {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
+const fmt = n => Math.round(n).toLocaleString('id');
 
-// ---------- Tema (gelap/terang) ----------
+// ---------- Tema ----------
 let theme = 'light';
 try { theme = localStorage.getItem('theme') ||
   (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch (e) {}
 let ready = false, redrawCharts = () => {};
-
 const map = L.map('map', {preferCanvas:true}).setView([-2.5, 118], 5);
 const tiles = {
   light: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap'}),
@@ -108,7 +134,6 @@ const tiles = {
           {attribution:'© OpenStreetMap © CARTO', subdomains:'abcd'})
 };
 const layer = L.layerGroup().addTo(map);
-
 function applyTheme(t) {
   theme = t;
   document.documentElement.setAttribute('data-theme', t);
@@ -131,8 +156,7 @@ applyTheme(theme);
   const first = daily.map(d => String(d.acq_date)).sort()[0];
   const years = [...new Set(daily.map(d => String(d.acq_date).slice(0,4)))].sort();
 
-  $('sub').textContent = 'Pemantauan titik panas hutan dan lahan di seluruh Indonesia · ' +
-    tgl(first) + ' – ' + tgl(latest);
+  $('sub').textContent = 'Pemantauan titik panas hutan dan lahan di seluruh Indonesia · ' + tgl(first) + ' – ' + tgl(latest);
   $('upd').textContent = 'Data terakhir: ' + tgl(latest) + ' (UTC) · diperbarui otomatis tiap 3 jam';
   $('k1').textContent = recent.filter(r => r.acq_date === latest).length.toLocaleString('id');
   $('k2').textContent = recent.length.toLocaleString('id');
@@ -140,15 +164,25 @@ applyTheme(theme);
   $('k3').textContent = Object.entries(pc).sort((a,b) => b[1]-a[1])[0]?.[0] ?? '-';
   $('k4').textContent = daily.reduce((s,d) => s + (d.titik || 0), 0).toLocaleString('id');
 
+  // grafik peringkat kab/kota (dideklarasikan lebih dulu)
+  let c1, c2, c3, top3 = {labels:[], data:[], name:''};
+  function buildC3() {
+    c3?.destroy();
+    if (!top3.labels.length) return;
+    c3 = new Chart($('c3'), {type:'bar', data:{labels:top3.labels,
+      datasets:[{label:top3.name, data:top3.data, backgroundColor:'#e4572e'}]}, options:{indexAxis:'y'}});
+  }
+
   function drawRecent() {
     layer.clearLayers();
     const n = +$('days').value, cut = new Date(latest); cut.setDate(cut.getDate() - n + 1);
     let jml = 0;
     recent.filter(r => new Date(r.acq_date) >= cut).forEach(r => {
       jml++;
+      const lokasi = r.kab && r.kab !== '-' ? `${r.kab}, ${r.provinsi}` : r.provinsi;
       L.circleMarker([r.latitude, r.longitude],
         {radius:4, color: r.acq_date === latest ? '#ef4444' : '#fb923c', fillOpacity:.75, weight:0})
-       .bindPopup(`<b>${r.provinsi}</b><br>${r.acq_date} ${String(r.acq_time).padStart(4,'0')} UTC<br>` +
+       .bindPopup(`<b>${lokasi}</b><br>${r.acq_date} ${String(r.acq_time).padStart(4,'0')} UTC<br>` +
          `Intensitas panas (FRP): ${r.frp} MW<br>Tingkat keyakinan: ${KEYAKINAN[r.confidence] ?? r.confidence}`)
        .addTo(layer);
     });
@@ -169,30 +203,71 @@ applyTheme(theme);
       c.n += r.titik; c.h += r.high; c.f += r.frp;
     });
     const list = Object.values(cells);
-    list.forEach(c => L.circleMarker([c.lat, c.lon], {radius:4, color:warna(c.n), fillOpacity:.8, weight:0})
-      .bindPopup(`Kotak ± 11 × 11 km<br>Titik panas: <b>${c.n}</b><br>Berkeyakinan tinggi: ${c.h}<br>` +
+    list.forEach(c => L.rectangle([[c.lat-.05, c.lon-.05], [c.lat+.05, c.lon+.05]],
+      {stroke:false, fillColor:warna(c.n), fillOpacity:.8})
+      .bindPopup(`Kotak sekitar 11 × 11 km<br>Titik panas: <b>${c.n}</b><br>Berkeyakinan tinggi: ${c.h}<br>` +
         `Total intensitas panas (FRP): ${c.f.toFixed(0)} MW`).addTo(layer));
-    $('mapInfo').textContent = list.reduce((s,c) => s + c.n, 0).toLocaleString('id') +
-      ' titik panas di ' + list.length.toLocaleString('id') + ' kotak';
-    $('legend').innerHTML = 'Jumlah titik panas per kotak: <i style="background:#fcd34d"></i>1' +
-      '<i style="background:#f97316"></i>2–4<i style="background:#dc2626"></i>5–9<i style="background:#9f1239"></i>10+';
+    $('mapInfo').textContent = fmt(list.reduce((s,c) => s + c.n, 0)) + ' titik panas di ' + fmt(list.length) + ' kotak';
+    $('legend').innerHTML = 'Titik per kotak: <i style="background:'+C[0]+'"></i>1<i style="background:'+C[1]+
+      '"></i>2–4<i style="background:'+C[2]+'"></i>5–9<i style="background:'+C[3]+'"></i>10+';
+  }
+
+  let kabData, geo;
+  async function drawKab() {
+    const y = $('mapYear').value, mo = $('mapMonth').value, dens = $('metric').value === 'dens';
+    $('mapInfo').textContent = 'Memuat…'; layer.clearLayers();
+    kabData ??= await csv('kab_monthly.csv');
+    geo ??= await fetch(BASE + 'kab_simple.geojson?t=' + Date.now()).then(r => r.json()).catch(() => null);
+    if (!kabData || !geo) { $('mapInfo').textContent = 'Data kabupaten/kota belum tersedia.'; return; }
+    const agg = {};
+    kabData.forEach(r => {
+      const s = String(r.ym);
+      if (s.slice(0,4) !== y || (mo && s.slice(5,7) !== mo)) return;
+      const a = agg[r.kab + '|' + r.provinsi] ??= {n:0, h:0, f:0};
+      a.n += r.titik; a.h += r.high; a.f += r.frp;
+    });
+    const dn = (a, p) => a.n / Math.max(p.luas, 1) * 1000;
+    const val = p => { const a = agg[p.kab + '|' + p.provinsi]; return !a ? 0 : dens ? dn(a, p) : a.n; };
+    const th = dens ? [1, 5, 20] : [10, 50, 200];
+    const col = v => v <= 0 ? null : v < th[0] ? C[0] : v < th[1] ? C[1] : v < th[2] ? C[2] : C[3];
+    L.geoJSON(geo, {
+      style: f => { const c = col(val(f.properties));
+        return c ? {fillColor:c, fillOpacity:.75, color:'#888', weight:.4}
+                 : {fillOpacity:0, color:'#888', weight:.3, opacity:.35}; },
+      onEachFeature: (f, l) => { const p = f.properties, a = agg[p.kab + '|' + p.provinsi];
+        l.bindPopup(`<b>${p.kab}, ${p.provinsi}</b><br>` + (a
+          ? `Titik panas: <b>${fmt(a.n)}</b><br>Per 1.000 km²: ${dn(a, p).toFixed(1)}<br>` +
+            `Berkeyakinan tinggi: ${fmt(a.h)}<br>Total intensitas panas (FRP): ${fmt(a.f)} MW`
+          : 'Tidak ada titik panas pada periode ini')); }
+    }).addTo(layer);
+    const rows = Object.entries(agg);
+    $('mapInfo').textContent = fmt(rows.reduce((s,[,a]) => s + a.n, 0)) + ' titik panas di ' + fmt(rows.length) + ' kabupaten/kota';
+    $('legend').innerHTML = (dens ? 'Titik per 1.000 km²: ' : 'Titik panas per wilayah: ') +
+      '<i style="background:'+C[0]+'"></i>&lt;'+th[0]+'<i style="background:'+C[1]+'"></i>'+th[0]+'–'+(th[1]-1)+
+      '<i style="background:'+C[2]+'"></i>'+th[1]+'–'+(th[2]-1)+'<i style="background:'+C[3]+'"></i>'+th[2]+'+';
+    const top = Object.entries(agg).map(([k,a]) => [k.replace('|', ', '), a.n]).sort((a,b) => b[1]-a[1]).slice(0,10);
+    top3 = {labels:top.map(x => x[0]), data:top.map(x => x[1]), name:'Titik panas ' + y + (mo ? '-' + mo : '')};
+    $('t3').textContent = '10 kabupaten/kota teratas · ' + y + (mo ? ' bulan ' + mo : '');
+    buildC3();
   }
 
   $('mapYear').innerHTML = years.map(y => `<option>${y}</option>`).join('');
   $('mapYear').value = years.at(-1);
   function redraw() {
-    const yr = $('mode').value === 'year';
-    $('recentCtl').hidden = yr; $('yearCtl').hidden = !yr;
-    yr ? drawYear() : drawRecent();
+    const m = $('mode').value;
+    $('recentCtl').hidden = m !== 'recent';
+    $('yearCtl').hidden = m === 'recent';
+    $('metricCtl').hidden = m !== 'kab';
+    $('rank3').hidden = m !== 'kab';
+    m === 'recent' ? drawRecent() : m === 'year' ? drawYear() : drawKab();
   }
-  ['mode','days','mapYear','mapMonth'].forEach(id => $(id).onchange = redraw);
+  ['mode','days','mapYear','mapMonth','metric'].forEach(id => $(id).onchange = redraw);
   redraw();
 
   // ---------- Grafik ----------
   const m = {};
   daily.forEach(d => { const s = String(d.acq_date), y = s.slice(0,4), k = +s.slice(5,7) - 1;
     (m[y] ??= Array(12).fill(0))[k] += d.titik; });
-  let c1, c2;
   function buildC1() {
     c1?.destroy();
     c1 = new Chart($('c1'), {type:'line', data:{
@@ -212,7 +287,7 @@ applyTheme(theme);
   $('yr').innerHTML = years.map(y => `<option>${y}</option>`).join('');
   $('yr').value = years.at(-1);
   $('yr').onchange = e => top(e.target.value);
-  redrawCharts = () => { buildC1(); top($('yr').value); };
+  redrawCharts = () => { buildC1(); top($('yr').value); buildC3(); };
   redrawCharts(); ready = true;
 })();
 </script></body></html>
