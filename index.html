@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard Karhutla Indonesia</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+ body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f2;color:#222}
+ header{padding:12px 20px;background:#7a1f0e;color:#fff}
+ .kpi{display:flex;gap:12px;padding:12px 20px;flex-wrap:wrap}
+ .kpi div{background:#fff;padding:10px 16px;border-radius:8px;min-width:140px}
+ .kpi b{display:block;font-size:24px}
+ #map{height:480px;margin:0 20px;border-radius:8px}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px;padding:20px}
+ .card{background:#fff;padding:12px;border-radius:8px}
+</style></head><body>
+<header><h2 style="margin:0">Titik Panas Karhutla Indonesia</h2>
+<small id="upd">Memuat data…</small></header>
+<div class="kpi">
+ <div>Titik hari terakhir<b id="k1">-</b></div>
+ <div>Titik 7 hari<b id="k2">-</b></div>
+ <div>Provinsi terbanyak (7 hari)<b id="k3">-</b></div>
+ <div>Tampilkan di peta
+  <select id="days"><option value="1">1 hari</option><option value="3">3 hari</option>
+  <option value="7" selected>7 hari</option></select></div>
+</div>
+<div id="map"></div>
+<div class="grid">
+ <div class="card"><h4>Pola bulanan per tahun</h4><canvas id="c1"></canvas></div>
+ <div class="card"><h4>10 provinsi teratas
+  <select id="yr"></select></h4><canvas id="c2"></canvas></div>
+</div>
+<small style="padding:0 20px;display:block">Sumber: NASA FIRMS (VIIRS S-NPP 375 m). Titik panas ≠ luas area terbakar.</small>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+const BASE = "https://raw.githubusercontent.com/zuhaddzlfkr/Indonesia-Karhutla-Dashboard/main/data/";
+const $ = id => document.getElementById(id);
+const csv = f => new Promise(ok => Papa.parse(BASE + f + "?t=" + Date.now(),
+  {download:true, header:true, dynamicTyping:true, skipEmptyLines:true, complete:r => ok(r.data)}));
+
+const map = L.map('map').setView([-2.5, 118], 5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {attribution:'© OpenStreetMap'}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+
+(async () => {
+  const [daily, recent] = await Promise.all([csv('daily_province.csv'), csv('recent.csv')]);
+  const latest = recent.map(r => r.acq_date).sort().pop();
+
+  $('upd').textContent = 'Data terakhir: ' + latest + ' (UTC)';
+  $('k1').textContent = recent.filter(r => r.acq_date === latest).length.toLocaleString('id');
+  $('k2').textContent = recent.length.toLocaleString('id');
+  const pc = {}; recent.forEach(r => pc[r.provinsi] = (pc[r.provinsi] || 0) + 1);
+  $('k3').textContent = Object.entries(pc).sort((a,b) => b[1]-a[1])[0]?.[0] ?? '-';
+
+  function drawMap() {
+    layer.clearLayers();
+    const n = +$('days').value, cut = new Date(latest); cut.setDate(cut.getDate() - n + 1);
+    recent.filter(r => new Date(r.acq_date) >= cut).forEach(r => {
+      const fresh = r.acq_date === latest;
+      L.circleMarker([r.latitude, r.longitude],
+        {radius:4, color: fresh ? '#d7191c' : '#fdae61', fillOpacity:.7, weight:0})
+       .bindPopup(`${r.provinsi}<br>${r.acq_date} ${r.acq_time}<br>FRP: ${r.frp} MW<br>Kepercayaan: ${r.confidence}`)
+       .addTo(layer);
+    });
+  }
+  $('days').onchange = drawMap; drawMap();
+
+  const years = [...new Set(daily.map(d => String(d.acq_date).slice(0,4)))].sort();
+  const m = {};
+  daily.forEach(d => { const s = String(d.acq_date), y = s.slice(0,4), k = +s.slice(5,7) - 1;
+    (m[y] ??= Array(12).fill(0))[k] += d.titik; });
+  new Chart($('c1'), {type:'line', data:{
+    labels:['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'],
+    datasets: years.map(y => ({label:y, data:m[y], tension:.3}))}});
+
+  let c2;
+  function top(y) {
+    const p = {};
+    daily.filter(d => String(d.acq_date).startsWith(y) && d.provinsi !== 'Di luar daratan')
+         .forEach(d => p[d.provinsi] = (p[d.provinsi] || 0) + d.titik);
+    const e = Object.entries(p).sort((a,b) => b[1]-a[1]).slice(0,10);
+    c2?.destroy();
+    c2 = new Chart($('c2'), {type:'bar', data:{labels:e.map(x => x[0]),
+      datasets:[{label:'Titik panas ' + y, data:e.map(x => x[1])}]}, options:{indexAxis:'y'}});
+  }
+  $('yr').innerHTML = years.map(y => `<option>${y}</option>`).join('');
+  $('yr').value = years.at(-1); $('yr').onchange = e => top(e.target.value); top(years.at(-1));
+})();
+</script></body></html>
