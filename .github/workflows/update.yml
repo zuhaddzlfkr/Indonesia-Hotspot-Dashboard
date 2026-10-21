@@ -1,0 +1,24 @@
+name: update-data
+on:
+  schedule: [{cron: "15 */3 * * *"}]
+  workflow_dispatch:
+    inputs:
+      mode: {description: "update atau backfill", default: "update"}
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pandas geopandas requests pyogrio shapely
+      - run: python fetch.py ${{ github.event.inputs.mode || 'update' }}
+        env: {FIRMS_KEY: "${{ secrets.FIRMS_KEY }}"}
+      - run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          git add data
+          git commit -m "data $(date -u +%FT%TZ)" || exit 0
+          git push
