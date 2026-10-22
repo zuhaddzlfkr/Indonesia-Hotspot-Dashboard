@@ -34374,7 +34374,7 @@ acq_date,provinsi,titik,high,frp
 2022-06-30,West Papua,1,0,1.6
 2022-06-30,West Sulawesi,5,0,30.5
 2022-07-01,Aceh,3,0,7.5
-2022-07-01,Bangka-Belitung Islands,2,0,9.030000000000001
+2022-07-01,Bangka-Belitung Islands,2,0,9.03
 2022-07-01,Banten,3,0,4.7
 2022-07-01,Bengkulu,1,0,0.54
 2022-07-01,Central Java,4,0,5.18
@@ -34398,17 +34398,17 @@ acq_date,provinsi,titik,high,frp
 2022-07-01,Special Region of Yogyakarta,1,0,0.75
 2022-07-01,West Sumatra,13,0,61.93000000000001
 2022-07-02,Aceh,3,0,5.619999999999999
-2022-07-02,Bangka-Belitung Islands,9,0,62.809999999999995
+2022-07-02,Bangka-Belitung Islands,9,0,62.81
 2022-07-02,Bengkulu,2,0,7.47
 2022-07-02,Central Kalimantan,3,0,18.84
 2022-07-02,Central Sulawesi,2,0,5.300000000000001
-2022-07-02,Di luar daratan,48,2,226.24999999999997
+2022-07-02,Di luar daratan,48,2,226.25
 2022-07-02,East Java,7,0,72.75
-2022-07-02,East Kalimantan,20,0,41.599999999999994
+2022-07-02,East Kalimantan,20,0,41.6
 2022-07-02,East Nusa Tenggara,2,0,12.95
 2022-07-02,Jambi,23,0,65.74999999999999
 2022-07-02,North Maluku,3,0,37.11
-2022-07-02,North Sulawesi,3,0,1.6400000000000001
+2022-07-02,North Sulawesi,3,0,1.64
 2022-07-02,North Sumatra,11,0,59.900000000000006
 2022-07-02,Papua,18,2,95.62
 2022-07-02,Riau,34,0,352.4599999999999
@@ -34425,18 +34425,18 @@ acq_date,provinsi,titik,high,frp
 2022-07-03,Banten,1,0,5.61
 2022-07-03,Bengkulu,3,0,36.4
 2022-07-03,Central Java,5,0,23.78
-2022-07-03,Central Kalimantan,5,0,39.480000000000004
+2022-07-03,Central Kalimantan,5,0,39.48
 2022-07-03,Central Sulawesi,1,0,4.95
 2022-07-03,Di luar daratan,73,0,316.5599999999999
 2022-07-03,East Java,12,0,35.95000000000001
 2022-07-03,East Kalimantan,2,0,4.3
 2022-07-03,Gorontalo,2,0,4.17
-2022-07-03,Jambi,15,0,90.11000000000001
+2022-07-03,Jambi,15,0,90.11
 2022-07-03,Lampung,1,0,9.52
-2022-07-03,North Maluku,5,0,14.149999999999999
+2022-07-03,North Maluku,5,0,14.15
 2022-07-03,North Sulawesi,2,0,0.8
-2022-07-03,North Sumatra,10,0,55.050000000000004
-2022-07-03,Papua,4,0,12.940000000000001
+2022-07-03,North Sumatra,10,0,55.05
+2022-07-03,Papua,4,0,12.94
 2022-07-03,Riau,21,0,392.96
 2022-07-03,Riau Islands,1,0,3.16
 2022-07-03,South Sumatra,16,0,225.13
@@ -34444,18 +34444,18 @@ acq_date,provinsi,titik,high,frp
 2022-07-03,West Java,2,0,3.7
 2022-07-03,West Kalimantan,14,0,60.67999999999999
 2022-07-03,West Nusa Tenggara,1,0,2.92
-2022-07-03,West Sumatra,10,0,62.550000000000004
+2022-07-03,West Sumatra,10,0,62.55
 2022-07-04,Bangka-Belitung Islands,1,0,7.18
 2022-07-04,Banten,7,0,16.25
 2022-07-04,Bengkulu,1,0,6.6
 2022-07-04,Central Java,2,0,3.75
-2022-07-04,Di luar daratan,53,0,248.47000000000006
+2022-07-04,Di luar daratan,53,0,248.47000000000008
 2022-07-04,East Java,14,0,82.16
-2022-07-04,East Nusa Tenggara,8,0,25.810000000000002
+2022-07-04,East Nusa Tenggara,8,0,25.81
 2022-07-04,Jambi,6,0,26.520000000000003
 2022-07-04,Lampung,10,1,60.09
 2022-07-04,North Maluku,1,0,1.4
-2022-07-04,North Sumatra,10,0,130.35999999999999
+2022-07-04,North Sumatra,10,0,130.36
 2022-07-04,Papua,52,0,280.93000000000006
 2022-07-04,Riau,28,2,142.34
 2022-07-04,South Kalimantan,2,0,1.44
@@ -34463,7 +34463,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-04,South Sumatra,13,0,47.07
 2022-07-04,Southeast Sulawesi,3,0,8.91
 2022-07-04,West Java,5,0,8.72
-2022-07-04,West Kalimantan,2,0,11.940000000000001
+2022-07-04,West Kalimantan,2,0,11.94
 2022-07-04,West Nusa Tenggara,4,0,19.09
 2022-07-04,West Papua,3,0,5.27
 2022-07-04,West Sumatra,7,0,43.46
@@ -34474,20 +34474,20 @@ acq_date,provinsi,titik,high,frp
 2022-07-05,Central Kalimantan,8,0,21.66
 2022-07-05,Central Sulawesi,2,0,6.24
 2022-07-05,Di luar daratan,10,0,84.63000000000001
-2022-07-05,East Java,4,0,24.449999999999996
+2022-07-05,East Java,4,0,24.45
 2022-07-05,East Kalimantan,4,0,7.0200000000000005
 2022-07-05,East Nusa Tenggara,29,1,146.03999999999996
-2022-07-05,Lampung,5,0,21.919999999999998
+2022-07-05,Lampung,5,0,21.92
 2022-07-05,North Maluku,2,0,7.18
 2022-07-05,North Sumatra,3,0,30.21
 2022-07-05,Papua,16,0,95.26999999999998
 2022-07-05,South Kalimantan,2,0,1.63
 2022-07-05,South Sulawesi,5,0,10.81
-2022-07-05,South Sumatra,3,0,20.490000000000002
+2022-07-05,South Sumatra,3,0,20.49
 2022-07-05,Southeast Sulawesi,7,0,34.37
 2022-07-05,West Java,5,0,17.16
 2022-07-05,West Kalimantan,11,0,57.66000000000001
-2022-07-05,West Nusa Tenggara,7,0,22.310000000000002
+2022-07-05,West Nusa Tenggara,7,0,22.31
 2022-07-05,West Papua,1,0,0.73
 2022-07-05,West Sumatra,2,0,6.82
 2022-07-06,Aceh,15,0,86.73
@@ -34507,21 +34507,21 @@ acq_date,provinsi,titik,high,frp
 2022-07-06,North Sulawesi,1,0,3.16
 2022-07-06,North Sumatra,1,0,1.91
 2022-07-06,Papua,1,0,6.76
-2022-07-06,South Kalimantan,2,0,6.4799999999999995
+2022-07-06,South Kalimantan,2,0,6.48
 2022-07-06,South Sumatra,9,0,41.870000000000005
 2022-07-06,Southeast Sulawesi,7,0,27.880000000000003
 2022-07-06,West Java,1,0,1.32
-2022-07-06,West Kalimantan,2,0,10.219999999999999
+2022-07-06,West Kalimantan,2,0,10.22
 2022-07-06,West Nusa Tenggara,11,0,56.92
 2022-07-06,West Sumatra,2,0,12.98
-2022-07-07,Aceh,36,0,180.55999999999997
+2022-07-07,Aceh,36,0,180.56
 2022-07-07,Bali,1,0,1.04
 2022-07-07,Bangka-Belitung Islands,16,0,324.09000000000003
 2022-07-07,Banten,3,0,7.73
 2022-07-07,Bengkulu,8,0,56.56
-2022-07-07,Central Java,6,0,20.169999999999998
+2022-07-07,Central Java,6,0,20.17
 2022-07-07,Central Kalimantan,1,0,1.92
-2022-07-07,Di luar daratan,47,1,224.13000000000002
+2022-07-07,Di luar daratan,47,1,224.13
 2022-07-07,East Java,13,0,80.03
 2022-07-07,East Kalimantan,8,0,4.1
 2022-07-07,East Nusa Tenggara,15,0,51.65
@@ -34529,7 +34529,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-07,Lampung,7,0,29.28
 2022-07-07,North Sumatra,63,0,578.3599999999999
 2022-07-07,Papua,1,0,0.49
-2022-07-07,Riau,5,0,18.080000000000002
+2022-07-07,Riau,5,0,18.08
 2022-07-07,Riau Islands,2,0,6.22
 2022-07-07,South Kalimantan,1,0,1.07
 2022-07-07,South Sumatra,13,0,34.050000000000004
@@ -34546,7 +34546,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-08,Central Java,2,0,2.76
 2022-07-08,Central Kalimantan,2,0,6.62
 2022-07-08,Di luar daratan,9,0,28.160000000000004
-2022-07-08,East Java,24,0,115.67000000000003
+2022-07-08,East Java,24,0,115.67000000000004
 2022-07-08,East Kalimantan,4,0,7.390000000000001
 2022-07-08,East Nusa Tenggara,7,0,27.460000000000004
 2022-07-08,Lampung,17,0,102.12
@@ -34560,21 +34560,21 @@ acq_date,provinsi,titik,high,frp
 2022-07-08,West Java,8,0,17.25
 2022-07-08,West Kalimantan,31,0,438.92
 2022-07-08,West Nusa Tenggara,5,0,9.14
-2022-07-09,Aceh,3,0,24.650000000000002
+2022-07-09,Aceh,3,0,24.65
 2022-07-09,Bangka-Belitung Islands,4,0,26.15
 2022-07-09,Banten,8,0,16.45
 2022-07-09,Bengkulu,5,0,31.53
 2022-07-09,Central Java,11,0,40.74999999999999
-2022-07-09,Di luar daratan,33,0,123.28000000000003
+2022-07-09,Di luar daratan,33,0,123.28000000000004
 2022-07-09,East Java,11,1,44.120000000000005
 2022-07-09,East Nusa Tenggara,9,0,23.57
 2022-07-09,Jambi,2,0,2.91
 2022-07-09,Lampung,9,0,49.13999999999999
 2022-07-09,Maluku,1,0,1.56
 2022-07-09,North Maluku,4,0,12.45
-2022-07-09,North Sumatra,13,0,121.36999999999999
+2022-07-09,North Sumatra,13,0,121.37
 2022-07-09,Papua,3,0,13.55
-2022-07-09,Riau,82,5,294.33000000000015
+2022-07-09,Riau,82,5,294.3300000000001
 2022-07-09,South Sumatra,14,1,95.32
 2022-07-09,Southeast Sulawesi,3,0,5.23
 2022-07-09,Special Region of Yogyakarta,1,1,7.1
@@ -34584,16 +34584,16 @@ acq_date,provinsi,titik,high,frp
 2022-07-09,West Sumatra,9,0,34.160000000000004
 2022-07-10,Banten,4,0,10.59
 2022-07-10,Bengkulu,2,0,16.64
-2022-07-10,Central Java,2,0,1.6500000000000001
+2022-07-10,Central Java,2,0,1.65
 2022-07-10,Central Kalimantan,1,0,6.12
 2022-07-10,Di luar daratan,17,0,82.41999999999999
 2022-07-10,East Java,5,0,51.7
 2022-07-10,East Kalimantan,2,0,22.75
 2022-07-10,East Nusa Tenggara,13,0,92.74
-2022-07-10,Lampung,10,1,96.35999999999999
-2022-07-10,Maluku,2,0,2.0300000000000002
-2022-07-10,North Maluku,2,0,2.7199999999999998
-2022-07-10,North Sumatra,24,1,95.70000000000003
+2022-07-10,Lampung,10,1,96.36
+2022-07-10,Maluku,2,0,2.03
+2022-07-10,North Maluku,2,0,2.72
+2022-07-10,North Sumatra,24,1,95.70000000000005
 2022-07-10,Papua,1,0,1.92
 2022-07-10,Riau,2,0,3.03
 2022-07-10,South Kalimantan,4,0,5.39
@@ -34603,12 +34603,12 @@ acq_date,provinsi,titik,high,frp
 2022-07-10,West Kalimantan,6,0,22.91
 2022-07-10,West Nusa Tenggara,7,0,37.650000000000006
 2022-07-10,West Papua,1,0,0.88
-2022-07-11,Bangka-Belitung Islands,8,0,43.029999999999994
-2022-07-11,Bengkulu,2,0,9.780000000000001
+2022-07-11,Bangka-Belitung Islands,8,0,43.03
+2022-07-11,Bengkulu,2,0,9.78
 2022-07-11,Central Java,2,0,1.95
 2022-07-11,Di luar daratan,22,0,47.33
 2022-07-11,East Java,3,0,11.71
-2022-07-11,East Nusa Tenggara,11,0,43.169999999999995
+2022-07-11,East Nusa Tenggara,11,0,43.17
 2022-07-11,Gorontalo,2,0,15.85
 2022-07-11,Jambi,1,0,7.43
 2022-07-11,Lampung,5,1,56.040000000000006
@@ -34638,16 +34638,16 @@ acq_date,provinsi,titik,high,frp
 2022-07-12,North Sumatra,1,0,7.17
 2022-07-12,Papua,1,0,0.58
 2022-07-12,South Kalimantan,6,0,8.870000000000001
-2022-07-12,South Sumatra,17,0,109.10000000000001
+2022-07-12,South Sumatra,17,0,109.1
 2022-07-12,West Java,2,0,1.52
 2022-07-12,West Kalimantan,6,0,21.57
 2022-07-12,West Nusa Tenggara,2,1,6.88
-2022-07-13,Aceh,4,0,22.669999999999998
+2022-07-13,Aceh,4,0,22.67
 2022-07-13,Di luar daratan,6,0,30.43
 2022-07-13,East Java,9,0,44.66
 2022-07-13,East Kalimantan,1,0,1.47
 2022-07-13,East Nusa Tenggara,35,3,238.67
-2022-07-13,Gorontalo,2,0,12.600000000000001
+2022-07-13,Gorontalo,2,0,12.6
 2022-07-13,Maluku,1,0,6.39
 2022-07-13,North Maluku,6,0,16.06
 2022-07-13,North Sulawesi,1,0,0.89
@@ -34659,16 +34659,16 @@ acq_date,provinsi,titik,high,frp
 2022-07-13,West Nusa Tenggara,2,0,8.8
 2022-07-13,West Sumatra,2,0,9.33
 2022-07-14,Aceh,3,0,10.91
-2022-07-14,Bangka-Belitung Islands,3,0,11.149999999999999
+2022-07-14,Bangka-Belitung Islands,3,0,11.15
 2022-07-14,Central Java,3,0,10.28
-2022-07-14,Di luar daratan,9,0,30.359999999999996
+2022-07-14,Di luar daratan,9,0,30.36
 2022-07-14,East Java,10,0,31.62
 2022-07-14,East Nusa Tenggara,13,0,54.25000000000001
 2022-07-14,Jambi,2,0,3.01
 2022-07-14,Lampung,3,0,16.380000000000003
 2022-07-14,Maluku,1,0,5.12
 2022-07-14,North Maluku,4,0,7.87
-2022-07-14,North Sumatra,3,0,3.1399999999999997
+2022-07-14,North Sumatra,3,0,3.14
 2022-07-14,Papua,28,0,232.09
 2022-07-14,Riau,7,0,6.4
 2022-07-14,South Sumatra,6,0,5.96
@@ -34679,16 +34679,16 @@ acq_date,provinsi,titik,high,frp
 2022-07-14,West Papua,5,0,5.28
 2022-07-14,West Sumatra,1,0,4.89
 2022-07-15,Aceh,7,1,31.61
-2022-07-15,Bangka-Belitung Islands,2,0,3.0300000000000002
+2022-07-15,Bangka-Belitung Islands,2,0,3.03
 2022-07-15,Central Java,1,0,2.84
-2022-07-15,Central Kalimantan,4,0,12.729999999999999
+2022-07-15,Central Kalimantan,4,0,12.73
 2022-07-15,Di luar daratan,40,0,148.99
 2022-07-15,East Java,2,0,10.45
 2022-07-15,East Kalimantan,1,0,2.6
-2022-07-15,East Nusa Tenggara,10,0,41.230000000000004
+2022-07-15,East Nusa Tenggara,10,0,41.23
 2022-07-15,Jambi,5,0,5.4
 2022-07-15,Maluku,1,0,5.16
-2022-07-15,North Sumatra,18,2,113.80999999999999
+2022-07-15,North Sumatra,18,2,113.81
 2022-07-15,Papua,16,0,81.44999999999997
 2022-07-15,Riau,15,0,22.680000000000003
 2022-07-15,South Kalimantan,4,0,9.5
@@ -34710,9 +34710,9 @@ acq_date,provinsi,titik,high,frp
 2022-07-16,Maluku,1,0,1.51
 2022-07-16,North Kalimantan,5,0,32.09
 2022-07-16,North Maluku,3,0,2.29
-2022-07-16,North Sumatra,55,1,483.60999999999996
+2022-07-16,North Sumatra,55,1,483.61
 2022-07-16,Papua,9,0,86.62
-2022-07-16,Riau,18,1,197.18999999999997
+2022-07-16,Riau,18,1,197.19
 2022-07-16,South Kalimantan,1,0,3.7
 2022-07-16,South Sulawesi,1,0,4.52
 2022-07-16,Special Region of Yogyakarta,1,0,2.24
@@ -34725,17 +34725,17 @@ acq_date,provinsi,titik,high,frp
 2022-07-17,Bengkulu,7,0,38.72
 2022-07-17,Central Java,2,0,4.25
 2022-07-17,Central Sulawesi,2,0,14.74
-2022-07-17,Di luar daratan,22,0,126.17999999999999
+2022-07-17,Di luar daratan,22,0,126.18
 2022-07-17,East Java,9,0,45.57
 2022-07-17,East Nusa Tenggara,32,0,140.38000000000002
 2022-07-17,Jambi,5,0,23.45
 2022-07-17,Lampung,3,0,24.69
-2022-07-17,Maluku,3,0,9.059999999999999
+2022-07-17,Maluku,3,0,9.06
 2022-07-17,North Maluku,5,0,11.19
 2022-07-17,North Sumatra,121,0,722.9500000000004
 2022-07-17,Papua,10,2,70.96
-2022-07-17,Riau,30,0,196.90999999999994
-2022-07-17,South Sumatra,11,0,50.699999999999996
+2022-07-17,Riau,30,0,196.90999999999997
+2022-07-17,South Sumatra,11,0,50.7
 2022-07-17,Southeast Sulawesi,2,0,5.6
 2022-07-17,West Kalimantan,1,0,2.51
 2022-07-17,West Nusa Tenggara,6,0,15.5
@@ -34755,30 +34755,30 @@ acq_date,provinsi,titik,high,frp
 2022-07-18,Maluku,6,1,35.74
 2022-07-18,North Maluku,2,0,1.12
 2022-07-18,North Sumatra,87,0,587.9600000000003
-2022-07-18,Papua,6,0,27.900000000000002
+2022-07-18,Papua,6,0,27.9
 2022-07-18,Riau,29,0,93.68999999999998
 2022-07-18,South Kalimantan,1,0,0.95
 2022-07-18,South Sulawesi,4,0,5.92
 2022-07-18,South Sumatra,13,0,34.49
-2022-07-18,West Java,6,0,7.3100000000000005
+2022-07-18,West Java,6,0,7.31
 2022-07-18,West Kalimantan,37,0,417.88
 2022-07-18,West Nusa Tenggara,7,0,56.3
 2022-07-18,West Papua,1,0,4.62
-2022-07-18,West Sumatra,22,0,122.24999999999997
+2022-07-18,West Sumatra,22,0,122.24999999999996
 2022-07-19,Aceh,5,0,4.11
 2022-07-19,Bangka-Belitung Islands,36,0,268.43000000000006
 2022-07-19,Banten,1,0,0.44
-2022-07-19,Bengkulu,9,0,61.480000000000004
+2022-07-19,Bengkulu,9,0,61.48
 2022-07-19,Central Java,2,0,5.26
-2022-07-19,Central Kalimantan,5,0,50.660000000000004
-2022-07-19,Di luar daratan,106,0,923.2499999999999
+2022-07-19,Central Kalimantan,5,0,50.66
+2022-07-19,Di luar daratan,106,0,923.25
 2022-07-19,East Java,25,0,69.44
-2022-07-19,East Kalimantan,11,1,49.300000000000004
+2022-07-19,East Kalimantan,11,1,49.3
 2022-07-19,East Nusa Tenggara,34,0,171.37999999999997
 2022-07-19,Jambi,10,0,44.32000000000001
-2022-07-19,Lampung,3,0,29.009999999999998
+2022-07-19,Lampung,3,0,29.01
 2022-07-19,North Kalimantan,3,0,16.33
-2022-07-19,North Maluku,4,0,15.219999999999999
+2022-07-19,North Maluku,4,0,15.22
 2022-07-19,North Sulawesi,1,0,2.14
 2022-07-19,North Sumatra,30,0,96.33
 2022-07-19,Papua,2,0,16.75
@@ -34800,19 +34800,19 @@ acq_date,provinsi,titik,high,frp
 2022-07-20,Central Kalimantan,6,0,32.849999999999994
 2022-07-20,Central Sulawesi,8,0,14.04
 2022-07-20,Di luar daratan,118,0,754.0199999999999
-2022-07-20,East Java,28,0,119.50999999999999
+2022-07-20,East Java,28,0,119.51
 2022-07-20,East Kalimantan,18,0,70.61
 2022-07-20,East Nusa Tenggara,47,3,283.75
 2022-07-20,Jambi,6,0,10.18
 2022-07-20,Lampung,3,1,26.96
 2022-07-20,Maluku,6,2,27.71
-2022-07-20,North Kalimantan,36,1,477.53999999999996
+2022-07-20,North Kalimantan,36,1,477.54
 2022-07-20,North Maluku,2,0,7.279999999999999
 2022-07-20,North Sulawesi,2,0,3.74
-2022-07-20,North Sumatra,21,1,118.30999999999999
+2022-07-20,North Sumatra,21,1,118.31
 2022-07-20,Riau,14,0,14.26
 2022-07-20,South Kalimantan,17,0,68.91
-2022-07-20,South Sulawesi,10,0,22.619999999999997
+2022-07-20,South Sulawesi,10,0,22.62
 2022-07-20,South Sumatra,14,0,20.07
 2022-07-20,Southeast Sulawesi,4,0,9.2
 2022-07-20,Special Region of Yogyakarta,1,0,0.99
@@ -34835,12 +34835,12 @@ acq_date,provinsi,titik,high,frp
 2022-07-21,East Nusa Tenggara,64,0,315.3499999999999
 2022-07-21,Gorontalo,1,0,2.26
 2022-07-21,Jambi,3,0,2.79
-2022-07-21,Lampung,9,1,40.819999999999986
+2022-07-21,Lampung,9,1,40.81999999999999
 2022-07-21,Maluku,3,0,3.71
 2022-07-21,North Kalimantan,24,0,444.09
 2022-07-21,North Maluku,4,0,12.38
 2022-07-21,North Sumatra,31,1,202.1
-2022-07-21,Papua,6,0,29.679999999999996
+2022-07-21,Papua,6,0,29.68
 2022-07-21,Riau,9,0,29.62
 2022-07-21,South Kalimantan,12,2,52.12999999999999
 2022-07-21,South Sulawesi,8,0,205.8
@@ -34848,7 +34848,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-21,Southeast Sulawesi,4,0,16.9
 2022-07-21,Special Region of Yogyakarta,1,0,2.35
 2022-07-21,West Java,4,0,2.4
-2022-07-21,West Kalimantan,276,4,3141.7499999999986
+2022-07-21,West Kalimantan,276,4,3141.749999999998
 2022-07-21,West Nusa Tenggara,31,1,156.38
 2022-07-21,West Sulawesi,6,0,52.51
 2022-07-21,West Sumatra,4,0,27.700000000000003
@@ -34857,7 +34857,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-22,Central Java,2,0,2.55
 2022-07-22,Central Kalimantan,2,0,3.3
 2022-07-22,Central Sulawesi,4,0,14.09
-2022-07-22,Di luar daratan,51,0,203.23000000000002
+2022-07-22,Di luar daratan,51,0,203.23
 2022-07-22,East Java,5,0,8.34
 2022-07-22,East Kalimantan,6,0,89.27
 2022-07-22,East Nusa Tenggara,50,0,229.85000000000005
@@ -34886,7 +34886,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-23,Central Kalimantan,5,0,30.93
 2022-07-23,Central Sulawesi,9,0,11.67
 2022-07-23,Di luar daratan,57,1,297.01000000000005
-2022-07-23,East Java,9,0,30.479999999999997
+2022-07-23,East Java,9,0,30.48
 2022-07-23,East Kalimantan,12,0,24.18
 2022-07-23,East Nusa Tenggara,74,6,400.13000000000005
 2022-07-23,Gorontalo,1,0,2.33
@@ -34897,16 +34897,16 @@ acq_date,provinsi,titik,high,frp
 2022-07-23,North Maluku,4,0,30.56
 2022-07-23,North Sumatra,6,0,34.55
 2022-07-23,Papua,5,0,10.96
-2022-07-23,Riau,2,0,1.4100000000000001
+2022-07-23,Riau,2,0,1.41
 2022-07-23,South Kalimantan,8,0,22.67
 2022-07-23,South Sulawesi,3,0,48.690000000000005
 2022-07-23,South Sumatra,5,0,9.63
 2022-07-23,Southeast Sulawesi,10,0,23.29
 2022-07-23,West Java,4,0,26.19
-2022-07-23,West Kalimantan,36,3,422.45000000000005
+2022-07-23,West Kalimantan,36,3,422.4500000000001
 2022-07-23,West Nusa Tenggara,17,2,110.28
 2022-07-23,West Papua,1,0,1.41
-2022-07-23,West Sumatra,2,0,9.370000000000001
+2022-07-23,West Sumatra,2,0,9.37
 2022-07-24,Aceh,1,0,0.36
 2022-07-24,Bali,1,0,0.67
 2022-07-24,Bangka-Belitung Islands,1,0,5.2
@@ -34916,23 +34916,23 @@ acq_date,provinsi,titik,high,frp
 2022-07-24,Central Sulawesi,12,0,24.3
 2022-07-24,Di luar daratan,49,0,182.19
 2022-07-24,East Java,38,0,134.85000000000002
-2022-07-24,East Kalimantan,15,0,37.669999999999995
+2022-07-24,East Kalimantan,15,0,37.67
 2022-07-24,East Nusa Tenggara,46,5,341.75999999999993
 2022-07-24,Gorontalo,1,0,5.27
 2022-07-24,Maluku,3,0,12.59
 2022-07-24,North Maluku,7,0,35.01
 2022-07-24,North Sulawesi,2,0,3.45
 2022-07-24,Papua,1,0,1.27
-2022-07-24,South Kalimantan,11,2,58.879999999999995
+2022-07-24,South Kalimantan,11,2,58.88
 2022-07-24,South Sulawesi,22,0,66.63
-2022-07-24,South Sumatra,4,0,13.129999999999999
+2022-07-24,South Sumatra,4,0,13.13
 2022-07-24,Southeast Sulawesi,11,0,21.07
 2022-07-24,Special Region of Yogyakarta,1,0,6.49
-2022-07-24,West Java,3,0,13.600000000000001
-2022-07-24,West Kalimantan,30,0,353.15999999999997
+2022-07-24,West Java,3,0,13.6
+2022-07-24,West Kalimantan,30,0,353.16
 2022-07-24,West Nusa Tenggara,28,0,73.4
 2022-07-24,West Papua,1,0,1.22
-2022-07-25,Central Java,11,0,24.310000000000002
+2022-07-25,Central Java,11,0,24.31
 2022-07-25,Central Kalimantan,5,0,31.3
 2022-07-25,Central Sulawesi,12,0,35.84
 2022-07-25,Di luar daratan,16,0,49.28
@@ -34943,7 +34943,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-25,Maluku,1,0,4.13
 2022-07-25,North Kalimantan,2,0,9.89
 2022-07-25,North Maluku,2,0,1.08
-2022-07-25,Papua,29,0,217.60000000000002
+2022-07-25,Papua,29,0,217.6
 2022-07-25,South Kalimantan,16,0,60.61
 2022-07-25,South Sulawesi,1,0,1.18
 2022-07-25,Southeast Sulawesi,2,0,6.51
@@ -34955,7 +34955,7 @@ acq_date,provinsi,titik,high,frp
 2022-07-26,Central Kalimantan,7,0,39.39
 2022-07-26,Central Sulawesi,3,0,11.27
 2022-07-26,Di luar daratan,7,0,37.75
-2022-07-26,East Java,18,0,116.05999999999999
+2022-07-26,East Java,18,0,116.06
 2022-07-26,East Kalimantan,20,0,145.88000000000002
 2022-07-26,East Nusa Tenggara,47,0,178.73999999999998
 2022-07-26,Maluku,3,0,11.17
@@ -34966,15 +34966,15 @@ acq_date,provinsi,titik,high,frp
 2022-07-26,Southeast Sulawesi,1,0,4.74
 2022-07-26,West Kalimantan,16,0,102.13
 2022-07-26,West Nusa Tenggara,10,0,46.20999999999999
-2022-08-11,Aceh,13,0,100.74000000000001
+2022-08-11,Aceh,13,0,100.74
 2022-08-11,Bangka-Belitung Islands,38,6,421.69999999999993
 2022-08-11,Banten,1,0,0.5
 2022-08-11,Bengkulu,3,0,20.12
-2022-08-11,Central Java,2,0,3.5300000000000002
+2022-08-11,Central Java,2,0,3.53
 2022-08-11,Central Kalimantan,7,0,46.61
 2022-08-11,Central Sulawesi,1,0,3.74
 2022-08-11,Di luar daratan,95,0,864.88
-2022-08-11,East Java,24,0,125.42999999999999
+2022-08-11,East Java,24,0,125.43
 2022-08-11,East Kalimantan,17,0,91.46
 2022-08-11,East Nusa Tenggara,3,0,7.77
 2022-08-11,Jambi,17,1,129.26000000000002
@@ -34984,20 +34984,20 @@ acq_date,provinsi,titik,high,frp
 2022-08-11,North Maluku,14,0,98.11
 2022-08-11,North Sulawesi,3,0,13.53
 2022-08-11,North Sumatra,39,4,153.65000000000003
-2022-08-11,Papua,34,0,325.66999999999996
-2022-08-11,Riau,14,3,122.21000000000001
+2022-08-11,Papua,34,0,325.67
+2022-08-11,Riau,14,3,122.21
 2022-08-11,Riau Islands,1,0,4.06
 2022-08-11,South Kalimantan,8,0,12.26
-2022-08-11,South Sumatra,46,1,390.33000000000004
+2022-08-11,South Sumatra,46,1,390.33
 2022-08-11,Special Region of Yogyakarta,1,0,2.6
 2022-08-11,West Java,6,0,13.25
-2022-08-11,West Kalimantan,932,9,13079.949999999977
-2022-08-11,West Nusa Tenggara,2,0,3.0300000000000002
-2022-08-11,West Sumatra,20,1,108.38999999999997
+2022-08-11,West Kalimantan,932,9,13079.949999999975
+2022-08-11,West Nusa Tenggara,2,0,3.03
+2022-08-11,West Sumatra,20,1,108.38999999999996
 2022-08-12,Aceh,33,0,340.38
 2022-08-12,Bangka-Belitung Islands,71,15,912.3600000000002
 2022-08-12,Banten,4,0,4.54
-2022-08-12,Bengkulu,4,0,24.759999999999998
+2022-08-12,Bengkulu,4,0,24.76
 2022-08-12,Central Java,9,0,22.56
 2022-08-12,Central Kalimantan,39,5,346.51
 2022-08-12,Central Sulawesi,18,0,134.23000000000002
@@ -35010,7 +35010,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-12,Jambi,22,0,273.83000000000004
 2022-08-12,Lampung,9,0,68.91
 2022-08-12,Maluku,2,0,12.5
-2022-08-12,North Kalimantan,37,1,312.13999999999993
+2022-08-12,North Kalimantan,37,1,312.14
 2022-08-12,North Maluku,9,0,57.830000000000005
 2022-08-12,North Sulawesi,2,0,5.949999999999999
 2022-08-12,North Sumatra,47,0,348.78000000000003
@@ -35019,16 +35019,16 @@ acq_date,provinsi,titik,high,frp
 2022-08-12,South Kalimantan,13,0,64.52
 2022-08-12,South Sumatra,28,0,330.3300000000001
 2022-08-12,Southeast Sulawesi,5,0,29.05
-2022-08-12,West Java,11,0,9.120000000000001
+2022-08-12,West Java,11,0,9.12
 2022-08-12,West Kalimantan,189,18,2066.3200000000006
 2022-08-12,West Nusa Tenggara,8,0,38.68
 2022-08-12,West Sumatra,6,0,37.09
-2022-08-13,Aceh,5,0,42.339999999999996
-2022-08-13,Bangka-Belitung Islands,2,0,6.9399999999999995
+2022-08-13,Aceh,5,0,42.34
+2022-08-13,Bangka-Belitung Islands,2,0,6.94
 2022-08-13,Banten,2,0,4.81
 2022-08-13,Bengkulu,11,0,47.120000000000005
 2022-08-13,Central Java,1,0,0.91
-2022-08-13,Central Sulawesi,7,0,41.339999999999996
+2022-08-13,Central Sulawesi,7,0,41.34
 2022-08-13,Di luar daratan,74,6,659.26
 2022-08-13,East Java,3,0,11.77
 2022-08-13,East Kalimantan,24,6,123.68000000000002
@@ -35052,10 +35052,10 @@ acq_date,provinsi,titik,high,frp
 2022-08-13,West Sulawesi,1,0,6.03
 2022-08-13,West Sumatra,6,0,35.91
 2022-08-14,Aceh,15,0,102.29000000000002
-2022-08-14,Bangka-Belitung Islands,13,0,125.11000000000001
+2022-08-14,Bangka-Belitung Islands,13,0,125.11
 2022-08-14,Banten,3,0,5.22
 2022-08-14,Bengkulu,1,0,5.91
-2022-08-14,Central Java,3,0,14.030000000000001
+2022-08-14,Central Java,3,0,14.03
 2022-08-14,Central Kalimantan,1,0,0.59
 2022-08-14,Central Sulawesi,1,0,1.11
 2022-08-14,Di luar daratan,34,0,122.62999999999998
@@ -35075,13 +35075,13 @@ acq_date,provinsi,titik,high,frp
 2022-08-14,West Java,10,0,25.090000000000003
 2022-08-14,West Kalimantan,3,0,42.4
 2022-08-14,West Nusa Tenggara,2,0,6.26
-2022-08-14,West Sumatra,4,0,28.259999999999998
+2022-08-14,West Sumatra,4,0,28.26
 2022-08-15,Aceh,5,0,45.29
 2022-08-15,Bangka-Belitung Islands,7,0,61.14
 2022-08-15,Bengkulu,1,0,1.05
 2022-08-15,Central Java,3,0,4.14
 2022-08-15,Central Kalimantan,7,0,49.98
-2022-08-15,Di luar daratan,40,1,196.23999999999998
+2022-08-15,Di luar daratan,40,1,196.24
 2022-08-15,East Java,16,0,58.94
 2022-08-15,East Kalimantan,6,0,54.150000000000006
 2022-08-15,East Nusa Tenggara,68,2,694.46
@@ -35090,7 +35090,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-15,Lampung,3,0,10.99
 2022-08-15,Maluku,19,0,73.25
 2022-08-15,North Kalimantan,4,0,24.72
-2022-08-15,North Sumatra,12,0,52.599999999999994
+2022-08-15,North Sumatra,12,0,52.6
 2022-08-15,Papua,8,0,34.67
 2022-08-15,Riau,12,0,55.29
 2022-08-15,South Kalimantan,7,0,33.980000000000004
@@ -35106,15 +35106,15 @@ acq_date,provinsi,titik,high,frp
 2022-08-16,Banten,1,0,0.89
 2022-08-16,Bengkulu,1,0,3.76
 2022-08-16,Central Java,4,0,12.739999999999998
-2022-08-16,Central Kalimantan,2,0,14.719999999999999
+2022-08-16,Central Kalimantan,2,0,14.72
 2022-08-16,Di luar daratan,36,0,169.03
 2022-08-16,East Java,21,0,132.42999999999998
 2022-08-16,East Nusa Tenggara,54,0,318.97
 2022-08-16,Jambi,2,0,1.46
-2022-08-16,Lampung,2,0,1.8900000000000001
+2022-08-16,Lampung,2,0,1.89
 2022-08-16,Maluku,13,2,77.84999999999998
 2022-08-16,North Sumatra,2,0,2.17
-2022-08-16,Papua,22,0,108.91000000000001
+2022-08-16,Papua,22,0,108.91
 2022-08-16,Riau,7,0,29.700000000000003
 2022-08-16,Riau Islands,1,0,1.27
 2022-08-16,South Kalimantan,5,0,16.759999999999998
@@ -35122,7 +35122,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-16,South Sumatra,4,0,8.31
 2022-08-16,Southeast Sulawesi,17,0,210.22
 2022-08-16,Special Region of Yogyakarta,1,0,1.9
-2022-08-16,West Java,8,0,39.809999999999995
+2022-08-16,West Java,8,0,39.81
 2022-08-16,West Kalimantan,202,2,2385.1099999999983
 2022-08-16,West Nusa Tenggara,32,0,156.49
 2022-08-17,Aceh,8,0,45.02
@@ -35130,12 +35130,12 @@ acq_date,provinsi,titik,high,frp
 2022-08-17,Banten,1,0,2.69
 2022-08-17,Bengkulu,7,0,51.71
 2022-08-17,Central Java,1,0,0.86
-2022-08-17,Central Kalimantan,3,0,12.559999999999999
+2022-08-17,Central Kalimantan,3,0,12.56
 2022-08-17,Central Sulawesi,1,0,4.07
 2022-08-17,Di luar daratan,62,0,532.6600000000002
 2022-08-17,East Java,9,0,26.71
 2022-08-17,East Kalimantan,20,0,216.6
-2022-08-17,East Nusa Tenggara,38,0,200.09000000000006
+2022-08-17,East Nusa Tenggara,38,0,200.0900000000001
 2022-08-17,Gorontalo,3,0,18.71
 2022-08-17,Jambi,10,0,53.15
 2022-08-17,Lampung,3,0,6.539999999999999
@@ -35145,14 +35145,14 @@ acq_date,provinsi,titik,high,frp
 2022-08-17,Papua,34,0,421.07
 2022-08-17,Riau,10,0,36.94
 2022-08-17,South Kalimantan,1,0,18.1
-2022-08-17,South Sulawesi,10,0,230.19999999999996
+2022-08-17,South Sulawesi,10,0,230.2
 2022-08-17,South Sumatra,21,0,120.53000000000002
 2022-08-17,West Java,4,0,6.36
 2022-08-17,West Kalimantan,81,0,701.12
 2022-08-17,West Nusa Tenggara,13,0,129.20999999999998
 2022-08-17,West Sumatra,3,0,33.09
 2022-08-18,Aceh,2,0,0.8200000000000001
-2022-08-18,Bangka-Belitung Islands,89,1,1077.5900000000001
+2022-08-18,Bangka-Belitung Islands,89,1,1077.59
 2022-08-18,Banten,8,0,19.1
 2022-08-18,Bengkulu,2,0,24.09
 2022-08-18,Central Java,10,0,12.44
@@ -35163,9 +35163,9 @@ acq_date,provinsi,titik,high,frp
 2022-08-18,East Nusa Tenggara,100,0,567.8100000000001
 2022-08-18,Jambi,24,0,173.55
 2022-08-18,Lampung,2,0,26.5
-2022-08-18,Maluku,19,2,127.52999999999999
+2022-08-18,Maluku,19,2,127.53
 2022-08-18,North Kalimantan,1,0,14.11
-2022-08-18,North Maluku,7,0,14.059999999999999
+2022-08-18,North Maluku,7,0,14.06
 2022-08-18,North Sulawesi,1,0,1.82
 2022-08-18,North Sumatra,3,0,5.73
 2022-08-18,Papua,24,0,151.05000000000004
@@ -35174,7 +35174,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-18,South Sulawesi,2,0,7.26
 2022-08-18,South Sumatra,28,0,170.67999999999998
 2022-08-18,Southeast Sulawesi,9,0,23.1
-2022-08-18,West Java,10,0,22.220000000000002
+2022-08-18,West Java,10,0,22.22
 2022-08-18,West Kalimantan,626,26,7168.720000000003
 2022-08-18,West Nusa Tenggara,5,0,14.739999999999998
 2022-08-18,West Sumatra,2,0,6.21
@@ -35187,21 +35187,21 @@ acq_date,provinsi,titik,high,frp
 2022-08-19,Di luar daratan,88,0,465.58000000000015
 2022-08-19,East Java,11,0,27.18
 2022-08-19,East Kalimantan,25,0,102.79999999999998
-2022-08-19,East Nusa Tenggara,233,21,1571.0300000000007
+2022-08-19,East Nusa Tenggara,233,21,1571.0300000000009
 2022-08-19,Maluku,27,0,185.42
-2022-08-19,North Kalimantan,9,0,36.910000000000004
+2022-08-19,North Kalimantan,9,0,36.91
 2022-08-19,North Maluku,12,0,55.17
 2022-08-19,North Sumatra,20,0,204.51999999999995
 2022-08-19,Papua,8,0,22.63
 2022-08-19,Riau,12,0,28.06
 2022-08-19,South Kalimantan,18,0,74.72
 2022-08-19,South Sulawesi,8,1,88.38000000000001
-2022-08-19,South Sumatra,5,0,19.080000000000002
+2022-08-19,South Sumatra,5,0,19.08
 2022-08-19,Southeast Sulawesi,2,0,21.25
 2022-08-19,West Java,13,0,43.26
 2022-08-19,West Kalimantan,701,41,7807.899999999992
 2022-08-19,West Nusa Tenggara,30,3,273.8
-2022-08-19,West Sulawesi,3,0,10.379999999999999
+2022-08-19,West Sulawesi,3,0,10.38
 2022-08-19,West Sumatra,4,0,44.37
 2022-08-20,Bangka-Belitung Islands,7,0,77.99000000000001
 2022-08-20,Banten,2,0,2.28
@@ -35210,8 +35210,8 @@ acq_date,provinsi,titik,high,frp
 2022-08-20,Central Kalimantan,7,0,45.36
 2022-08-20,Central Sulawesi,18,1,74.76
 2022-08-20,Di luar daratan,60,1,302.95000000000005
-2022-08-20,East Java,40,1,201.92999999999998
-2022-08-20,East Kalimantan,11,1,57.379999999999995
+2022-08-20,East Java,40,1,201.93
+2022-08-20,East Kalimantan,11,1,57.38
 2022-08-20,East Nusa Tenggara,219,32,1542.119999999999
 2022-08-20,Gorontalo,1,0,2.89
 2022-08-20,Jambi,2,0,1.01
@@ -35220,27 +35220,27 @@ acq_date,provinsi,titik,high,frp
 2022-08-20,North Kalimantan,26,1,116.98
 2022-08-20,North Maluku,2,0,6.7
 2022-08-20,North Sulawesi,2,0,5.78
-2022-08-20,Papua,21,0,117.28999999999999
+2022-08-20,Papua,21,0,117.29
 2022-08-20,Riau,2,0,19.25
 2022-08-20,South Kalimantan,16,0,85.53
-2022-08-20,South Sulawesi,43,3,227.93000000000012
+2022-08-20,South Sulawesi,43,3,227.9300000000001
 2022-08-20,Southeast Sulawesi,14,0,36.28000000000001
 2022-08-20,Special Region of Yogyakarta,1,0,2.36
 2022-08-20,West Java,14,0,43.02
 2022-08-20,West Kalimantan,368,2,4510.170000000003
-2022-08-20,West Nusa Tenggara,46,4,227.08999999999997
+2022-08-20,West Nusa Tenggara,46,4,227.09
 2022-08-20,West Papua,4,0,18.2
 2022-08-20,West Sulawesi,1,0,1.57
 2022-08-20,West Sumatra,2,0,19.05
 2022-08-21,Central Java,3,0,7.859999999999999
 2022-08-21,Central Kalimantan,15,0,237.48
 2022-08-21,Central Sulawesi,16,0,43.91999999999999
-2022-08-21,Di luar daratan,35,0,102.64000000000001
+2022-08-21,Di luar daratan,35,0,102.64
 2022-08-21,East Java,54,0,247.28
-2022-08-21,East Kalimantan,64,0,477.40999999999985
+2022-08-21,East Kalimantan,64,0,477.4099999999999
 2022-08-21,East Nusa Tenggara,119,1,607.45
 2022-08-21,Gorontalo,1,0,3.01
-2022-08-21,Jambi,2,0,1.3900000000000001
+2022-08-21,Jambi,2,0,1.39
 2022-08-21,Maluku,13,0,59.11999999999999
 2022-08-21,North Kalimantan,8,0,85.25999999999999
 2022-08-21,North Maluku,8,0,43.900000000000006
@@ -35250,7 +35250,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-21,South Kalimantan,24,0,162.8
 2022-08-21,South Sulawesi,7,0,13.05
 2022-08-21,South Sumatra,1,0,0.6
-2022-08-21,Southeast Sulawesi,3,0,15.540000000000001
+2022-08-21,Southeast Sulawesi,3,0,15.54
 2022-08-21,West Kalimantan,47,0,597.88
 2022-08-21,West Nusa Tenggara,52,1,331.69
 2022-08-21,West Papua,3,0,9.18
@@ -35268,7 +35268,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-22,Lampung,8,0,17.389999999999997
 2022-08-22,Maluku,2,0,3.72
 2022-08-22,North Kalimantan,58,0,477.32000000000016
-2022-08-22,North Maluku,5,0,14.370000000000001
+2022-08-22,North Maluku,5,0,14.37
 2022-08-22,North Sumatra,1,0,2.63
 2022-08-22,Papua,21,1,154.56000000000003
 2022-08-22,Riau,5,0,7.130000000000001
@@ -35284,10 +35284,10 @@ acq_date,provinsi,titik,high,frp
 2022-08-23,Aceh,1,0,0.96
 2022-08-23,Bangka-Belitung Islands,8,0,32.43
 2022-08-23,Banten,2,0,8.86
-2022-08-23,Central Java,4,0,4.7299999999999995
+2022-08-23,Central Java,4,0,4.73
 2022-08-23,Central Kalimantan,5,0,16.490000000000002
 2022-08-23,Central Sulawesi,2,0,7.58
-2022-08-23,Di luar daratan,42,1,125.72000000000003
+2022-08-23,Di luar daratan,42,1,125.72000000000004
 2022-08-23,East Java,21,4,100.32000000000002
 2022-08-23,East Kalimantan,52,0,504.1700000000001
 2022-08-23,East Nusa Tenggara,256,0,1419.6799999999994
@@ -35295,17 +35295,17 @@ acq_date,provinsi,titik,high,frp
 2022-08-23,Lampung,3,0,10.260000000000002
 2022-08-23,Maluku,19,0,253.53000000000003
 2022-08-23,North Kalimantan,27,0,431.24
-2022-08-23,North Maluku,11,1,45.589999999999996
+2022-08-23,North Maluku,11,1,45.59
 2022-08-23,Papua,12,1,69.25
 2022-08-23,Riau,4,0,8.73
 2022-08-23,South Kalimantan,15,0,75.68999999999998
-2022-08-23,South Sulawesi,15,2,104.94000000000003
+2022-08-23,South Sulawesi,15,2,104.94000000000004
 2022-08-23,South Sumatra,7,1,20.4
 2022-08-23,Southeast Sulawesi,9,0,39.78
-2022-08-23,West Java,9,0,31.900000000000002
+2022-08-23,West Java,9,0,31.9
 2022-08-23,West Nusa Tenggara,62,0,351.9199999999999
 2022-08-24,Aceh,2,0,5.66
-2022-08-24,Bangka-Belitung Islands,11,0,122.10000000000001
+2022-08-24,Bangka-Belitung Islands,11,0,122.1
 2022-08-24,Bengkulu,1,0,0.96
 2022-08-24,Central Java,3,0,8.5
 2022-08-24,Central Kalimantan,1,0,0.39
@@ -35324,13 +35324,13 @@ acq_date,provinsi,titik,high,frp
 2022-08-24,Riau,5,0,6.32
 2022-08-24,Riau Islands,1,0,2.48
 2022-08-24,South Kalimantan,6,0,19.17
-2022-08-24,South Sumatra,9,0,33.089999999999996
+2022-08-24,South Sumatra,9,0,33.09
 2022-08-24,Southeast Sulawesi,1,0,7.75
 2022-08-24,West Java,12,0,53.65
 2022-08-24,West Kalimantan,66,1,596.18
 2022-08-24,West Nusa Tenggara,36,3,242.15000000000003
 2022-08-25,Bali,1,0,7.05
-2022-08-25,Bangka-Belitung Islands,12,0,120.77999999999999
+2022-08-25,Bangka-Belitung Islands,12,0,120.78
 2022-08-25,Banten,5,0,11.4
 2022-08-25,Bengkulu,1,0,1.08
 2022-08-25,Central Java,5,0,13.330000000000002
@@ -35348,7 +35348,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-25,Papua,41,1,276.93999999999994
 2022-08-25,South Kalimantan,2,0,2.17
 2022-08-25,South Sumatra,6,0,18.59
-2022-08-25,West Java,17,0,58.550000000000004
+2022-08-25,West Java,17,0,58.55
 2022-08-25,West Nusa Tenggara,21,2,113.27
 2022-08-25,West Papua,7,0,24.58
 2022-08-25,West Sumatra,1,0,4.7
@@ -35359,12 +35359,12 @@ acq_date,provinsi,titik,high,frp
 2022-08-26,Di luar daratan,53,4,275.44
 2022-08-26,East Java,13,0,36.59
 2022-08-26,East Kalimantan,19,0,132.43
-2022-08-26,East Nusa Tenggara,101,0,501.77999999999986
+2022-08-26,East Nusa Tenggara,101,0,501.7799999999999
 2022-08-26,Gorontalo,4,0,17.97
 2022-08-26,Jambi,6,0,4.880000000000001
 2022-08-26,Maluku,3,0,16.39
 2022-08-26,North Kalimantan,2,0,2.83
-2022-08-26,North Maluku,4,0,21.490000000000002
+2022-08-26,North Maluku,4,0,21.49
 2022-08-26,North Sulawesi,2,0,4.14
 2022-08-26,Papua,29,0,200.71000000000004
 2022-08-26,Riau,3,0,2.42
@@ -35374,17 +35374,17 @@ acq_date,provinsi,titik,high,frp
 2022-08-26,Southeast Sulawesi,5,0,6.34
 2022-08-26,West Java,3,0,5.419999999999999
 2022-08-26,West Kalimantan,1,0,1.44
-2022-08-26,West Nusa Tenggara,25,0,121.42000000000003
+2022-08-26,West Nusa Tenggara,25,0,121.42000000000004
 2022-08-26,West Papua,8,0,28.55
 2022-08-27,Central Java,3,0,5.98
 2022-08-27,Central Kalimantan,1,0,3.57
 2022-08-27,Di luar daratan,15,0,82.85999999999999
-2022-08-27,East Java,30,0,126.22000000000001
+2022-08-27,East Java,30,0,126.22
 2022-08-27,East Kalimantan,7,0,17.09
 2022-08-27,East Nusa Tenggara,65,0,293.22
 2022-08-27,Jambi,1,0,0.19
 2022-08-27,Maluku,4,0,17.56
-2022-08-27,North Kalimantan,26,0,112.82000000000001
+2022-08-27,North Kalimantan,26,0,112.82
 2022-08-27,North Maluku,10,0,47.09
 2022-08-27,North Sulawesi,1,0,0.93
 2022-08-27,North Sumatra,1,0,2.83
@@ -35395,30 +35395,30 @@ acq_date,provinsi,titik,high,frp
 2022-08-27,West Java,2,0,2.8600000000000003
 2022-08-27,West Kalimantan,14,0,97.17
 2022-08-27,West Nusa Tenggara,58,0,321.47
-2022-08-27,West Papua,7,0,21.830000000000002
+2022-08-27,West Papua,7,0,21.83
 2022-08-28,Bali,1,0,4.28
 2022-08-28,Banten,5,0,7.390000000000001
 2022-08-28,Central Java,8,0,7.45
 2022-08-28,Central Kalimantan,7,1,38.4
-2022-08-28,Central Sulawesi,4,0,10.379999999999999
+2022-08-28,Central Sulawesi,4,0,10.38
 2022-08-28,Di luar daratan,21,0,52.15999999999999
 2022-08-28,East Java,14,0,37.24999999999999
-2022-08-28,East Kalimantan,2,0,1.8199999999999998
+2022-08-28,East Kalimantan,2,0,1.82
 2022-08-28,East Nusa Tenggara,88,1,373.87000000000006
 2022-08-28,Gorontalo,4,0,11.6
 2022-08-28,Jambi,3,0,6.33
-2022-08-28,Lampung,4,0,14.629999999999999
+2022-08-28,Lampung,4,0,14.63
 2022-08-28,Maluku,3,0,18.03
 2022-08-28,North Kalimantan,1,0,5.01
 2022-08-28,North Sulawesi,3,0,10.27
-2022-08-28,Papua,17,1,180.57999999999998
+2022-08-28,Papua,17,1,180.58
 2022-08-28,Riau,1,0,2.71
 2022-08-28,South Kalimantan,21,1,132.58999999999995
-2022-08-28,South Sulawesi,8,0,37.209999999999994
+2022-08-28,South Sulawesi,8,0,37.21
 2022-08-28,South Sumatra,12,0,61.36999999999999
 2022-08-28,Southeast Sulawesi,13,0,32.41
-2022-08-28,West Java,6,0,9.639999999999999
-2022-08-28,West Nusa Tenggara,32,1,240.86999999999998
+2022-08-28,West Java,6,0,9.64
+2022-08-28,West Nusa Tenggara,32,1,240.87
 2022-08-28,West Papua,1,0,0.79
 2022-08-29,Aceh,2,0,7.0600000000000005
 2022-08-29,Banten,2,0,8.11
@@ -35426,7 +35426,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-29,Central Kalimantan,2,0,0.8500000000000001
 2022-08-29,Central Sulawesi,8,0,42.03
 2022-08-29,Di luar daratan,22,0,83.48000000000003
-2022-08-29,East Java,22,2,51.800000000000004
+2022-08-29,East Java,22,2,51.8
 2022-08-29,East Kalimantan,2,0,0.87
 2022-08-29,East Nusa Tenggara,47,0,264.85
 2022-08-29,Jambi,1,0,1.89
@@ -35436,7 +35436,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-29,North Maluku,9,0,23.0
 2022-08-29,Papua,2,0,2.47
 2022-08-29,South Kalimantan,9,0,16.27
-2022-08-29,South Sulawesi,5,0,109.80000000000001
+2022-08-29,South Sulawesi,5,0,109.8
 2022-08-29,South Sumatra,29,0,207.46000000000004
 2022-08-29,Southeast Sulawesi,14,0,52.65
 2022-08-29,West Java,5,0,7.58
@@ -35450,7 +35450,7 @@ acq_date,provinsi,titik,high,frp
 2022-08-30,East Nusa Tenggara,32,1,143.69000000000003
 2022-08-30,Maluku,2,0,8.59
 2022-08-30,North Kalimantan,2,0,4.03
-2022-08-30,North Maluku,5,0,11.809999999999999
+2022-08-30,North Maluku,5,0,11.81
 2022-08-30,North Sumatra,1,0,0.92
 2022-08-30,Papua,5,0,27.770000000000003
 2022-08-30,Riau,3,0,4.1
@@ -35463,9 +35463,9 @@ acq_date,provinsi,titik,high,frp
 2022-08-31,Bali,1,0,0.84
 2022-08-31,Banten,2,0,3.13
 2022-08-31,Central Java,5,0,13.159999999999998
-2022-08-31,Central Kalimantan,2,0,15.139999999999999
+2022-08-31,Central Kalimantan,2,0,15.14
 2022-08-31,Central Sulawesi,11,0,13.770000000000003
-2022-08-31,Di luar daratan,17,0,54.569999999999986
+2022-08-31,Di luar daratan,17,0,54.56999999999999
 2022-08-31,East Java,16,0,48.510000000000005
 2022-08-31,East Kalimantan,4,0,4.95
 2022-08-31,East Nusa Tenggara,19,0,67.58999999999999
@@ -35479,10 +35479,10 @@ acq_date,provinsi,titik,high,frp
 2022-08-31,Papua,14,0,72.74
 2022-08-31,Riau,1,0,3.34
 2022-08-31,South Kalimantan,8,0,17.529999999999998
-2022-08-31,South Sulawesi,11,2,100.55999999999999
+2022-08-31,South Sulawesi,11,2,100.56
 2022-08-31,South Sumatra,2,0,1.3199999999999998
 2022-08-31,Southeast Sulawesi,12,0,19.63
-2022-08-31,West Java,3,0,11.620000000000001
+2022-08-31,West Java,3,0,11.62
 2022-08-31,West Nusa Tenggara,20,0,124.62
 2022-09-01,Aceh,1,0,1.4
 2022-09-01,Bangka-Belitung Islands,2,0,4.9
@@ -49214,7 +49214,7 @@ acq_date,provinsi,titik,high,frp
 2024-06-30,West Nusa Tenggara,14,0,75.8
 2024-07-01,Aceh,2,0,10.61
 2024-07-01,Bengkulu,3,0,15.78
-2024-07-01,Central Java,4,0,12.290000000000001
+2024-07-01,Central Java,4,0,12.29
 2024-07-01,Di luar daratan,9,0,36.29
 2024-07-01,East Java,10,0,38.190000000000005
 2024-07-01,East Kalimantan,4,0,8.370000000000001
@@ -49227,12 +49227,12 @@ acq_date,provinsi,titik,high,frp
 2024-07-01,South Sumatra,8,0,27.739999999999995
 2024-07-01,West Sumatra,4,0,9.580000000000002
 2024-07-02,Aceh,15,0,89.83999999999999
-2024-07-02,Bangka-Belitung Islands,7,0,21.330000000000002
+2024-07-02,Bangka-Belitung Islands,7,0,21.33
 2024-07-02,Bengkulu,2,0,15.86
 2024-07-02,Central Java,3,0,7.279999999999999
 2024-07-02,Central Sulawesi,4,0,9.99
 2024-07-02,Di luar daratan,23,0,125.99
-2024-07-02,East Java,18,0,42.319999999999986
+2024-07-02,East Java,18,0,42.31999999999999
 2024-07-02,East Nusa Tenggara,2,0,3.14
 2024-07-02,Jambi,7,0,17.45
 2024-07-02,North Maluku,3,0,15.88
@@ -49240,12 +49240,12 @@ acq_date,provinsi,titik,high,frp
 2024-07-02,Papua,2,0,8.36
 2024-07-02,Riau,6,0,28.43
 2024-07-02,Riau Islands,1,0,1.62
-2024-07-02,South Sumatra,11,0,38.309999999999995
+2024-07-02,South Sumatra,11,0,38.31
 2024-07-02,Southeast Sulawesi,1,0,4.1
 2024-07-02,West Java,2,0,6.32
 2024-07-02,West Nusa Tenggara,3,0,21.51
 2024-07-02,West Sumatra,6,0,30.3
-2024-07-03,Aceh,16,0,97.86000000000001
+2024-07-03,Aceh,16,0,97.86
 2024-07-03,Banten,4,0,14.8
 2024-07-03,Bengkulu,2,0,8.09
 2024-07-03,Central Java,3,0,5.79
@@ -49255,11 +49255,11 @@ acq_date,provinsi,titik,high,frp
 2024-07-03,Jambi,2,0,8.9
 2024-07-03,North Maluku,4,0,15.43
 2024-07-03,North Sumatra,22,0,147.04
-2024-07-03,Papua,12,0,57.559999999999995
+2024-07-03,Papua,12,0,57.56
 2024-07-03,Riau,14,1,44.120000000000005
 2024-07-03,South Kalimantan,8,0,6.839999999999999
 2024-07-03,South Sumatra,4,0,23.110000000000003
-2024-07-03,West Java,3,0,5.7299999999999995
+2024-07-03,West Java,3,0,5.73
 2024-07-03,West Kalimantan,3,0,7.27
 2024-07-03,West Nusa Tenggara,2,0,4.68
 2024-07-03,West Papua,1,0,5.05
@@ -49267,7 +49267,7 @@ acq_date,provinsi,titik,high,frp
 2024-07-04,Aceh,3,0,27.82
 2024-07-04,Central Kalimantan,4,0,15.24
 2024-07-04,Central Sulawesi,2,0,4.56
-2024-07-04,Di luar daratan,37,0,96.39999999999995
+2024-07-04,Di luar daratan,37,0,96.39999999999996
 2024-07-04,East Java,2,0,2.34
 2024-07-04,East Kalimantan,22,0,63.80999999999999
 2024-07-04,East Nusa Tenggara,61,0,380.0
@@ -49288,19 +49288,19 @@ acq_date,provinsi,titik,high,frp
 2024-07-05,Di luar daratan,30,0,90.0
 2024-07-05,East Java,10,0,72.91000000000001
 2024-07-05,East Kalimantan,14,0,25.73
-2024-07-05,East Nusa Tenggara,77,0,420.84000000000003
+2024-07-05,East Nusa Tenggara,77,0,420.84
 2024-07-05,North Maluku,5,0,25.88
-2024-07-05,North Sulawesi,2,0,2.4299999999999997
+2024-07-05,North Sulawesi,2,0,2.43
 2024-07-05,North Sumatra,25,0,164.13999999999996
 2024-07-05,Papua,4,0,28.72
-2024-07-05,Riau,8,0,15.309999999999999
+2024-07-05,Riau,8,0,15.31
 2024-07-05,South Kalimantan,4,0,7.18
 2024-07-05,South Sulawesi,13,2,109.53
 2024-07-05,Southeast Sulawesi,7,0,9.26
 2024-07-05,Special Region of Yogyakarta,1,0,8.87
 2024-07-05,West Java,1,0,1.07
-2024-07-05,West Kalimantan,2,0,1.8599999999999999
-2024-07-05,West Nusa Tenggara,17,0,61.839999999999996
+2024-07-05,West Kalimantan,2,0,1.86
+2024-07-05,West Nusa Tenggara,17,0,61.84
 2024-07-05,West Papua,1,0,6.67
 2024-07-05,West Sumatra,6,0,28.89
 2024-07-06,Aceh,37,0,169.65
@@ -49309,7 +49309,7 @@ acq_date,provinsi,titik,high,frp
 2024-07-06,Di luar daratan,36,0,203.33000000000007
 2024-07-06,East Java,11,0,65.65
 2024-07-06,East Kalimantan,17,0,32.64
-2024-07-06,East Nusa Tenggara,41,0,342.41999999999996
+2024-07-06,East Nusa Tenggara,41,0,342.42
 2024-07-06,North Kalimantan,1,0,7.19
 2024-07-06,North Maluku,3,0,9.85
 2024-07-06,North Sumatra,16,0,84.11000000000001
@@ -49320,7 +49320,7 @@ acq_date,provinsi,titik,high,frp
 2024-07-06,West Nusa Tenggara,11,0,69.77000000000001
 2024-07-07,Aceh,4,0,13.33
 2024-07-07,Banten,2,0,3.17
-2024-07-07,Central Java,6,0,9.629999999999999
+2024-07-07,Central Java,6,0,9.63
 2024-07-07,Di luar daratan,28,0,101.54
 2024-07-07,East Java,19,0,82.58
 2024-07-07,East Kalimantan,4,0,3.68
@@ -49335,11 +49335,11 @@ acq_date,provinsi,titik,high,frp
 2024-07-07,West Nusa Tenggara,21,1,109.27
 2024-07-07,West Papua,1,0,1.76
 2024-07-07,West Sumatra,13,0,68.58999999999999
-2024-07-08,Banten,2,0,19.689999999999998
+2024-07-08,Banten,2,0,19.69
 2024-07-08,Central Java,4,0,23.880000000000003
 2024-07-08,Central Kalimantan,1,0,0.43
 2024-07-08,Di luar daratan,29,0,137.54999999999993
-2024-07-08,East Java,34,1,184.03999999999996
+2024-07-08,East Java,34,1,184.04
 2024-07-08,East Nusa Tenggara,22,1,111.57999999999996
 2024-07-08,Jakarta Special Capital Region,1,0,1.0
 2024-07-08,Jambi,2,0,6.24
@@ -49349,12 +49349,12 @@ acq_date,provinsi,titik,high,frp
 2024-07-08,South Kalimantan,1,0,1.62
 2024-07-08,West Java,4,0,9.48
 2024-07-08,West Kalimantan,4,0,24.6
-2024-07-08,West Nusa Tenggara,16,0,114.52000000000001
+2024-07-08,West Nusa Tenggara,16,0,114.52
 2024-07-09,Aceh,2,0,8.71
 2024-07-09,Banten,4,0,12.28
 2024-07-09,Central Java,5,0,12.5
 2024-07-09,Central Sulawesi,12,0,18.89
-2024-07-09,Di luar daratan,9,0,26.409999999999997
+2024-07-09,Di luar daratan,9,0,26.41
 2024-07-09,East Java,47,0,172.46999999999994
 2024-07-09,East Nusa Tenggara,24,1,147.27
 2024-07-09,Jambi,2,0,4.800000000000001
@@ -49380,7 +49380,7 @@ acq_date,provinsi,titik,high,frp
 2024-07-16,Riau,5,0,4.04
 2024-07-16,South Kalimantan,17,0,33.9
 2024-07-16,South Sulawesi,3,0,2.12
-2024-07-16,South Sumatra,4,0,3.8600000000000003
+2024-07-16,South Sumatra,4,0,3.86
 2024-07-16,West Java,3,0,4.19
 2024-07-16,West Kalimantan,1,0,0.58
 2024-07-16,West Nusa Tenggara,5,0,8.92
@@ -49388,21 +49388,21 @@ acq_date,provinsi,titik,high,frp
 2024-07-17,Aceh,14,0,177.73999999999995
 2024-07-17,Bangka-Belitung Islands,8,0,127.1
 2024-07-17,Bengkulu,17,0,52.970000000000006
-2024-07-17,Central Java,7,1,21.049999999999997
-2024-07-17,Central Kalimantan,9,0,23.369999999999997
+2024-07-17,Central Java,7,1,21.05
+2024-07-17,Central Kalimantan,9,0,23.37
 2024-07-17,Central Sulawesi,2,0,7.39
 2024-07-17,Di luar daratan,42,6,344.94000000000017
-2024-07-17,East Java,31,0,98.39999999999995
+2024-07-17,East Java,31,0,98.39999999999996
 2024-07-17,East Kalimantan,16,0,29.86
 2024-07-17,East Nusa Tenggara,70,2,1221.430000000001
 2024-07-17,Jambi,5,0,14.890000000000002
 2024-07-17,Maluku,24,0,178.54
 2024-07-17,North Kalimantan,1,0,3.04
-2024-07-17,North Maluku,15,0,46.269999999999996
+2024-07-17,North Maluku,15,0,46.27
 2024-07-17,North Sulawesi,1,0,3.07
-2024-07-17,North Sumatra,30,0,210.11999999999998
+2024-07-17,North Sumatra,30,0,210.12
 2024-07-17,Papua,7,2,47.49
-2024-07-17,Riau,7,0,20.720000000000002
+2024-07-17,Riau,7,0,20.72
 2024-07-17,South Kalimantan,18,0,44.88999999999999
 2024-07-17,South Sulawesi,1,0,1.19
 2024-07-17,South Sumatra,37,0,422.24
@@ -49412,12 +49412,12 @@ acq_date,provinsi,titik,high,frp
 2024-07-17,West Kalimantan,45,5,391.19
 2024-07-17,West Nusa Tenggara,35,5,200.37
 2024-07-17,West Papua,2,0,31.3
-2024-07-17,West Sulawesi,9,0,49.589999999999996
+2024-07-17,West Sulawesi,9,0,49.59
 2024-07-17,West Sumatra,2,0,10.32
 2024-07-18,Aceh,13,0,76.55
 2024-07-18,Bangka-Belitung Islands,28,0,343.94000000000005
 2024-07-18,Banten,1,0,7.61
-2024-07-18,Bengkulu,21,0,111.77999999999999
+2024-07-18,Bengkulu,21,0,111.78
 2024-07-18,Central Java,6,0,17.52
 2024-07-18,Central Kalimantan,2,0,18.87
 2024-07-18,Central Sulawesi,7,1,39.12
@@ -49436,11 +49436,11 @@ acq_date,provinsi,titik,high,frp
 2024-07-18,South Kalimantan,1,0,1.97
 2024-07-18,South Sulawesi,1,0,0.44
 2024-07-18,South Sumatra,47,1,341.7500000000001
-2024-07-18,Southeast Sulawesi,10,0,19.810000000000002
+2024-07-18,Southeast Sulawesi,10,0,19.81
 2024-07-18,West Java,8,0,33.220000000000006
 2024-07-18,West Kalimantan,14,0,81.25
 2024-07-18,West Nusa Tenggara,7,0,7.15
-2024-07-18,West Sumatra,8,0,51.349999999999994
+2024-07-18,West Sumatra,8,0,51.35
 2024-07-19,Aceh,6,0,33.73
 2024-07-19,Bali,1,0,3.93
 2024-07-19,Bangka-Belitung Islands,7,0,80.30000000000001
@@ -49448,9 +49448,9 @@ acq_date,provinsi,titik,high,frp
 2024-07-19,Bengkulu,7,0,35.88
 2024-07-19,Central Java,20,0,70.98999999999998
 2024-07-19,Central Kalimantan,12,0,94.67
-2024-07-19,Di luar daratan,22,0,196.42999999999998
+2024-07-19,Di luar daratan,22,0,196.43
 2024-07-19,East Java,91,1,329.1200000000002
-2024-07-19,East Kalimantan,19,0,62.629999999999995
+2024-07-19,East Kalimantan,19,0,62.63
 2024-07-19,East Nusa Tenggara,51,4,245.64000000000016
 2024-07-19,Jambi,12,0,94.61
 2024-07-19,Lampung,2,0,2.06
@@ -49465,7 +49465,7 @@ acq_date,provinsi,titik,high,frp
 2024-07-19,South Sumatra,28,0,189.0699999999999
 2024-07-19,Southeast Sulawesi,3,0,2.3600000000000003
 2024-07-19,Special Region of Yogyakarta,1,0,5.32
-2024-07-19,West Java,3,0,3.8200000000000003
+2024-07-19,West Java,3,0,3.82
 2024-07-19,West Kalimantan,80,0,576.0100000000001
 2024-07-19,West Nusa Tenggara,28,0,173.79000000000002
 2024-07-19,West Sulawesi,6,1,35.72
@@ -49485,9 +49485,9 @@ acq_date,provinsi,titik,high,frp
 2024-07-20,Lampung,6,0,7.819999999999999
 2024-07-20,North Kalimantan,62,0,560.1199999999999
 2024-07-20,North Maluku,1,0,1.84
-2024-07-20,North Sumatra,15,0,57.059999999999995
+2024-07-20,North Sumatra,15,0,57.06
 2024-07-20,Papua,4,0,14.49
-2024-07-20,Riau,30,3,302.97999999999996
+2024-07-20,Riau,30,3,302.98
 2024-07-20,Riau Islands,2,0,10.34
 2024-07-20,South Kalimantan,8,0,47.12
 2024-07-20,South Sulawesi,8,0,18.96
@@ -49495,14 +49495,14 @@ acq_date,provinsi,titik,high,frp
 2024-07-20,Southeast Sulawesi,4,0,20.230000000000004
 2024-07-20,Special Region of Yogyakarta,2,0,26.34
 2024-07-20,West Java,6,0,7.83
-2024-07-20,West Kalimantan,121,0,1817.7700000000002
+2024-07-20,West Kalimantan,121,0,1817.77
 2024-07-20,West Nusa Tenggara,31,0,136.70000000000002
-2024-07-20,West Sulawesi,3,0,20.490000000000002
+2024-07-20,West Sulawesi,3,0,20.49
 2024-07-20,West Sumatra,7,1,39.59
 2024-07-21,Aceh,30,0,240.59000000000003
 2024-07-21,Bangka-Belitung Islands,19,4,168.57
-2024-07-21,Banten,7,0,10.790000000000001
-2024-07-21,Bengkulu,11,0,108.78999999999999
+2024-07-21,Banten,7,0,10.79
+2024-07-21,Bengkulu,11,0,108.79
 2024-07-21,Central Java,10,0,31.92
 2024-07-21,Central Kalimantan,1,0,6.92
 2024-07-21,Central Sulawesi,1,0,2.24
@@ -49510,25 +49510,25 @@ acq_date,provinsi,titik,high,frp
 2024-07-21,East Java,40,0,116.80000000000004
 2024-07-21,East Kalimantan,11,0,48.54
 2024-07-21,East Nusa Tenggara,42,0,228.70000000000005
-2024-07-21,Jambi,18,1,108.80999999999999
+2024-07-21,Jambi,18,1,108.81
 2024-07-21,Lampung,5,0,17.14
-2024-07-21,North Kalimantan,4,0,56.480000000000004
+2024-07-21,North Kalimantan,4,0,56.48
 2024-07-21,North Sumatra,16,0,137.28
 2024-07-21,Riau,4,0,17.41
-2024-07-21,South Kalimantan,2,0,14.620000000000001
+2024-07-21,South Kalimantan,2,0,14.62
 2024-07-21,South Sulawesi,1,0,1.13
 2024-07-21,South Sumatra,42,6,310.5799999999999
 2024-07-21,West Java,4,0,8.15
 2024-07-21,West Kalimantan,53,10,424.8000000000001
 2024-07-21,West Nusa Tenggara,23,0,116.96999999999998
 2024-07-21,West Sulawesi,2,0,6.960000000000001
-2024-07-21,West Sumatra,19,0,106.71000000000001
+2024-07-21,West Sumatra,19,0,106.71
 2024-07-22,Aceh,82,0,407.3500000000001
 2024-07-22,Bali,1,0,3.6
-2024-07-22,Bangka-Belitung Islands,29,0,227.11999999999998
+2024-07-22,Bangka-Belitung Islands,29,0,227.12
 2024-07-22,Banten,6,0,12.77
 2024-07-22,Bengkulu,11,0,89.54
-2024-07-22,Central Java,15,0,58.309999999999995
+2024-07-22,Central Java,15,0,58.31
 2024-07-22,Central Kalimantan,22,0,181.52999999999992
 2024-07-22,Central Sulawesi,4,0,15.8
 2024-07-22,Di luar daratan,34,2,235.80999999999992
@@ -49548,10 +49548,10 @@ acq_date,provinsi,titik,high,frp
 2024-07-22,West Nusa Tenggara,10,0,49.820000000000014
 2024-07-22,West Sumatra,35,0,234.50000000000003
 2024-07-23,Aceh,54,1,308.9399999999999
-2024-07-23,Bangka-Belitung Islands,22,0,254.25000000000006
+2024-07-23,Bangka-Belitung Islands,22,0,254.25000000000009
 2024-07-23,Banten,9,0,20.87
 2024-07-23,Bengkulu,12,0,69.39999999999999
-2024-07-23,Central Java,7,0,20.659999999999997
+2024-07-23,Central Java,7,0,20.66
 2024-07-23,Central Kalimantan,5,0,28.07
 2024-07-23,Di luar daratan,29,0,117.51
 2024-07-23,East Java,26,0,80.41
@@ -49568,11 +49568,11 @@ acq_date,provinsi,titik,high,frp
 2024-07-23,Southeast Sulawesi,4,0,20.97
 2024-07-23,Special Region of Yogyakarta,1,0,15.51
 2024-07-23,West Java,5,0,14.73
-2024-07-23,West Kalimantan,26,1,184.50000000000006
+2024-07-23,West Kalimantan,26,1,184.50000000000009
 2024-07-23,West Nusa Tenggara,20,1,140.92
 2024-07-23,West Sumatra,9,0,85.81000000000002
 2024-07-24,Di luar daratan,1,0,3.67
-2024-07-29,Aceh,2,0,1.8699999999999999
+2024-07-29,Aceh,2,0,1.87
 2024-07-29,Bali,1,0,2.67
 2024-07-29,Bangka-Belitung Islands,1,0,1.07
 2024-07-29,Banten,1,0,2.55
@@ -49581,18 +49581,18 @@ acq_date,provinsi,titik,high,frp
 2024-07-29,Central Sulawesi,1,0,0.57
 2024-07-29,Di luar daratan,33,0,61.27000000000001
 2024-07-29,East Java,13,0,32.72
-2024-07-29,East Kalimantan,9,0,18.080000000000002
-2024-07-29,Jambi,10,0,12.879999999999999
+2024-07-29,East Kalimantan,9,0,18.08
+2024-07-29,Jambi,10,0,12.88
 2024-07-29,Lampung,6,0,9.25
-2024-07-29,North Maluku,9,0,24.119999999999997
-2024-07-29,North Sumatra,6,0,12.440000000000001
+2024-07-29,North Maluku,9,0,24.12
+2024-07-29,North Sumatra,6,0,12.44
 2024-07-29,Riau,36,1,158.57
 2024-07-29,Riau Islands,1,0,3.61
 2024-07-29,South Kalimantan,12,0,25.8
 2024-07-29,South Sumatra,19,0,32.65
 2024-07-29,Southeast Sulawesi,4,0,6.18
 2024-07-29,West Java,4,0,7.06
-2024-07-29,West Kalimantan,64,3,383.78999999999985
+2024-07-29,West Kalimantan,64,3,383.7899999999999
 2024-07-29,West Nusa Tenggara,1,0,1.02
 2024-07-29,West Papua,1,0,0.88
 2024-07-29,West Sulawesi,1,0,0.87
@@ -49601,10 +49601,10 @@ acq_date,provinsi,titik,high,frp
 2024-07-30,Bangka-Belitung Islands,37,0,298.74
 2024-07-30,Banten,3,0,2.66
 2024-07-30,Bengkulu,5,0,18.2
-2024-07-30,Central Java,52,2,254.79000000000002
+2024-07-30,Central Java,52,2,254.79
 2024-07-30,Central Kalimantan,7,0,26.680000000000003
 2024-07-30,Central Sulawesi,15,0,31.1
-2024-07-30,Di luar daratan,59,0,362.07000000000005
+2024-07-30,Di luar daratan,59,0,362.0700000000001
 2024-07-30,East Java,48,0,168.13999999999996
 2024-07-30,East Kalimantan,19,0,83.76999999999998
 2024-07-30,East Nusa Tenggara,9,0,47.0
@@ -49621,11 +49621,11 @@ acq_date,provinsi,titik,high,frp
 2024-07-30,Riau Islands,4,0,19.01
 2024-07-30,South Kalimantan,14,0,78.08
 2024-07-30,South Sulawesi,23,0,93.9
-2024-07-30,South Sumatra,36,3,139.35999999999999
+2024-07-30,South Sumatra,36,3,139.36
 2024-07-30,Southeast Sulawesi,6,0,11.79
 2024-07-30,Special Region of Yogyakarta,13,2,137.13
 2024-07-30,West Java,14,0,58.290000000000006
-2024-07-30,West Kalimantan,30,1,1037.6299999999999
+2024-07-30,West Kalimantan,30,1,1037.63
 2024-07-30,West Papua,6,0,23.5
 2024-07-30,West Sulawesi,1,0,1.91
 2024-07-30,West Sumatra,14,0,80.42
@@ -49634,18 +49634,18 @@ acq_date,provinsi,titik,high,frp
 2024-07-31,Banten,7,0,9.24
 2024-07-31,Bengkulu,2,0,23.25
 2024-07-31,Central Java,12,0,54.48
-2024-07-31,Central Kalimantan,10,0,19.499999999999993
-2024-07-31,Central Sulawesi,20,0,31.720000000000002
+2024-07-31,Central Kalimantan,10,0,19.499999999999996
+2024-07-31,Central Sulawesi,20,0,31.72
 2024-07-31,Di luar daratan,67,0,269.8700000000002
 2024-07-31,East Java,24,0,83.86999999999999
 2024-07-31,East Kalimantan,52,0,240.14
 2024-07-31,East Nusa Tenggara,45,0,295.7
 2024-07-31,Gorontalo,3,0,11.15
 2024-07-31,Jambi,18,0,23.120000000000005
-2024-07-31,Lampung,12,0,29.330000000000002
+2024-07-31,Lampung,12,0,29.33
 2024-07-31,Maluku,3,0,17.55
 2024-07-31,North Kalimantan,1,0,3.28
-2024-07-31,North Maluku,7,0,14.379999999999999
+2024-07-31,North Maluku,7,0,14.38
 2024-07-31,North Sulawesi,1,0,3.17
 2024-07-31,Papua,26,0,141.17
 2024-07-31,Riau,10,0,40.3
