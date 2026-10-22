@@ -2,32 +2,61 @@
 <html lang="id"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>#JAGABUMI</title>
- <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237a1f0e'/%3E%3Cpath d='M32 6C34 18 46 24 46 38C46 48 40 56 32 56C24 56 18 48 18 38C18 31 22 27 25 22C26 27 29 29 31 29C30 22 29 14 32 6Z' fill='%23f97316'/%3E%3Cpath d='M32 30C36 36 40 40 40 46C40 51 36 54 32 54C28 54 24 51 24 46C24 41 29 38 32 30Z' fill='%23fcd34d'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237a1f0e'/%3E%3Cpath d='M32 6C34 18 46 24 46 38C46 48 40 56 32 56C24 56 18 48 18 38C18 31 22 27 25 22C26 27 29 29 31 29C30 22 29 14 32 6Z' fill='%23f97316'/%3E%3Cpath d='M32 30C36 36 40 40 40 46C40 51 36 54 32 54C28 54 24 51 24 46C24 41 29 38 32 30Z' fill='%23fcd34d'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
- body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f2;color:#222}
+ *{box-sizing:border-box}
+ body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f2;color:#222;-webkit-text-size-adjust:100%}
  header{padding:14px 20px;background:#7a1f0e;color:#fff}
- header h1{margin:0;font-size:24px}
- header small{display:block;opacity:.85;margin-top:2px}
+ header h1{margin:0;font-size:24px;line-height:1.25}
+ header small{display:block;opacity:.85;margin-top:3px;line-height:1.4}
  .warn{margin:12px 20px 0;padding:10px 14px;border-radius:8px;background:rgba(249,115,22,.14);border-left:4px solid #f97316;font-size:14px;line-height:1.5}
- .kpi{display:flex;gap:12px;padding:12px 20px;flex-wrap:wrap}
- .kpi div{background:#fff;padding:10px 16px;border-radius:8px;min-width:140px;color:#666;font-size:13px}
- .kpi b{display:block;font-size:24px;color:#222}
- .bar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:0 20px 8px;font-size:14px}
- .bar select{margin-left:4px;padding:3px 6px;border:1px solid #ccc;border-radius:6px}
- #mapInfo{color:#666}
+ .kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;padding:12px 20px}
+ .kpi div{background:#fff;padding:10px 14px;border-radius:8px;color:#666;font-size:13px;line-height:1.3}
+ .kpi b{display:block;font-size:24px;color:#222;margin-top:2px;overflow-wrap:anywhere}
+ .bar{display:flex;gap:6px 14px;align-items:center;flex-wrap:wrap;padding:0 20px 8px;font-size:14px}
+ .bar select{margin-left:4px;padding:4px 8px;border:1px solid #ccc;border-radius:6px;background:#fff;color:#222}
+ #mapInfo{color:#666;line-height:1.4}
  #map{height:540px;margin:0 20px;border-radius:8px}
- #legend{padding:8px 20px;font-size:13px;color:#666}
+ #legend{padding:8px 20px;font-size:13px;color:#666;line-height:1.8}
  #legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin:0 4px 0 12px;vertical-align:middle}
- .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px;padding:20px}
- .card{background:#fff;padding:12px;border-radius:8px}
- details.card{margin:12px 20px;line-height:1.5;font-size:14px}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:12px;padding:20px}
+ .card{background:#fff;padding:12px;border-radius:8px;min-width:0}
+ .card h4{margin:0 0 8px;font-size:15px;line-height:1.35}
+ .chart{position:relative;height:300px}
+ details.card{margin:12px 20px;line-height:1.55;font-size:14px}
  summary{cursor:pointer;font-size:15px}
- .foot{padding:0 20px 20px;display:block;color:#666;line-height:1.6;font-size:13px;font-weight:400}
+ .foot{padding:0 20px 24px;display:block;color:#666;line-height:1.6;font-size:13px;font-weight:400}
  .foot b{font-weight:600;color:#444}
- table.pop{border-collapse:collapse;font-size:13px;min-width:230px}
- table.pop th{text-align:left;padding:5px 10px 5px 6px;background:#f2f2f2;vertical-align:top;white-space:nowrap}
- table.pop td{padding:5px 6px;background:#fafafa}
+ table.pop{border-collapse:collapse;font-size:13px;width:100%}
+ table.pop th{text-align:left;padding:5px 10px 5px 6px;background:#f2f2f2;vertical-align:top}
+ table.pop td{padding:5px 6px;background:#fafafa;overflow-wrap:anywhere}
+ .leaflet-popup-content{margin:12px}
+
+ @media (max-width:640px){
+  header{padding:12px 14px}
+  header h1{font-size:18px}
+  header small{font-size:12.5px}
+  .warn{margin:10px 12px 0;padding:9px 12px;font-size:13px}
+  .kpi{grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px}
+  .kpi div{padding:9px 11px;font-size:12px}
+  .kpi b{font-size:20px}
+  .bar{padding:0 12px 8px}
+  .bar label{width:100%;display:flex;align-items:center;gap:8px}
+  .bar select{flex:1;margin-left:0;font-size:16px;padding:8px 10px}
+  #map{height:62vh;height:62dvh;min-height:380px;margin:0 12px}
+  #legend{padding:8px 12px;font-size:12px}
+  #legend i{margin-left:8px}
+  .grid{padding:12px;gap:10px}
+  .card{padding:10px}
+  .chart{height:280px}
+  .card h4 select{display:block;margin-top:6px;font-size:16px;padding:6px 8px;width:100%}
+  details.card{margin:10px 12px;font-size:13.5px}
+  details.card ul{padding-left:18px}
+  .foot{padding:0 12px 24px;font-size:12px}
+  table.pop{font-size:12.5px}
+  table.pop th{width:38%}
+ }
 </style></head><body>
 <header>
   <h1><b>#JAGABUMI</b>: Dashboard Pantau Titik Panas Indonesia</h1>
@@ -79,7 +108,7 @@ Dashboard ini bersifat informatif dan bukan sumber data resmi pemerintah.
  </ul>
  <p><b>Peta</b> menampilkan titik panas 1, 3, atau 7 hari terakhir sesuai pilihan rentang waktu. "Hari terakhir" dihitung dari
  tanggal data terbaru (dalam UTC). Warna titik menunjukkan intensitas panas (FRP):
- kuning (kurang dari 1 MW) sampai merah tua (20 MW atau lebih). Klik sebuah titik untuk melihat detailnya.
+ kuning (kurang dari 1 MW) sampai merah tua (20 MW atau lebih). Klik atau ketuk sebuah titik untuk melihat detailnya.
  Grafik di bawah peta merangkum data historis sejak 2018.</p>
  <p><b>Keterbatasan</b>: awan dan asap tebal dapat menghalangi deteksi, api kecil atau di bawah tajuk pohon bisa terlewat,
  dan satu kebakaran besar dapat muncul sebagai banyak titik. Jumlah titik bukan jumlah kejadian kebakaran.
@@ -87,12 +116,12 @@ Dashboard ini bersifat informatif dan bukan sumber data resmi pemerintah.
 </details>
 
 <div class="grid">
- <div class="card"><h4>Pola bulanan per tahun (jumlah titik panas)</h4><canvas id="c1"></canvas></div>
- <div class="card"><h4>10 provinsi teratas <select id="yr"></select></h4><canvas id="c2"></canvas></div>
+ <div class="card"><h4>Pola bulanan per tahun (jumlah titik panas)</h4><div class="chart"><canvas id="c1"></canvas></div></div>
+ <div class="card"><h4>10 provinsi teratas <select id="yr"></select></h4><div class="chart"><canvas id="c2"></canvas></div></div>
 </div>
 <small class="foot">Sumber data: NASA FIRMS (VIIRS S-NPP 375 m) · Batas wilayah: geoBoundaries · Basemap © OpenStreetMap<br>
 Dibangun dengan: Python, JavaScript, HTML/CSS, Leaflet, GitHub Actions<br>
-Dikembangkan oleh <b>M. Zuhad Dzulfikar</b> </small>
+Dikembangkan oleh <b>M. Zuhad Dzulfikar</b></small>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
@@ -120,7 +149,11 @@ const waktuSingkat = (d, t) => utcDate(d, t).toLocaleString('id-ID',
   {day:'numeric', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit',
    timeZone:'Asia/Jakarta'}).replace(/\./g, ':') + ' WIB';
 
-const map = L.map('map', {preferCanvas:true}).setView([-2.5, 118], 5);
+const HP = matchMedia('(max-width:640px)').matches;
+Chart.defaults.maintainAspectRatio = false;
+Chart.defaults.font.size = HP ? 11 : 12;
+
+const map = L.map('map', {preferCanvas:true}).setView([-2.5, 118], HP ? 4 : 5);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap'}).addTo(map);
 const layer = L.layerGroup().addTo(map);
 
@@ -157,17 +190,19 @@ const layer = L.layerGroup().addTo(map);
       jml++;
       const kab = r.kab && r.kab !== '-' ? r.kab : '-';
       L.circleMarker([r.latitude, r.longitude],
-        {radius:5, color: warnaFRP(r.frp), fillOpacity:.85, weight:.5})
+        {radius: HP ? 6 : 5, color: warnaFRP(r.frp), fillOpacity:.85, weight:.5})
        .bindPopup('<table class="pop">' +
           row('Tanggal', waktuWIB(r.acq_date, r.acq_time)) +
           row('Sumber', 'NASA FIRMS (VIIRS S-NPP)') +
           row('Latitude', r.latitude) + row('Longitude', r.longitude) +
           row('Intensitas panas (FRP)', r.frp + ' MW') +
           row('Tingkat keyakinan', KEYAKINAN[r.confidence] ?? r.confidence) +
-          row('Kota/Kabupaten', kab) + row('Provinsi', r.provinsi) + '</table>')
+          row('Kota/Kabupaten', kab) + row('Provinsi', r.provinsi) + '</table>',
+          {maxWidth: HP ? 260 : 320, autoPanPadding:[12, 12]})
        .addTo(layer);
     });
-    $('mapInfo').textContent = jml.toLocaleString('id') + ' titik panas dalam ' + n + ' hari terakhir. Klik titik untuk detail.';
+    $('mapInfo').textContent = jml.toLocaleString('id') + ' titik panas dalam ' + n + ' hari terakhir. ' +
+      (HP ? 'Ketuk' : 'Klik') + ' titik untuk detail.';
   }
   $('days').onchange = drawMap;
   drawMap();
@@ -182,7 +217,8 @@ const layer = L.layerGroup().addTo(map);
     (m[y] ??= Array(12).fill(0))[k] += d.titik; });
   new Chart($('c1'), {type:'line', data:{
     labels:['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'],
-    datasets: years.map(y => ({label:y, data:m[y], tension:.3}))}});
+    datasets: years.map(y => ({label:y, data:m[y], tension:.3, pointRadius: HP ? 1.5 : 3}))},
+    options:{plugins:{legend:{position:'bottom', labels:{boxWidth:HP ? 10 : 40, padding:HP ? 8 : 10}}}}});
 
   let c2;
   function top(y) {
@@ -193,7 +229,7 @@ const layer = L.layerGroup().addTo(map);
     c2?.destroy();
     c2 = new Chart($('c2'), {type:'bar', data:{labels:e.map(x => x[0]),
       datasets:[{label:'Titik panas ' + y, data:e.map(x => x[1]), backgroundColor:'#e4572e'}]},
-      options:{indexAxis:'y'}});
+      options:{indexAxis:'y', plugins:{legend:{display:!HP}}}});
   }
   $('yr').innerHTML = years.map(y => `<option>${y}</option>`).join('');
   $('yr').value = years.at(-1);
