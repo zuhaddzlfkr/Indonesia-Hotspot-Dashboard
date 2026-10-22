@@ -135,8 +135,8 @@ const layer = L.layerGroup().addTo(map);
   const lastRow = recent.reduce((a, b) => ts(b) > ts(a) ? b : a);
 
   $('sub').textContent = 'Pemantauan titik panas hutan dan lahan di seluruh Indonesia · ' + tgl(first) + ' – ' + tgl(latest);
-  $('upd').textContent = 'Deteksi satelit terakhir: ' + waktuSingkat(lastRow.acq_date, lastRow.acq_time) +
-    ' · data ditarik otomatis tiap 3 jam';
+  $('upd').textContent = 'Deteksi terakhir: ' + waktuSingkat(lastRow.acq_date, lastRow.acq_time) +
+    ' · data ditarik otomatis dari NASA FIRMS';
   $('k1').textContent = recent.filter(r => String(r.acq_date) === latest).length.toLocaleString('id');
   $('k2').textContent = recent.length.toLocaleString('id');
   const pc = {}; recent.forEach(r => pc[r.provinsi] = (pc[r.provinsi] || 0) + 1);
