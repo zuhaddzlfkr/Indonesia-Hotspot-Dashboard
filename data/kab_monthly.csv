@@ -32835,425 +32835,426 @@ ym,provinsi,kab,titik,high,frp
 2026-09,West Sumatra,Solok,8,0,48.4
 2026-09,West Sumatra,Solok Selatan,16,2,146.6
 2026-10,Aceh,Aceh Barat,1,0,1.3
-2026-10,Aceh,Aceh Besar,1,0,0.75
-2026-10,Aceh,Aceh Jaya,4,0,27.009999999999998
-2026-10,Aceh,Aceh Selatan,4,0,19.07
-2026-10,Aceh,Aceh Utara,1,0,10.06
-2026-10,Aceh,Gayo Lues,1,0,10.41
-2026-10,Aceh,Kota Lhokseumawe,5,0,6.05
-2026-10,Aceh,Nagan Raya,1,0,5.25
-2026-10,Aceh,Simeulue,1,0,3.08
-2026-10,Bali,Bangli,2,0,17.07
+2026-10,Aceh,Aceh Besar,1,0,0.8
+2026-10,Aceh,Aceh Jaya,4,0,27.0
+2026-10,Aceh,Aceh Selatan,4,0,19.1
+2026-10,Aceh,Aceh Utara,1,0,10.1
+2026-10,Aceh,Gayo Lues,1,0,10.4
+2026-10,Aceh,Kota Lhokseumawe,5,0,6.0
+2026-10,Aceh,Nagan Raya,1,0,5.2
+2026-10,Aceh,Simeulue,1,0,3.1
+2026-10,Bali,Bangli,2,0,17.1
 2026-10,Bali,Buleleng,4,0,19.5
-2026-10,Bali,Jembrana,6,0,10.299999999999999
-2026-10,Bali,Karang Asem,5,0,46.56
-2026-10,Bali,Klungkung,1,0,1.58
-2026-10,Bali,Tabanan,2,0,3.0500000000000003
-2026-10,Bangka-Belitung Islands,Bangka,269,11,1630.5799999999992
-2026-10,Bangka-Belitung Islands,Bangka Barat,93,1,538.9399999999999
-2026-10,Bangka-Belitung Islands,Bangka Selatan,1228,37,9162.230000000009
-2026-10,Bangka-Belitung Islands,Bangka Tengah,365,7,2450.2799999999997
-2026-10,Bangka-Belitung Islands,Belitung,294,13,2560.120000000003
-2026-10,Bangka-Belitung Islands,Belitung Timur,319,5,2020.0299999999997
-2026-10,Bangka-Belitung Islands,Kota Pangkal Pinang,3,0,9.15
-2026-10,Banten,Kota Cilegon,46,0,114.39000000000003
-2026-10,Banten,Kota Tangerang,11,0,22.099999999999998
-2026-10,Banten,Lebak,16,0,74.2
-2026-10,Banten,Pandeglang,64,0,380.7800000000001
-2026-10,Banten,Serang,14,0,19.39
-2026-10,Banten,Tangerang,34,2,94.21999999999997
-2026-10,Bengkulu,Bengkulu Selatan,6,0,28.769999999999996
-2026-10,Bengkulu,Bengkulu Tengah,6,0,52.580000000000005
-2026-10,Bengkulu,Bengkulu Utara,14,1,89.81
-2026-10,Bengkulu,Kaur,34,0,190.45999999999998
-2026-10,Bengkulu,Kepahiang,1,0,3.24
-2026-10,Bengkulu,Kota Bengkulu,1,0,6.32
-2026-10,Bengkulu,Lebong,11,0,74.65999999999998
-2026-10,Bengkulu,Rejang Lebong,15,1,80.06
-2026-10,Bengkulu,Seluma,9,0,78.65
-2026-10,Central Java,Banyumas,20,0,70.84
-2026-10,Central Java,Batang,15,0,62.96000000000001
-2026-10,Central Java,Blora,26,0,118.48000000000002
-2026-10,Central Java,Boyolali,9,0,33.69
-2026-10,Central Java,Brebes,18,1,62.290000000000006
-2026-10,Central Java,Cilacap,46,0,180.80000000000004
-2026-10,Central Java,Demak,6,0,16.630000000000003
-2026-10,Central Java,Grobogan,24,0,96.64
-2026-10,Central Java,Jepara,12,1,67.69
-2026-10,Central Java,Karanganyar,64,8,472.25999999999993
-2026-10,Central Java,Kebumen,10,0,39.39
-2026-10,Central Java,Kendal,8,0,19.88
-2026-10,Central Java,Klaten,10,0,26.790000000000006
-2026-10,Central Java,Kota Magelang,1,0,2.26
-2026-10,Central Java,Kota Semarang,18,0,54.53
-2026-10,Central Java,Kudus,20,0,48.65
-2026-10,Central Java,Magelang,21,0,63.949999999999996
-2026-10,Central Java,Pati,29,0,180.45
-2026-10,Central Java,Pemalang,12,0,43.65
-2026-10,Central Java,Purbalingga,1,0,34.88
-2026-10,Central Java,Purworejo,3,0,11.86
-2026-10,Central Java,Rembang,41,0,127.39000000000001
+2026-10,Bali,Jembrana,6,0,10.3
+2026-10,Bali,Karang Asem,5,0,46.6
+2026-10,Bali,Klungkung,1,0,1.6
+2026-10,Bali,Tabanan,2,0,3.1
+2026-10,Bangka-Belitung Islands,Bangka,269,11,1630.6
+2026-10,Bangka-Belitung Islands,Bangka Barat,93,1,538.9
+2026-10,Bangka-Belitung Islands,Bangka Selatan,1228,37,9162.2
+2026-10,Bangka-Belitung Islands,Bangka Tengah,365,7,2450.3
+2026-10,Bangka-Belitung Islands,Belitung,294,13,2560.1
+2026-10,Bangka-Belitung Islands,Belitung Timur,319,5,2020.0
+2026-10,Bangka-Belitung Islands,Kota Pangkal Pinang,3,0,9.2
+2026-10,Banten,Kota Cilegon,46,0,114.4
+2026-10,Banten,Kota Tangerang,11,0,22.1
+2026-10,Banten,Lebak,17,0,75.6
+2026-10,Banten,Pandeglang,66,0,386.6
+2026-10,Banten,Serang,14,0,19.4
+2026-10,Banten,Tangerang,34,2,94.2
+2026-10,Bengkulu,Bengkulu Selatan,6,0,28.8
+2026-10,Bengkulu,Bengkulu Tengah,6,0,52.6
+2026-10,Bengkulu,Bengkulu Utara,14,1,89.8
+2026-10,Bengkulu,Kaur,37,0,202.6
+2026-10,Bengkulu,Kepahiang,1,0,3.2
+2026-10,Bengkulu,Kota Bengkulu,1,0,6.3
+2026-10,Bengkulu,Lebong,11,0,74.7
+2026-10,Bengkulu,Rejang Lebong,15,1,80.1
+2026-10,Bengkulu,Seluma,9,0,78.6
+2026-10,Central Java,Banyumas,20,0,70.8
+2026-10,Central Java,Batang,15,0,63.0
+2026-10,Central Java,Blora,26,0,118.5
+2026-10,Central Java,Boyolali,9,0,33.7
+2026-10,Central Java,Brebes,18,1,62.3
+2026-10,Central Java,Cilacap,46,0,180.8
+2026-10,Central Java,Demak,6,0,16.6
+2026-10,Central Java,Grobogan,24,0,96.6
+2026-10,Central Java,Jepara,12,1,67.7
+2026-10,Central Java,Karanganyar,64,8,472.3
+2026-10,Central Java,Kebumen,10,0,39.4
+2026-10,Central Java,Kendal,8,0,19.9
+2026-10,Central Java,Klaten,10,0,26.8
+2026-10,Central Java,Kota Magelang,1,0,2.3
+2026-10,Central Java,Kota Semarang,18,0,54.5
+2026-10,Central Java,Kudus,20,0,48.6
+2026-10,Central Java,Magelang,21,0,64.0
+2026-10,Central Java,Pati,29,0,180.5
+2026-10,Central Java,Pemalang,12,0,43.6
+2026-10,Central Java,Purbalingga,1,0,34.9
+2026-10,Central Java,Purworejo,3,0,11.9
+2026-10,Central Java,Rembang,41,0,127.4
 2026-10,Central Java,Semarang,10,0,42.1
-2026-10,Central Java,Sragen,32,0,126.27000000000002
-2026-10,Central Java,Sukoharjo,5,0,12.39
-2026-10,Central Java,Tegal,14,0,57.29
-2026-10,Central Java,Temanggung,20,0,138.05
-2026-10,Central Java,Wonogiri,51,0,173.01000000000005
-2026-10,Central Java,Wonosobo,47,12,668.99
-2026-10,Central Kalimantan,Barito Selatan,1498,30,9318.84000000002
-2026-10,Central Kalimantan,Barito Timur,270,1,1350.4399999999994
-2026-10,Central Kalimantan,Barito Utara,93,1,1259.0900000000001
-2026-10,Central Kalimantan,Gunung Mas,617,3,2502.9600000000005
-2026-10,Central Kalimantan,Kapuas,10158,286,58424.42000000055
-2026-10,Central Kalimantan,Katingan,8165,158,44832.45999999993
-2026-10,Central Kalimantan,Kota Palangka Raya,3530,31,15148.209999999965
-2026-10,Central Kalimantan,Kotawaringin Barat,6228,247,52055.079999999994
-2026-10,Central Kalimantan,Kotawaringin Timur,6453,160,35656.96999999991
-2026-10,Central Kalimantan,Lamandau,1136,28,7424.800000000009
-2026-10,Central Kalimantan,Murung Raya,188,0,3236.969999999998
-2026-10,Central Kalimantan,Pulang Pisau,11776,372,67419.88999999945
-2026-10,Central Kalimantan,Seruyan,14132,560,108627.77000000041
-2026-10,Central Kalimantan,Sukamara,1310,34,9638.759999999995
-2026-10,Central Sulawesi,Banggai,687,13,2905.1700000000005
-2026-10,Central Sulawesi,Banggai Kepulauan,83,4,525.1499999999999
-2026-10,Central Sulawesi,Banggai Laut,2,0,9.1
-2026-10,Central Sulawesi,Buol,221,6,987.8399999999999
-2026-10,Central Sulawesi,Donggala,26,0,218.52
-2026-10,Central Sulawesi,Kota Palu,1,0,2.86
-2026-10,Central Sulawesi,Morowali,218,2,902.5999999999996
-2026-10,Central Sulawesi,Morowali Utara,915,73,10407.870000000003
-2026-10,Central Sulawesi,Parigi Moutong,31,2,179.7
-2026-10,Central Sulawesi,Poso,508,45,6608.399999999994
-2026-10,Central Sulawesi,Sigi,72,1,428.8500000000001
-2026-10,Central Sulawesi,Tojo Una-Una,727,15,3435.0200000000004
-2026-10,Central Sulawesi,Toli-Toli,33,0,229.61000000000004
-2026-10,Di luar daratan,-,4443,1644,31070.389999999945
-2026-10,East Java,Bangkalan,3,0,13.71
-2026-10,East Java,Banyuwangi,113,3,670.1499999999997
-2026-10,East Java,Blitar,52,1,204.79000000000005
-2026-10,East Java,Bojonegoro,81,1,291.06
-2026-10,East Java,Bondowoso,450,20,2728.0900000000033
-2026-10,East Java,Gresik,46,1,177.74999999999997
-2026-10,East Java,Jember,303,14,2134.629999999999
-2026-10,East Java,Jombang,73,0,172.68
-2026-10,East Java,Kediri,59,4,352.3400000000001
-2026-10,East Java,Kota Batu,25,0,121.56999999999998
-2026-10,East Java,Kota Kediri,5,0,9.78
-2026-10,East Java,Kota Malang,1,0,2.02
-2026-10,East Java,Kota Surabaya,8,0,14.47
-2026-10,East Java,Lamongan,59,1,233.88999999999996
-2026-10,East Java,Lumajang,140,8,1040.83
-2026-10,East Java,Madiun,45,0,215.25999999999996
-2026-10,East Java,Magetan,17,0,52.99000000000001
-2026-10,East Java,Malang,252,20,2305.63
-2026-10,East Java,Mojokerto,218,14,1038.090000000001
-2026-10,East Java,Nganjuk,72,0,254.15
+2026-10,Central Java,Sragen,32,0,126.3
+2026-10,Central Java,Sukoharjo,5,0,12.4
+2026-10,Central Java,Tegal,14,0,57.3
+2026-10,Central Java,Temanggung,20,0,138.0
+2026-10,Central Java,Wonogiri,51,0,173.0
+2026-10,Central Java,Wonosobo,47,12,669.0
+2026-10,Central Kalimantan,Barito Selatan,1510,30,9442.5
+2026-10,Central Kalimantan,Barito Timur,270,1,1350.4
+2026-10,Central Kalimantan,Barito Utara,93,1,1259.1
+2026-10,Central Kalimantan,Gunung Mas,617,3,2503.0
+2026-10,Central Kalimantan,Kapuas,10158,286,58424.4
+2026-10,Central Kalimantan,Katingan,8165,158,44832.5
+2026-10,Central Kalimantan,Kota Palangka Raya,3530,31,15148.2
+2026-10,Central Kalimantan,Kotawaringin Barat,6228,247,52055.1
+2026-10,Central Kalimantan,Kotawaringin Timur,6453,160,35657.0
+2026-10,Central Kalimantan,Lamandau,1136,28,7424.8
+2026-10,Central Kalimantan,Murung Raya,189,0,3240.1
+2026-10,Central Kalimantan,Pulang Pisau,11776,372,67419.9
+2026-10,Central Kalimantan,Seruyan,14132,560,108627.8
+2026-10,Central Kalimantan,Sukamara,1310,34,9638.8
+2026-10,Central Sulawesi,Banggai,693,13,2921.5
+2026-10,Central Sulawesi,Banggai Kepulauan,94,4,580.6
+2026-10,Central Sulawesi,Banggai Laut,4,0,20.0
+2026-10,Central Sulawesi,Buol,225,6,1015.8
+2026-10,Central Sulawesi,Donggala,27,0,250.3
+2026-10,Central Sulawesi,Kota Palu,1,0,2.9
+2026-10,Central Sulawesi,Morowali,228,2,1019.0
+2026-10,Central Sulawesi,Morowali Utara,942,73,10606.1
+2026-10,Central Sulawesi,Parigi Moutong,36,2,193.9
+2026-10,Central Sulawesi,Poso,521,45,6690.2
+2026-10,Central Sulawesi,Sigi,75,1,438.4
+2026-10,Central Sulawesi,Tojo Una-Una,737,15,3499.1
+2026-10,Central Sulawesi,Toli-Toli,53,0,321.9
+2026-10,Di luar daratan,-,4490,1644,31280.4
+2026-10,East Java,Bangkalan,3,0,13.7
+2026-10,East Java,Banyuwangi,113,3,670.2
+2026-10,East Java,Blitar,52,1,204.8
+2026-10,East Java,Bojonegoro,81,1,291.1
+2026-10,East Java,Bondowoso,450,20,2728.1
+2026-10,East Java,Gresik,46,1,177.8
+2026-10,East Java,Jember,303,14,2134.6
+2026-10,East Java,Jombang,73,0,172.7
+2026-10,East Java,Kediri,59,4,352.3
+2026-10,East Java,Kota Batu,25,0,121.6
+2026-10,East Java,Kota Kediri,5,0,9.8
+2026-10,East Java,Kota Malang,1,0,2.0
+2026-10,East Java,Kota Surabaya,8,0,14.5
+2026-10,East Java,Lamongan,59,1,233.9
+2026-10,East Java,Lumajang,140,8,1040.8
+2026-10,East Java,Madiun,45,0,215.3
+2026-10,East Java,Magetan,17,0,53.0
+2026-10,East Java,Malang,252,20,2305.6
+2026-10,East Java,Mojokerto,218,14,1038.1
+2026-10,East Java,Nganjuk,72,0,254.2
 2026-10,East Java,Ngawi,37,0,157.7
-2026-10,East Java,Pacitan,27,1,101.57
-2026-10,East Java,Pamekasan,8,0,21.11
+2026-10,East Java,Pacitan,27,1,101.6
+2026-10,East Java,Pamekasan,8,0,21.1
 2026-10,East Java,Pasuruan,355,27,2823.2
-2026-10,East Java,Ponorogo,101,1,314.4999999999999
-2026-10,East Java,Probolinggo,496,21,3668.899999999998
-2026-10,East Java,Sampang,3,0,9.120000000000001
-2026-10,East Java,Sidoarjo,29,1,106.75000000000004
-2026-10,East Java,Situbondo,219,10,1547.9100000000012
-2026-10,East Java,Sumenep,22,0,97.51000000000003
-2026-10,East Java,Trenggalek,12,0,82.92
-2026-10,East Java,Tuban,23,0,60.120000000000005
-2026-10,East Java,Tulungagung,31,0,94.79999999999997
-2026-10,East Kalimantan,Berau,361,8,2564.5099999999993
-2026-10,East Kalimantan,Kota Balikpapan,21,0,47.68999999999999
-2026-10,East Kalimantan,Kota Bontang,32,0,183.13000000000002
-2026-10,East Kalimantan,Kota Samarinda,42,0,255.49999999999991
-2026-10,East Kalimantan,Kutai Barat,1007,13,5513.249999999993
-2026-10,East Kalimantan,Kutai Kartanegara,1971,69,12151.949999999999
-2026-10,East Kalimantan,Kutai Timur,1460,43,7607.679999999991
-2026-10,East Kalimantan,Mahakam Hulu,53,1,426.95
-2026-10,East Kalimantan,Paser,3265,52,17263.759999999962
-2026-10,East Kalimantan,Penajam Paser Utara,125,10,2042.8699999999992
-2026-10,East Nusa Tenggara,Alor,456,20,3135.400000000005
-2026-10,East Nusa Tenggara,Belu,116,3,646.4899999999998
-2026-10,East Nusa Tenggara,Ende,44,0,224.58999999999995
-2026-10,East Nusa Tenggara,Flores Timur,98,0,792.1200000000002
-2026-10,East Nusa Tenggara,Kota Kupang,2,0,11.91
-2026-10,East Nusa Tenggara,Kupang,889,33,6625.470000000012
-2026-10,East Nusa Tenggara,Lembata,245,9,1658.8699999999988
-2026-10,East Nusa Tenggara,Malaka,160,5,1094.7100000000003
-2026-10,East Nusa Tenggara,Manggarai,14,0,89.55000000000001
-2026-10,East Nusa Tenggara,Manggarai Barat,36,1,190.81000000000006
-2026-10,East Nusa Tenggara,Manggarai Timur,69,4,570.9200000000002
-2026-10,East Nusa Tenggara,Nagekeo,25,0,168.01999999999998
-2026-10,East Nusa Tenggara,Ngada,58,5,399.80000000000035
-2026-10,East Nusa Tenggara,Rote Ndao,21,0,96.58
-2026-10,East Nusa Tenggara,Sabu Raijua,6,0,39.21000000000001
-2026-10,East Nusa Tenggara,Sikka,75,3,464.4199999999999
-2026-10,East Nusa Tenggara,Sumba Barat,26,0,97.91
-2026-10,East Nusa Tenggara,Sumba Barat Daya,36,0,177.01000000000005
-2026-10,East Nusa Tenggara,Sumba Tengah,31,0,128.36
-2026-10,East Nusa Tenggara,Sumba Timur,336,8,1963.38
-2026-10,East Nusa Tenggara,Timor Tengah Selatan,572,14,3464.1900000000005
-2026-10,East Nusa Tenggara,Timor Tengah Utara,627,19,4421.320000000002
-2026-10,Gorontalo,Boalemo,61,3,412.7499999999999
-2026-10,Gorontalo,Bone Bolango,173,1,680.8800000000006
-2026-10,Gorontalo,Gorontalo,142,7,790.8300000000002
-2026-10,Gorontalo,Gorontalo Utara,218,4,1249.5400000000004
-2026-10,Gorontalo,Pohuwato,249,2,817.6799999999996
-2026-10,Jakarta Special Capital Region,Kota Jakarta Selatan,1,0,2.02
-2026-10,Jakarta Special Capital Region,Kota Jakarta Utara,4,0,10.65
-2026-10,Jambi,Batang Hari,92,1,530.4500000000002
-2026-10,Jambi,Bungo,16,0,40.73
-2026-10,Jambi,Kerinci,4,0,19.04
-2026-10,Jambi,Kota Jambi,3,0,16.51
-2026-10,Jambi,Merangin,43,0,317.69
-2026-10,Jambi,Muaro Jambi,1081,47,8217.819999999989
-2026-10,Jambi,Sarolangun,111,1,475.3100000000001
-2026-10,Jambi,Tanjung Jabung Barat,46,0,123.81
-2026-10,Jambi,Tanjung Jabung Timur,1622,51,8758.879999999985
-2026-10,Jambi,Tebo,51,0,242.14999999999998
-2026-10,Lampung,Lampung Barat,6,0,26.009999999999998
-2026-10,Lampung,Lampung Selatan,124,0,721.7399999999998
-2026-10,Lampung,Lampung Tengah,222,22,2407.550000000001
-2026-10,Lampung,Lampung Timur,354,4,2349.9799999999977
-2026-10,Lampung,Lampung Utara,107,4,924.5899999999998
-2026-10,Lampung,Mesuji,569,11,4580.659999999998
-2026-10,Lampung,Pesawaran,16,0,66.85
-2026-10,Lampung,Pesisir Barat,13,0,101.28000000000002
+2026-10,East Java,Ponorogo,101,1,314.5
+2026-10,East Java,Probolinggo,496,21,3668.9
+2026-10,East Java,Sampang,3,0,9.1
+2026-10,East Java,Sidoarjo,29,1,106.8
+2026-10,East Java,Situbondo,219,10,1547.9
+2026-10,East Java,Sumenep,23,0,103.8
+2026-10,East Java,Trenggalek,12,0,82.9
+2026-10,East Java,Tuban,23,0,60.1
+2026-10,East Java,Tulungagung,31,0,94.8
+2026-10,East Kalimantan,Berau,368,8,2621.7
+2026-10,East Kalimantan,Kota Balikpapan,21,0,47.7
+2026-10,East Kalimantan,Kota Bontang,32,0,183.1
+2026-10,East Kalimantan,Kota Samarinda,43,0,259.6
+2026-10,East Kalimantan,Kutai Barat,1048,14,5916.6
+2026-10,East Kalimantan,Kutai Kartanegara,2048,69,13102.2
+2026-10,East Kalimantan,Kutai Timur,1547,43,9444.2
+2026-10,East Kalimantan,Mahakam Hulu,53,1,427.0
+2026-10,East Kalimantan,Paser,3287,54,17410.4
+2026-10,East Kalimantan,Penajam Paser Utara,125,10,2042.9
+2026-10,East Nusa Tenggara,Alor,472,20,3212.7
+2026-10,East Nusa Tenggara,Belu,116,3,646.5
+2026-10,East Nusa Tenggara,Ende,44,0,224.6
+2026-10,East Nusa Tenggara,Flores Timur,100,0,796.7
+2026-10,East Nusa Tenggara,Kota Kupang,2,0,11.9
+2026-10,East Nusa Tenggara,Kupang,951,33,6992.5
+2026-10,East Nusa Tenggara,Lembata,252,9,1685.4
+2026-10,East Nusa Tenggara,Malaka,165,5,1123.8
+2026-10,East Nusa Tenggara,Manggarai,16,0,100.6
+2026-10,East Nusa Tenggara,Manggarai Barat,37,1,193.9
+2026-10,East Nusa Tenggara,Manggarai Timur,71,4,592.2
+2026-10,East Nusa Tenggara,Nagekeo,25,0,168.0
+2026-10,East Nusa Tenggara,Ngada,58,5,399.8
+2026-10,East Nusa Tenggara,Rote Ndao,22,0,98.8
+2026-10,East Nusa Tenggara,Sabu Raijua,6,0,39.2
+2026-10,East Nusa Tenggara,Sikka,75,3,464.4
+2026-10,East Nusa Tenggara,Sumba Barat,26,0,97.9
+2026-10,East Nusa Tenggara,Sumba Barat Daya,36,0,177.0
+2026-10,East Nusa Tenggara,Sumba Tengah,31,0,128.4
+2026-10,East Nusa Tenggara,Sumba Timur,341,9,1989.6
+2026-10,East Nusa Tenggara,Timor Tengah Selatan,622,14,3723.4
+2026-10,East Nusa Tenggara,Timor Tengah Utara,650,19,4567.6
+2026-10,Gorontalo,Boalemo,71,3,460.2
+2026-10,Gorontalo,Bone Bolango,177,1,700.0
+2026-10,Gorontalo,Gorontalo,149,7,811.5
+2026-10,Gorontalo,Gorontalo Utara,226,4,1286.0
+2026-10,Gorontalo,Pohuwato,253,2,836.8
+2026-10,Jakarta Special Capital Region,Kota Jakarta Selatan,1,0,2.0
+2026-10,Jakarta Special Capital Region,Kota Jakarta Utara,4,0,10.6
+2026-10,Jambi,Batang Hari,92,1,530.4
+2026-10,Jambi,Bungo,16,0,40.7
+2026-10,Jambi,Kerinci,4,0,19.0
+2026-10,Jambi,Kota Jambi,3,0,16.5
+2026-10,Jambi,Merangin,43,0,317.7
+2026-10,Jambi,Muaro Jambi,1081,47,8217.8
+2026-10,Jambi,Sarolangun,111,1,475.3
+2026-10,Jambi,Tanjung Jabung Barat,46,0,123.8
+2026-10,Jambi,Tanjung Jabung Timur,1622,51,8758.9
+2026-10,Jambi,Tebo,51,0,242.2
+2026-10,Lampung,Lampung Barat,6,0,26.0
+2026-10,Lampung,Lampung Selatan,124,0,721.7
+2026-10,Lampung,Lampung Tengah,222,22,2407.6
+2026-10,Lampung,Lampung Timur,354,4,2350.0
+2026-10,Lampung,Lampung Utara,107,4,924.6
+2026-10,Lampung,Mesuji,569,11,4580.7
+2026-10,Lampung,Pesawaran,16,0,66.8
+2026-10,Lampung,Pesisir Barat,14,0,110.5
 2026-10,Lampung,Pringsewu,6,0,23.3
-2026-10,Lampung,Tanggamus,9,0,35.04
-2026-10,Lampung,Tulang Bawang Barat,118,1,658.0199999999996
-2026-10,Lampung,Tulangbawang,553,25,5273.35000000001
-2026-10,Lampung,Way Kanan,272,4,1514.7599999999995
-2026-10,Maluku,Buru,825,18,4812.070000000005
-2026-10,Maluku,Buru Selatan,1013,23,7560.169999999998
-2026-10,Maluku,Kepulauan Aru,125,0,332.94
-2026-10,Maluku,Kota Ambon,6,0,97.11
-2026-10,Maluku,Maluku Barat Daya,564,22,3828.4899999999975
-2026-10,Maluku,Maluku Tengah,844,6,3483.590000000002
+2026-10,Lampung,Tanggamus,9,0,35.0
+2026-10,Lampung,Tulang Bawang Barat,118,1,658.0
+2026-10,Lampung,Tulangbawang,553,25,5273.4
+2026-10,Lampung,Way Kanan,272,4,1514.8
+2026-10,Maluku,Buru,830,18,4828.1
+2026-10,Maluku,Buru Selatan,1016,23,7598.7
+2026-10,Maluku,Kepulauan Aru,127,0,346.7
+2026-10,Maluku,Kota Ambon,7,0,102.3
+2026-10,Maluku,Maluku Barat Daya,570,22,3857.1
+2026-10,Maluku,Maluku Tengah,850,7,3561.7
 2026-10,Maluku,Maluku Tenggara,50,0,224.9
-2026-10,Maluku,Maluku Tenggara Barat,705,17,3466.199999999997
-2026-10,Maluku,Seram Bagian Barat,352,1,1557.1100000000001
-2026-10,Maluku,Seram Bagian Timur,969,1,2659.2599999999998
-2026-10,North Kalimantan,Bulungan,65,2,863.9999999999998
+2026-10,Maluku,Maluku Tenggara Barat,712,17,3490.2
+2026-10,Maluku,Seram Bagian Barat,353,1,1566.6
+2026-10,Maluku,Seram Bagian Timur,969,1,2659.3
+2026-10,North Kalimantan,Bulungan,65,2,864.0
 2026-10,North Kalimantan,Kota Tarakan,7,0,34.4
-2026-10,North Kalimantan,Malinau,14,1,110.14999999999999
-2026-10,North Kalimantan,Nunukan,40,1,331.53999999999996
-2026-10,North Kalimantan,Tana Tidung,23,0,190.77
-2026-10,North Maluku,Halmahera Barat,260,7,1377.5500000000013
-2026-10,North Maluku,Halmahera Selatan,397,2,1717.2700000000007
-2026-10,North Maluku,Halmahera Tengah,625,8,3026.4700000000007
-2026-10,North Maluku,Halmahera Timur,1621,8,4277.759999999994
-2026-10,North Maluku,Halmahera Utara,785,9,3511.9800000000023
-2026-10,North Maluku,Kepulauan Sula,3,0,4.65
-2026-10,North Maluku,Kota Ternate,14,0,20.129999999999992
-2026-10,North Maluku,Kota Tidore Kepulauan,72,0,226.71000000000004
-2026-10,North Maluku,Pulau Morotai,256,5,1215.230000000001
-2026-10,North Maluku,Pulau Taliabu,150,4,480.64
-2026-10,North Sulawesi,Bolaang Mongondow,219,3,994.7800000000002
+2026-10,North Kalimantan,Malinau,14,1,110.2
+2026-10,North Kalimantan,Nunukan,40,1,331.5
+2026-10,North Kalimantan,Tana Tidung,23,0,190.8
+2026-10,North Maluku,Halmahera Barat,262,7,1385.8
+2026-10,North Maluku,Halmahera Selatan,403,2,1773.4
+2026-10,North Maluku,Halmahera Tengah,625,8,3026.5
+2026-10,North Maluku,Halmahera Timur,1625,8,4307.8
+2026-10,North Maluku,Halmahera Utara,808,9,3758.9
+2026-10,North Maluku,Kepulauan Sula,3,0,4.6
+2026-10,North Maluku,Kota Ternate,14,0,20.1
+2026-10,North Maluku,Kota Tidore Kepulauan,72,0,226.7
+2026-10,North Maluku,Pulau Morotai,259,5,1228.9
+2026-10,North Maluku,Pulau Taliabu,150,4,480.6
+2026-10,North Sulawesi,Bolaang Mongondow,228,3,1054.2
 2026-10,North Sulawesi,Bolaang Mongondow Selatan,1,0,2.3
-2026-10,North Sulawesi,Bolaang Mongondow Timur,2,0,2.6500000000000004
-2026-10,North Sulawesi,Bolaang Mongondow Utara,219,1,1383.5399999999993
-2026-10,North Sulawesi,Kepulauan Talaud,9,0,35.84
-2026-10,North Sulawesi,Kota Bitung,41,2,302.1000000000001
-2026-10,North Sulawesi,Kota Kotamobagu,1,0,7.17
-2026-10,North Sulawesi,Kota Manado,8,0,68.62
-2026-10,North Sulawesi,Kota Tomohon,25,0,44.790000000000006
-2026-10,North Sulawesi,Minahasa,50,1,271.7100000000001
+2026-10,North Sulawesi,Bolaang Mongondow Timur,2,0,2.7
+2026-10,North Sulawesi,Bolaang Mongondow Utara,224,1,1401.4
+2026-10,North Sulawesi,Kepulauan Talaud,9,0,35.8
+2026-10,North Sulawesi,Kota Bitung,49,2,348.8
+2026-10,North Sulawesi,Kota Kotamobagu,1,0,7.2
+2026-10,North Sulawesi,Kota Manado,8,0,68.6
+2026-10,North Sulawesi,Kota Tomohon,25,0,44.8
+2026-10,North Sulawesi,Minahasa,50,1,271.7
 2026-10,North Sulawesi,Minahasa Selatan,63,2,330.3
-2026-10,North Sulawesi,Minahasa Tenggara,7,0,80.13
-2026-10,North Sulawesi,Minahasa Utara,71,2,356.7900000000002
-2026-10,North Sulawesi,Siau Tagulandang Biaro,66,0,214.49999999999994
-2026-10,North Sumatra,Asahan,1,0,0.98
-2026-10,North Sumatra,Karo,2,0,1.18
-2026-10,North Sumatra,Kota Medan,3,0,13.48
-2026-10,North Sumatra,Labuhan Batu,1,0,1.01
-2026-10,North Sumatra,Labuhan Batu Selatan,2,0,18.11
-2026-10,North Sumatra,Mandailing Natal,1,0,3.85
-2026-10,North Sumatra,Padang Lawas,1,0,4.56
-2026-10,North Sumatra,Padang Lawas Utara,3,0,16.22
-2026-10,North Sumatra,Tapanuli Selatan,3,0,6.640000000000001
-2026-10,Papua,Asmat,69,10,591.1000000000001
-2026-10,Papua,Biak Numfor,8,0,23.800000000000004
-2026-10,Papua,Boven Digoel,4363,208,28385.629999999925
-2026-10,Papua,Deiyai,102,2,861.7100000000004
-2026-10,Papua,Dogiyai,211,7,2412.4
-2026-10,Papua,Intan Jaya,61,6,528.04
-2026-10,Papua,Jayapura,7,0,48.95
-2026-10,Papua,Jayawijaya,396,29,4951.739999999999
-2026-10,Papua,Keerom,54,2,277.67
-2026-10,Papua,Kepulauan Yapen,41,2,246.09999999999997
-2026-10,Papua,Kota Jayapura,6,0,29.08
-2026-10,Papua,Lanny Jaya,356,63,12072.070000000007
-2026-10,Papua,Mamberamo Raya,3,0,10.649999999999999
+2026-10,North Sulawesi,Minahasa Tenggara,7,0,80.1
+2026-10,North Sulawesi,Minahasa Utara,71,2,356.8
+2026-10,North Sulawesi,Siau Tagulandang Biaro,69,0,252.9
+2026-10,North Sumatra,Asahan,1,0,1.0
+2026-10,North Sumatra,Karo,2,0,1.2
+2026-10,North Sumatra,Kota Medan,3,0,13.5
+2026-10,North Sumatra,Labuhan Batu,1,0,1.0
+2026-10,North Sumatra,Labuhan Batu Selatan,2,0,18.1
+2026-10,North Sumatra,Mandailing Natal,1,0,3.8
+2026-10,North Sumatra,Padang Lawas,1,0,4.6
+2026-10,North Sumatra,Padang Lawas Utara,3,0,16.2
+2026-10,North Sumatra,Tapanuli Selatan,4,0,10.8
+2026-10,Papua,Asmat,70,10,593.5
+2026-10,Papua,Biak Numfor,8,0,23.8
+2026-10,Papua,Boven Digoel,4368,208,28481.0
+2026-10,Papua,Deiyai,106,2,888.0
+2026-10,Papua,Dogiyai,223,7,2501.3
+2026-10,Papua,Intan Jaya,61,6,528.0
+2026-10,Papua,Jayapura,7,0,49.0
+2026-10,Papua,Jayawijaya,396,29,4951.7
+2026-10,Papua,Keerom,54,2,277.7
+2026-10,Papua,Kepulauan Yapen,41,2,246.1
+2026-10,Papua,Kota Jayapura,6,0,29.1
+2026-10,Papua,Lanny Jaya,356,63,12072.1
+2026-10,Papua,Mamberamo Raya,3,0,10.6
 2026-10,Papua,Mamberamo Tengah,10,1,43.4
-2026-10,Papua,Mappi,3677,429,25386.579999999984
-2026-10,Papua,Merauke,22123,981,158722.13999999998
-2026-10,Papua,Mimika,2,0,6.039999999999999
-2026-10,Papua,Nabire,197,2,606.3399999999999
-2026-10,Papua,Nduga,7,5,276.58
-2026-10,Papua,Paniai,220,21,3517.660000000002
-2026-10,Papua,Pegunungan Bintang,20,1,94.97999999999999
-2026-10,Papua,Puncak,341,24,4218.8499999999985
-2026-10,Papua,Puncak Jaya,36,0,246.77999999999997
-2026-10,Papua,Sarmi,2,0,9.01
-2026-10,Papua,Supiori,1,0,4.97
-2026-10,Papua,Tolikara,11,0,88.88
-2026-10,Papua,Waropen,3,0,8.23
-2026-10,Papua,Yahukimo,147,11,2551.04
-2026-10,Papua,Yalimo,14,0,98.01999999999998
-2026-10,Riau,Bengkalis,4,0,30.519999999999996
-2026-10,Riau,Indragiri Hilir,12,0,36.54
-2026-10,Riau,Indragiri Hulu,8,0,10.74
-2026-10,Riau,Kampar,10,2,76.75999999999996
-2026-10,Riau,Kota Dumai,6,0,9.43
-2026-10,Riau,Kuantan Singingi,7,0,4.1499999999999995
+2026-10,Papua,Mappi,3687,429,25436.2
+2026-10,Papua,Merauke,22334,1007,160604.9
+2026-10,Papua,Mimika,2,0,6.0
+2026-10,Papua,Nabire,197,2,606.3
+2026-10,Papua,Nduga,7,5,276.6
+2026-10,Papua,Paniai,220,21,3517.7
+2026-10,Papua,Pegunungan Bintang,20,1,95.0
+2026-10,Papua,Puncak,341,24,4218.8
+2026-10,Papua,Puncak Jaya,36,0,246.8
+2026-10,Papua,Sarmi,2,0,9.0
+2026-10,Papua,Supiori,1,0,5.0
+2026-10,Papua,Tolikara,11,0,88.9
+2026-10,Papua,Waropen,3,0,8.2
+2026-10,Papua,Yahukimo,147,11,2551.0
+2026-10,Papua,Yalimo,14,0,98.0
+2026-10,Riau,Bengkalis,4,0,30.5
+2026-10,Riau,Indragiri Hilir,12,0,36.5
+2026-10,Riau,Indragiri Hulu,8,0,10.7
+2026-10,Riau,Kampar,10,2,76.8
+2026-10,Riau,Kota Dumai,6,0,9.4
+2026-10,Riau,Kuantan Singingi,7,0,4.2
 2026-10,Riau,Pelalawan,10,0,20.7
-2026-10,Riau,Rokan Hilir,1,0,0.64
-2026-10,Riau,Siak,8,0,6.24
-2026-10,Riau Islands,Bintan,2,0,14.42
-2026-10,Riau Islands,Karimun,3,0,11.559999999999999
-2026-10,Riau Islands,Kota Batam,6,0,20.840000000000003
-2026-10,Riau Islands,Kota Tanjung Pinang,1,0,4.51
-2026-10,Riau Islands,Natuna,3,0,21.54
-2026-10,South Kalimantan,Balangan,98,2,413.0400000000002
-2026-10,South Kalimantan,Banjar,1512,49,6567.33999999999
-2026-10,South Kalimantan,Barito Kuala,518,35,3859.669999999999
-2026-10,South Kalimantan,Hulu Sungai Selatan,575,9,3047.7600000000034
-2026-10,South Kalimantan,Hulu Sungai Tengah,37,0,139.16999999999996
-2026-10,South Kalimantan,Hulu Sungai Utara,87,2,420.4299999999999
-2026-10,South Kalimantan,Kota Banjar Baru,108,4,490.22999999999985
-2026-10,South Kalimantan,Kota Banjarmasin,5,0,22.12
-2026-10,South Kalimantan,Kota Baru,2089,73,19097.21
-2026-10,South Kalimantan,Tabalong,345,1,1035.4200000000012
-2026-10,South Kalimantan,Tanah Bumbu,1306,32,8147.69999999999
-2026-10,South Kalimantan,Tanah Laut,785,44,5233.750000000003
-2026-10,South Kalimantan,Tapin,1352,38,7119.229999999999
-2026-10,South Sulawesi,Bantaeng,22,0,62.059999999999995
-2026-10,South Sulawesi,Barru,66,1,307.76000000000005
-2026-10,South Sulawesi,Bone,279,6,1688.1199999999997
-2026-10,South Sulawesi,Bulukumba,3,0,6.4399999999999995
-2026-10,South Sulawesi,Enrekang,116,9,963.3800000000003
-2026-10,South Sulawesi,Gowa,85,2,388.69999999999993
-2026-10,South Sulawesi,Jeneponto,28,2,167.55999999999997
-2026-10,South Sulawesi,Kepulauan Selayar,52,7,851.4200000000001
-2026-10,South Sulawesi,Kota Makassar,4,0,32.05
-2026-10,South Sulawesi,Kota Palopo,7,0,11.94
-2026-10,South Sulawesi,Kota Parepare,16,1,79.00000000000001
-2026-10,South Sulawesi,Luwu,63,4,903.23
-2026-10,South Sulawesi,Luwu Timur,1519,37,10772.520000000028
-2026-10,South Sulawesi,Luwu Utara,159,14,1400.1799999999996
-2026-10,South Sulawesi,Maros,34,0,159.73999999999998
-2026-10,South Sulawesi,Pangkajene Dan Kepulauan,15,0,49.78000000000001
-2026-10,South Sulawesi,Pinrang,178,0,875.9899999999997
-2026-10,South Sulawesi,Sidenreng Rappang,130,3,718.1999999999998
-2026-10,South Sulawesi,Sinjai,6,0,29.75
-2026-10,South Sulawesi,Soppeng,113,6,695.0100000000007
-2026-10,South Sulawesi,Takalar,6,1,36.05
-2026-10,South Sulawesi,Tana Toraja,224,8,2361.9700000000016
-2026-10,South Sulawesi,Toraja Utara,91,3,836.84
-2026-10,South Sulawesi,Wajo,113,1,515.4200000000001
-2026-10,South Sumatra,Banyu Asin,1612,87,11344.27
-2026-10,South Sumatra,Danau,13,13,241.38999999999996
-2026-10,South Sumatra,Empat Lawang,37,1,380.64000000000004
+2026-10,Riau,Rokan Hilir,1,0,0.6
+2026-10,Riau,Siak,8,0,6.2
+2026-10,Riau Islands,Bintan,2,0,14.4
+2026-10,Riau Islands,Karimun,3,0,11.6
+2026-10,Riau Islands,Kota Batam,6,0,20.8
+2026-10,Riau Islands,Kota Tanjung Pinang,1,0,4.5
+2026-10,Riau Islands,Natuna,3,0,21.5
+2026-10,South Kalimantan,Balangan,98,2,413.0
+2026-10,South Kalimantan,Banjar,1512,49,6567.3
+2026-10,South Kalimantan,Barito Kuala,518,35,3859.7
+2026-10,South Kalimantan,Hulu Sungai Selatan,575,9,3047.8
+2026-10,South Kalimantan,Hulu Sungai Tengah,37,0,139.2
+2026-10,South Kalimantan,Hulu Sungai Utara,87,2,420.4
+2026-10,South Kalimantan,Kota Banjar Baru,108,4,490.2
+2026-10,South Kalimantan,Kota Banjarmasin,5,0,22.1
+2026-10,South Kalimantan,Kota Baru,2094,73,19139.6
+2026-10,South Kalimantan,Tabalong,346,1,1039.8
+2026-10,South Kalimantan,Tanah Bumbu,1306,32,8147.7
+2026-10,South Kalimantan,Tanah Laut,785,44,5233.8
+2026-10,South Kalimantan,Tapin,1352,38,7119.2
+2026-10,South Sulawesi,Bantaeng,22,0,62.1
+2026-10,South Sulawesi,Barru,66,1,307.8
+2026-10,South Sulawesi,Bone,279,6,1688.1
+2026-10,South Sulawesi,Bulukumba,3,0,6.4
+2026-10,South Sulawesi,Enrekang,116,9,963.4
+2026-10,South Sulawesi,Gowa,85,2,388.7
+2026-10,South Sulawesi,Jeneponto,28,2,167.6
+2026-10,South Sulawesi,Kepulauan Selayar,54,7,863.5
+2026-10,South Sulawesi,Kota Makassar,4,0,32.0
+2026-10,South Sulawesi,Kota Palopo,7,0,11.9
+2026-10,South Sulawesi,Kota Parepare,16,1,79.0
+2026-10,South Sulawesi,Luwu,65,4,910.0
+2026-10,South Sulawesi,Luwu Timur,1538,37,10957.3
+2026-10,South Sulawesi,Luwu Utara,159,14,1400.2
+2026-10,South Sulawesi,Maros,34,0,159.7
+2026-10,South Sulawesi,Pangkajene Dan Kepulauan,15,0,49.8
+2026-10,South Sulawesi,Pinrang,178,0,876.0
+2026-10,South Sulawesi,Sidenreng Rappang,130,3,718.2
+2026-10,South Sulawesi,Sinjai,6,0,29.8
+2026-10,South Sulawesi,Soppeng,113,6,695.0
+2026-10,South Sulawesi,Takalar,6,1,36.0
+2026-10,South Sulawesi,Tana Toraja,224,8,2362.0
+2026-10,South Sulawesi,Toraja Utara,91,3,836.8
+2026-10,South Sulawesi,Wajo,113,1,515.4
+2026-10,South Sumatra,Banyu Asin,1612,87,11344.3
+2026-10,South Sumatra,Danau,13,13,241.4
+2026-10,South Sumatra,Empat Lawang,37,1,380.6
 2026-10,South Sumatra,Kota Lubuklinggau,1,0,4.6
-2026-10,South Sumatra,Kota Pagar Alam,2,0,12.08
-2026-10,South Sumatra,Kota Palembang,3,0,21.009999999999998
-2026-10,South Sumatra,Kota Prabumulih,2,0,4.73
-2026-10,South Sumatra,Lahat,169,2,689.2199999999999
-2026-10,South Sumatra,Muara Enim,1037,27,7673.420000000003
-2026-10,South Sumatra,Musi Banyuasin,3575,144,26630.140000000058
-2026-10,South Sumatra,Musi Rawas,249,8,1815.220000000001
-2026-10,South Sumatra,Musi Rawas Utara,281,9,2023.289999999999
-2026-10,South Sumatra,Ogan Ilir,350,4,1884.7699999999986
-2026-10,South Sumatra,Ogan Komering Ilir,14998,692,142053.79999999946
-2026-10,South Sumatra,Ogan Komering Ulu,105,1,708.7299999999997
-2026-10,South Sumatra,Ogan Komering Ulu Selatan,142,6,1238.4900000000005
-2026-10,South Sumatra,Ogan Komering Ulu Timur,365,10,2090.5899999999974
-2026-10,South Sumatra,Penukal Abab Lematang Ilir,215,2,1057.6799999999994
-2026-10,Southeast Sulawesi,Bombana,393,13,3305.389999999999
-2026-10,Southeast Sulawesi,Buton,395,17,3676.35
-2026-10,Southeast Sulawesi,Buton Selatan,42,0,388.33
-2026-10,Southeast Sulawesi,Buton Tengah,67,1,308.73999999999995
-2026-10,Southeast Sulawesi,Buton Utara,147,14,1737.82
-2026-10,Southeast Sulawesi,Kolaka,239,12,1609.369999999998
-2026-10,Southeast Sulawesi,Kolaka Timur,238,6,1588.589999999999
-2026-10,Southeast Sulawesi,Kolaka Utara,124,3,461.02000000000004
-2026-10,Southeast Sulawesi,Konawe,661,12,3896.919999999998
-2026-10,Southeast Sulawesi,Konawe Kepulauan,12,0,62.400000000000006
-2026-10,Southeast Sulawesi,Konawe Selatan,364,12,2941.3899999999994
-2026-10,Southeast Sulawesi,Konawe Utara,257,8,1915.8399999999995
-2026-10,Southeast Sulawesi,Kota Baubau,41,1,441.8599999999999
-2026-10,Southeast Sulawesi,Kota Kendari,26,0,82.48
-2026-10,Southeast Sulawesi,Muna,198,13,1518.8399999999997
-2026-10,Southeast Sulawesi,Muna Barat,84,0,496.2799999999998
-2026-10,Southeast Sulawesi,Wakatobi,21,0,120.27999999999999
-2026-10,Special Region of Yogyakarta,Gunung Kidul,8,0,28.990000000000002
-2026-10,Special Region of Yogyakarta,Kulon Progo,1,0,0.58
-2026-10,Special Region of Yogyakarta,Sleman,4,0,13.139999999999999
-2026-10,West Java,Bandung,18,1,95.62
-2026-10,West Java,Bandung Barat,1,0,3.55
-2026-10,West Java,Bekasi,20,2,145.27999999999997
-2026-10,West Java,Bogor,5,0,6.82
-2026-10,West Java,Ciamis,15,0,47.910000000000004
-2026-10,West Java,Cianjur,18,0,56.74
-2026-10,West Java,Cirebon,18,0,80.43
-2026-10,West Java,Garut,57,3,222.75
-2026-10,West Java,Indramayu,94,0,350.0500000000002
-2026-10,West Java,Karawang,22,0,137.51
-2026-10,West Java,Kota Banjar,5,0,17.78
+2026-10,South Sumatra,Kota Pagar Alam,2,0,12.1
+2026-10,South Sumatra,Kota Palembang,3,0,21.0
+2026-10,South Sumatra,Kota Prabumulih,2,0,4.7
+2026-10,South Sumatra,Lahat,169,2,689.2
+2026-10,South Sumatra,Muara Enim,1037,27,7673.4
+2026-10,South Sumatra,Musi Banyuasin,3575,144,26630.1
+2026-10,South Sumatra,Musi Rawas,249,8,1815.2
+2026-10,South Sumatra,Musi Rawas Utara,281,9,2023.3
+2026-10,South Sumatra,Ogan Ilir,350,4,1884.8
+2026-10,South Sumatra,Ogan Komering Ilir,14998,692,142053.8
+2026-10,South Sumatra,Ogan Komering Ulu,105,1,708.7
+2026-10,South Sumatra,Ogan Komering Ulu Selatan,143,6,1246.8
+2026-10,South Sumatra,Ogan Komering Ulu Timur,365,10,2090.6
+2026-10,South Sumatra,Penukal Abab Lematang Ilir,215,2,1057.7
+2026-10,Southeast Sulawesi,Bombana,396,13,3322.0
+2026-10,Southeast Sulawesi,Buton,405,17,3809.1
+2026-10,Southeast Sulawesi,Buton Selatan,43,0,400.7
+2026-10,Southeast Sulawesi,Buton Tengah,67,1,308.7
+2026-10,Southeast Sulawesi,Buton Utara,151,14,1799.9
+2026-10,Southeast Sulawesi,Kolaka,241,12,1623.5
+2026-10,Southeast Sulawesi,Kolaka Timur,245,6,1621.7
+2026-10,Southeast Sulawesi,Kolaka Utara,129,3,482.2
+2026-10,Southeast Sulawesi,Konawe,706,13,4105.5
+2026-10,Southeast Sulawesi,Konawe Kepulauan,12,0,62.4
+2026-10,Southeast Sulawesi,Konawe Selatan,377,12,2987.6
+2026-10,Southeast Sulawesi,Konawe Utara,261,8,1997.6
+2026-10,Southeast Sulawesi,Kota Baubau,41,1,441.9
+2026-10,Southeast Sulawesi,Kota Kendari,26,0,82.5
+2026-10,Southeast Sulawesi,Muna,200,13,1533.6
+2026-10,Southeast Sulawesi,Muna Barat,87,0,505.4
+2026-10,Southeast Sulawesi,Wakatobi,21,0,120.3
+2026-10,Special Region of Yogyakarta,Gunung Kidul,8,0,29.0
+2026-10,Special Region of Yogyakarta,Kulon Progo,1,0,0.6
+2026-10,Special Region of Yogyakarta,Sleman,4,0,13.1
+2026-10,West Java,Bandung,18,1,95.6
+2026-10,West Java,Bandung Barat,1,0,3.6
+2026-10,West Java,Bekasi,20,2,145.3
+2026-10,West Java,Bogor,5,0,6.8
+2026-10,West Java,Ciamis,15,0,47.9
+2026-10,West Java,Cianjur,18,0,56.7
+2026-10,West Java,Cirebon,18,0,80.4
+2026-10,West Java,Garut,57,3,222.8
+2026-10,West Java,Indramayu,94,0,350.0
+2026-10,West Java,Karawang,22,0,137.5
+2026-10,West Java,Kota Banjar,5,0,17.8
 2026-10,West Java,Kota Bekasi,1,0,1.5
-2026-10,West Java,Kota Cimahi,1,0,2.87
-2026-10,West Java,Kota Tasikmalaya,12,0,47.85
-2026-10,West Java,Kuningan,32,0,147.67000000000002
-2026-10,West Java,Majalengka,22,0,76.98999999999998
-2026-10,West Java,Pangandaran,4,0,20.509999999999998
-2026-10,West Java,Purwakarta,12,1,93.66000000000001
-2026-10,West Java,Subang,37,0,155.01
-2026-10,West Java,Sukabumi,59,0,269.53
-2026-10,West Java,Sumedang,26,0,118.72999999999999
-2026-10,West Java,Tasikmalaya,30,0,112.50000000000001
+2026-10,West Java,Kota Cimahi,1,0,2.9
+2026-10,West Java,Kota Tasikmalaya,12,0,47.8
+2026-10,West Java,Kuningan,32,0,147.7
+2026-10,West Java,Majalengka,22,0,77.0
+2026-10,West Java,Pangandaran,4,0,20.5
+2026-10,West Java,Purwakarta,12,1,93.7
+2026-10,West Java,Subang,37,0,155.0
+2026-10,West Java,Sukabumi,59,0,269.5
+2026-10,West Java,Sumedang,26,0,118.7
+2026-10,West Java,Tasikmalaya,30,0,112.5
 2026-10,West Java,Waduk Cirata,1,0,5.0
-2026-10,West Kalimantan,Bengkayang,4,0,73.55
-2026-10,West Kalimantan,Kapuas Hulu,20,1,154.57999999999998
-2026-10,West Kalimantan,Kayong Utara,82,2,726.1600000000003
-2026-10,West Kalimantan,Ketapang,8554,278,92321.9100000006
-2026-10,West Kalimantan,Kubu Raya,14,2,111.10999999999999
-2026-10,West Kalimantan,Landak,16,0,120.94000000000001
-2026-10,West Kalimantan,Melawi,121,1,906.4899999999998
-2026-10,West Kalimantan,Mempawah,2,0,4.53
-2026-10,West Kalimantan,Sambas,7,0,5.08
-2026-10,West Kalimantan,Sanggau,71,7,767.83
-2026-10,West Kalimantan,Sekadau,27,5,215.64999999999995
-2026-10,West Kalimantan,Sintang,114,3,909.5499999999997
-2026-10,West Nusa Tenggara,Bima,982,59,8416.729999999992
-2026-10,West Nusa Tenggara,Dompu,251,6,2081.359999999999
-2026-10,West Nusa Tenggara,Kota Bima,24,3,201.63000000000002
+2026-10,West Kalimantan,Bengkayang,4,0,73.6
+2026-10,West Kalimantan,Kapuas Hulu,20,1,154.6
+2026-10,West Kalimantan,Kayong Utara,82,2,726.2
+2026-10,West Kalimantan,Ketapang,8554,278,92321.9
+2026-10,West Kalimantan,Kubu Raya,14,2,111.1
+2026-10,West Kalimantan,Landak,16,0,120.9
+2026-10,West Kalimantan,Melawi,121,1,906.5
+2026-10,West Kalimantan,Mempawah,2,0,4.5
+2026-10,West Kalimantan,Sambas,7,0,5.1
+2026-10,West Kalimantan,Sanggau,71,7,767.8
+2026-10,West Kalimantan,Sekadau,27,5,215.6
+2026-10,West Kalimantan,Sintang,114,3,909.6
+2026-10,West Nusa Tenggara,Bima,997,59,8608.9
+2026-10,West Nusa Tenggara,Dompu,254,6,2121.0
+2026-10,West Nusa Tenggara,Kota Bima,24,3,201.6
 2026-10,West Nusa Tenggara,Lombok Barat,32,1,170.5
-2026-10,West Nusa Tenggara,Lombok Tengah,34,0,132.84
-2026-10,West Nusa Tenggara,Lombok Timur,34,0,212.86000000000004
-2026-10,West Nusa Tenggara,Lombok Utara,8,1,71.88000000000001
-2026-10,West Nusa Tenggara,Sumbawa,606,20,5104.979999999999
-2026-10,West Nusa Tenggara,Sumbawa Barat,44,1,180.05000000000004
-2026-10,West Papua,Fakfak,3275,13,8707.909999999987
-2026-10,West Papua,Kaimana,2197,21,10533.630000000012
-2026-10,West Papua,Kota Sorong,16,0,35.019999999999996
-2026-10,West Papua,Manokwari,18,0,89.29999999999998
-2026-10,West Papua,Manokwari Selatan,14,0,108.56
-2026-10,West Papua,Maybrat,57,0,210.0400000000001
+2026-10,West Nusa Tenggara,Lombok Tengah,35,0,135.4
+2026-10,West Nusa Tenggara,Lombok Timur,34,0,212.9
+2026-10,West Nusa Tenggara,Lombok Utara,8,1,71.9
+2026-10,West Nusa Tenggara,Sumbawa,608,20,5111.7
+2026-10,West Nusa Tenggara,Sumbawa Barat,45,1,184.2
+2026-10,West Papua,Fakfak,3275,13,8707.9
+2026-10,West Papua,Kaimana,2197,21,10533.6
+2026-10,West Papua,Kota Sorong,16,0,35.0
+2026-10,West Papua,Manokwari,18,0,89.3
+2026-10,West Papua,Manokwari Selatan,14,0,108.6
+2026-10,West Papua,Maybrat,57,0,210.0
 2026-10,West Papua,Pegunungan Arfak,25,3,275.8
-2026-10,West Papua,Raja Ampat,228,3,766.4599999999999
-2026-10,West Papua,Sorong,92,0,348.45000000000005
-2026-10,West Papua,Sorong Selatan,519,5,1727.859999999999
-2026-10,West Papua,Tambrauw,68,0,265.47000000000014
-2026-10,West Papua,Teluk Bintuni,1140,9,4147.890000000007
-2026-10,West Papua,Teluk Wondama,21,0,73.14999999999999
-2026-10,West Sulawesi,Majene,43,0,194.27999999999997
-2026-10,West Sulawesi,Mamasa,169,14,1617.2600000000002
-2026-10,West Sulawesi,Mamuju,92,5,801.82
-2026-10,West Sulawesi,Mamuju Tengah,56,2,245.14999999999995
-2026-10,West Sulawesi,Mamuju Utara,3,0,28.21
-2026-10,West Sulawesi,Polewali Mandar,25,0,123.66000000000001
-2026-10,West Sumatra,Dharmasraya,4,0,15.559999999999999
-2026-10,West Sumatra,Pasaman Barat,2,0,10.059999999999999
-2026-10,West Sumatra,Sijunjung,8,0,34.54
-2026-10,West Sumatra,Solok Selatan,9,0,17.98
-2026-10,West Sumatra,Tanah Datar,4,2,144.04999999999998
+2026-10,West Papua,Raja Ampat,228,3,766.5
+2026-10,West Papua,Sorong,92,0,348.4
+2026-10,West Papua,Sorong Selatan,519,5,1727.9
+2026-10,West Papua,Tambrauw,68,0,265.5
+2026-10,West Papua,Teluk Bintuni,1140,9,4147.9
+2026-10,West Papua,Teluk Wondama,21,0,73.2
+2026-10,West Sulawesi,Majene,43,0,194.3
+2026-10,West Sulawesi,Mamasa,170,14,1623.9
+2026-10,West Sulawesi,Mamuju,92,5,801.8
+2026-10,West Sulawesi,Mamuju Tengah,56,2,245.2
+2026-10,West Sulawesi,Mamuju Utara,3,0,28.2
+2026-10,West Sulawesi,Polewali Mandar,25,0,123.7
+2026-10,West Sumatra,Dharmasraya,4,0,15.6
+2026-10,West Sumatra,Pasaman Barat,2,0,10.1
+2026-10,West Sumatra,Pesisir Selatan,3,0,14.9
+2026-10,West Sumatra,Sijunjung,8,0,34.5
+2026-10,West Sumatra,Solok Selatan,9,0,18.0
+2026-10,West Sumatra,Tanah Datar,4,2,144.0
