@@ -5,7 +5,7 @@ KEY  = os.environ["FIRMS_KEY"]
 BASE = "https://firms.modaps.eosdis.nasa.gov/api/area/csv"
 BBOX = "95,-11,141,6"
 STEP = 5
-SP, NRT = "VIIRS_SNPP_SP", "VIIRS_SNPP_NRT"
+SP, NRT = "VIIRS_SNPP_SP", "VIIRS_NOAA21_NRT"
 PROV = gpd.read_file("data/provinces.geojson")[["shapeName", "geometry"]]
 F_DAILY, F_RECENT, F_KAB = "data/daily_province.csv", "data/recent.csv", "data/kab_monthly.csv"
 F_GEO, ADM2_LOCAL = "data/kab_simple.geojson", "data/adm2.geojson"
@@ -135,7 +135,7 @@ if __name__ == "__main__":
         pd.concat(days).to_csv(F_DAILY, index=False)
         save_grid(pd.concat(grids)); save_kab(pd.concat(kabs)); save_recent(pd.concat(recents))
     else:
-        start = (today - dt.timedelta(days=10)).replace(day=1)
+        start = max((today - dt.timedelta(days=10)).replace(day=1), dt.date(2026, 11, 3))
         new = tag(pull(NRT, start, today))
         old = pd.read_csv(F_DAILY); old = old[old.acq_date < str(start)]
         pd.concat([old, daily(new)]).sort_values(["acq_date", "provinsi"]).to_csv(F_DAILY, index=False)
