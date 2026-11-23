@@ -91,10 +91,13 @@ Dashboard ini bersifat informatif dan bukan sumber data resmi pemerintah.
  Sumber panas yang terdeteksi bisa berupa kebakaran hutan dan lahan, tetapi juga pembakaran lahan pertanian atau perkebunan,
  pembakaran sampah, mercusuar gas (gas flare), aktivitas industri, atau gunung api. Dashboard ini
  <u>tidak</u> membedakan penyebabnya dan tidak memverifikasinya di lapangan. Anggap titik panas sebagai <i>petunjuk awal</i>.</p>
- <p><b>Sumber data</b>: NASA FIRMS (Fire Information for Resource Management System), sensor <b>VIIRS</b> di satelit
- <b>Suomi NPP</b> (resolusi sekitar 375 m). Data historis memakai produk <i>Standard Processing</i> yang sudah diverifikasi
- (tertunda sekitar 2–3 bulan), data terbaru memakai <i>Near Real-Time</i> yang bisa sedikit direvisi. Satu sensor yang sama dipakai
- sejak 2018 supaya tren antartahun bisa dibandingkan.</p>
+ <p><b>Sumber data</b>: NASA FIRMS (Fire Information for Resource Management System), sensor <b>VIIRS</b>
+ beresolusi sekitar 375 m. Data historis sejak 2018 sampai awal November 2026 berasal dari satelit <b>Suomi NPP</b>
+ (produk <i>Standard Processing</i> yang sudah diverifikasi, tertunda sekitar 2–3 bulan). Karena pengiriman data baru dari
+ Suomi NPP dihentikan NASA pada 2 November 2026, data terbaru sejak 3 November 2026 berasal dari satelit <b>NOAA-21</b>
+ dalam mode <i>Near Real-Time</i> (muncul sekitar 3 jam setelah satelit lewat, dan bisa sedikit direvisi).
+ Kedua sensor memakai metode deteksi yang sama, tetapi jam lintasan dan kalibrasinya berbeda, sehingga jumlah titik
+ sebelum dan sesudah pergantian sensor sebaiknya dibandingkan dengan hati-hati.</p>
  <p><b>Variabel yang dipakai</b>:</p>
  <ul>
   <li><b>Lokasi</b> (lintang dan bujur) titik panas.</li>
@@ -120,7 +123,8 @@ Dashboard ini bersifat informatif dan bukan sumber data resmi pemerintah.
  <div class="card"><h4>Pola bulanan per tahun (jumlah titik panas)</h4><div class="chart"><canvas id="c1"></canvas></div></div>
  <div class="card"><h4>10 provinsi teratas <select id="yr"></select></h4><div class="chart"><canvas id="c2"></canvas></div></div>
 </div>
-<small class="foot">Data sources: NASA FIRMS (VIIRS S-NPP 375 m) · Borderline: geoBoundaries · Basemap © OpenStreetMap<br>
+<small class="foot">Data sources: NASA FIRMS (VIIRS S-NPP s.d. 2 Nov 2026, NOAA-21 sesudahnya; 375 m)· 
+Borderline: geoBoundaries · Basemap © OpenStreetMap<br>
 Built with: Python, JavaScript, HTML/CSS, Leaflet, GitHub Actions<br>
 Developed by <b>M. Zuhad Dzulfikar</b></small>
 
@@ -194,7 +198,7 @@ const layer = L.layerGroup().addTo(map);
         {radius: HP ? 6 : 5, color: warnaFRP(r.frp), fillOpacity:.85, weight:.5})
        .bindPopup('<table class="pop">' +
           row('Tanggal', waktuWIB(r.acq_date, r.acq_time)) +
-          row('Sumber', 'NASA FIRMS (VIIRS S-NPP)') +
+          row('Sumber', 'NASA FIRMS (' + (String(r.acq_date) <= '2026-11-02' ? 'VIIRS S-NPP' : 'VIIRS NOAA-21') + ')') +
           row('Latitude', r.latitude) + row('Longitude', r.longitude) +
           row('Intensitas panas (FRP)', r.frp + ' MW') +
           row('Tingkat keyakinan', KEYAKINAN[r.confidence] ?? r.confidence) +
