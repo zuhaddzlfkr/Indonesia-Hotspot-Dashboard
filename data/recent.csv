@@ -1,242 +1,4 @@
 latitude,longitude,acq_date,acq_time,frp,confidence,provinsi,kab
--8.95196,140.88881,2026-11-19,404,7.98,n,Papua,Merauke
--8.94833,140.84494,2026-11-19,404,10.11,n,Papua,Merauke
--8.9478,140.84848,2026-11-19,404,10.11,n,Papua,Merauke
--8.94114,140.84746,2026-11-19,404,16.71,n,Papua,Merauke
--8.93781,140.84695,2026-11-19,404,16.71,n,Papua,Merauke
--8.93448,140.84645,2026-11-19,404,6.06,n,Papua,Merauke
--8.41711,140.35876,2026-11-19,404,4.83,n,Papua,Merauke
--8.32488,138.16292,2026-11-19,404,17.77,n,Papua,Merauke
--8.24736,129.02432,2026-11-19,404,6.17,n,Di luar daratan,-
--8.24573,129.02232,2026-11-19,404,20.99,n,Maluku,Maluku Barat Daya
--8.24057,129.02475,2026-11-19,404,6.17,n,Maluku,Maluku Barat Daya
--8.20359,138.90909,2026-11-19,404,7.06,n,Papua,Merauke
--8.20298,138.90906,2026-11-19,404,7.32,n,Papua,Merauke
--8.17069,138.90843,2026-11-19,404,5.09,l,Papua,Merauke
--8.15295,139.5018,2026-11-19,404,5.45,l,Papua,Merauke
--8.14951,139.5013,2026-11-19,404,6.56,n,Papua,Merauke
--8.13554,138.60844,2026-11-19,404,8.39,n,Papua,Merauke
--8.13246,139.52185,2026-11-19,404,7.03,n,Papua,Merauke
--7.94538,138.09915,2026-11-19,404,11.34,n,Papua,Merauke
--7.80177,139.2016,2026-11-19,404,19.7,n,Papua,Merauke
--5.71722,132.74132,2026-11-19,404,4.02,n,Maluku,Maluku Tenggara
--5.56553,134.59395,2026-11-19,404,5.92,n,Maluku,Kepulauan Aru
--5.55666,134.56203,2026-11-19,404,4.84,n,Maluku,Kepulauan Aru
--3.75153,134.10585,2026-11-19,404,5.25,n,West Papua,Kaimana
--10.2127,123.74033,2026-11-19,544,5.51,n,East Nusa Tenggara,Kupang
--10.14671,124.28642,2026-11-19,544,8.5,n,East Nusa Tenggara,Timor Tengah Selatan
--10.14671,124.2876,2026-11-19,544,5.78,n,East Nusa Tenggara,Timor Tengah Selatan
--10.14101,124.29188,2026-11-19,544,5.78,n,East Nusa Tenggara,Timor Tengah Selatan
--10.10547,120.6992,2026-11-19,544,7.72,n,East Nusa Tenggara,Sumba Timur
--10.07926,123.98096,2026-11-19,544,17.4,n,East Nusa Tenggara,Kupang
--10.07726,123.9774,2026-11-19,544,14.55,n,East Nusa Tenggara,Kupang
--10.07645,123.98205,2026-11-19,544,13.66,n,East Nusa Tenggara,Kupang
--9.40684,124.97697,2026-11-19,544,2.01,n,East Nusa Tenggara,Malaka
--9.11168,125.85403,2026-11-19,544,4.28,n,Di luar daratan,-
--9.03462,124.83987,2026-11-19,544,1.67,n,East Nusa Tenggara,Belu
--8.93429,117.88992,2026-11-19,544,2.82,n,West Nusa Tenggara,Sumbawa
--8.92349,126.22742,2026-11-19,544,3.51,n,Di luar daratan,-
--8.92281,126.22766,2026-11-19,544,4.16,n,Di luar daratan,-
--8.81547,118.59218,2026-11-19,544,8.83,n,West Nusa Tenggara,Bima
--8.81203,118.59159,2026-11-19,544,3.65,n,West Nusa Tenggara,Bima
--8.6016,118.92587,2026-11-19,544,3.95,n,West Nusa Tenggara,Bima
--8.58031,122.89693,2026-11-19,544,5.69,n,East Nusa Tenggara,Flores Timur
--8.57283,122.88717,2026-11-19,544,8.59,n,East Nusa Tenggara,Flores Timur
--8.54266,118.97832,2026-11-19,544,8.62,n,West Nusa Tenggara,Bima
--8.47825,124.19224,2026-11-19,544,8.4,n,East Nusa Tenggara,Alor
--8.3365,123.70563,2026-11-19,544,8.52,n,East Nusa Tenggara,Lembata
--8.31413,119.00031,2026-11-19,544,14.43,l,West Nusa Tenggara,Bima
--8.30803,124.86028,2026-11-19,544,3.38,n,East Nusa Tenggara,Alor
--8.24457,116.46313,2026-11-19,544,4.61,n,West Nusa Tenggara,Lombok Utara
--7.95726,125.88049,2026-11-19,544,1.67,n,Maluku,Maluku Barat Daya
--7.87968,126.37616,2026-11-19,544,6.94,n,Maluku,Maluku Barat Daya
--7.70154,108.99387,2026-11-19,546,7.73,n,Central Java,Cilacap
--7.24061,111.73377,2026-11-19,546,7.42,n,East Java,Bojonegoro
--7.23964,111.73219,2026-11-19,546,7.98,n,East Java,Bojonegoro
--6.96925,110.52404,2026-11-19,546,9.35,n,Central Java,Demak
--6.88255,109.28712,2026-11-19,546,3.77,n,Central Java,Tegal
--6.76268,111.96069,2026-11-19,546,10.46,l,East Java,Tuban
--6.76152,111.96233,2026-11-19,546,9.02,l,East Java,Tuban
--6.28334,120.5196,2026-11-19,546,3.09,n,South Sulawesi,Kepulauan Selayar
--5.64442,122.5236,2026-11-19,546,17.31,n,Southeast Sulawesi,Buton Selatan
--5.64367,122.52817,2026-11-19,546,17.31,n,Southeast Sulawesi,Buton Selatan
--5.55403,122.81136,2026-11-19,546,6.52,n,Southeast Sulawesi,Buton
--5.54966,120.20486,2026-11-19,546,7.03,n,South Sulawesi,Bulukumba
--5.38555,123.05292,2026-11-19,546,22.89,n,Southeast Sulawesi,Buton
--4.86224,121.89404,2026-11-19,546,7.4,n,Southeast Sulawesi,Bombana
--4.65981,120.23232,2026-11-19,546,4.58,n,South Sulawesi,Bone
--4.6286,120.2486,2026-11-19,546,7.25,n,South Sulawesi,Bone
--4.62623,120.24737,2026-11-19,546,9.83,n,South Sulawesi,Bone
--4.57051,120.21307,2026-11-19,546,4.44,n,South Sulawesi,Bone
--4.4216,122.45716,2026-11-19,546,15.88,n,Southeast Sulawesi,Konawe Selatan
--4.41697,122.45638,2026-11-19,546,15.88,n,Southeast Sulawesi,Konawe Selatan
--4.41196,122.23159,2026-11-19,546,21.3,n,Southeast Sulawesi,Konawe Selatan
--4.41119,122.23621,2026-11-19,546,14.45,n,Southeast Sulawesi,Konawe Selatan
--4.41116,122.23312,2026-11-19,546,30.86,n,Southeast Sulawesi,Konawe Selatan
--4.38433,122.77084,2026-11-19,546,14.46,n,Southeast Sulawesi,Konawe Selatan
--4.38405,119.89702,2026-11-19,546,19.44,n,South Sulawesi,Soppeng
--4.38158,122.41767,2026-11-19,546,7.74,n,Southeast Sulawesi,Konawe Selatan
--4.381,122.41562,2026-11-19,546,19.04,n,Southeast Sulawesi,Konawe Selatan
--4.38081,122.42248,2026-11-19,546,7.74,n,Southeast Sulawesi,Konawe Selatan
--4.37697,122.41685,2026-11-19,546,8.23,n,Southeast Sulawesi,Konawe Selatan
--4.20527,122.22632,2026-11-19,546,4.19,n,Southeast Sulawesi,Konawe Selatan
--4.20127,122.22281,2026-11-19,546,13.64,n,Southeast Sulawesi,Konawe Selatan
--4.20071,122.22554,2026-11-19,546,6.68,n,Southeast Sulawesi,Konawe Selatan
--3.56152,122.10492,2026-11-19,546,15.17,n,Southeast Sulawesi,Konawe Utara
--3.56114,122.10679,2026-11-19,546,28.99,n,Southeast Sulawesi,Konawe Utara
--3.56072,122.10997,2026-11-19,546,15.17,n,Southeast Sulawesi,Konawe Utara
--3.44135,120.20032,2026-11-19,546,5.84,n,South Sulawesi,Luwu
--3.37396,127.04295,2026-11-19,546,5.63,n,Maluku,Buru
--3.27772,122.1418,2026-11-19,546,5.59,n,Southeast Sulawesi,Konawe Utara
--3.23732,115.93276,2026-11-19,546,4.84,n,South Kalimantan,Kota Baru
--3.12502,122.09965,2026-11-19,546,11.75,n,Southeast Sulawesi,Konawe Utara
--3.08615,115.12023,2026-11-19,546,2.61,n,South Kalimantan,Tapin
--3.07962,126.69083,2026-11-19,546,7.14,n,Maluku,Buru
--3.00149,119.50606,2026-11-19,546,16.14,n,West Sulawesi,Mamasa
--2.9315,116.30979,2026-11-19,546,3.19,n,South Kalimantan,Kota Baru
--2.8974,116.30822,2026-11-19,546,5.49,n,South Kalimantan,Kota Baru
--2.89295,116.31482,2026-11-19,546,19.16,n,South Kalimantan,Kota Baru
--2.8924,116.31838,2026-11-19,546,4.81,n,South Kalimantan,Kota Baru
--2.87848,116.34177,2026-11-19,546,3.24,n,South Kalimantan,Kota Baru
--2.86895,116.33666,2026-11-19,546,2.55,n,South Kalimantan,Kota Baru
--2.83018,122.17359,2026-11-19,546,5.72,n,Central Sulawesi,Morowali
--2.80068,116.02938,2026-11-19,546,3.52,n,South Kalimantan,Kota Baru
--2.74381,120.1228,2026-11-19,546,2.95,n,South Sulawesi,Luwu
--2.61823,107.93468,2026-11-19,546,6.53,n,Bangka-Belitung Islands,Belitung Timur
--2.40625,116.18798,2026-11-19,546,5.65,n,South Kalimantan,Kota Baru
--2.34699,115.23946,2026-11-19,546,26.91,n,South Kalimantan,Tabalong
--2.33986,115.24191,2026-11-19,546,7.04,n,South Kalimantan,Tabalong
--2.20918,115.49734,2026-11-19,546,9.67,n,South Kalimantan,Tabalong
--1.89131,115.86492,2026-11-19,546,2.43,n,East Kalimantan,Paser
--1.86136,115.88194,2026-11-19,546,3.38,n,East Kalimantan,Paser
--1.42967,122.35674,2026-11-19,546,9.35,n,Central Sulawesi,Banggai
--1.25724,121.21426,2026-11-19,546,14.5,n,Central Sulawesi,Tojo Una-Una
--1.25273,121.21381,2026-11-19,546,14.5,n,Central Sulawesi,Tojo Una-Una
--1.03705,123.31054,2026-11-19,546,4.25,n,Central Sulawesi,Banggai
--1.00945,122.77502,2026-11-19,546,4.87,n,Central Sulawesi,Banggai
-0.48339,127.98827,2026-11-19,546,10.55,n,North Maluku,Halmahera Tengah
-0.48699,127.98585,2026-11-19,546,22.68,n,North Maluku,Halmahera Tengah
-0.51195,122.42429,2026-11-19,546,3.58,n,Gorontalo,Boalemo
-0.54182,122.4519,2026-11-19,546,16.31,h,Gorontalo,Boalemo
-0.36772,117.49301,2026-11-19,548,13.52,n,East Kalimantan,Kutai Timur
-0.36986,117.49136,2026-11-19,548,30.63,n,East Kalimantan,Kutai Timur
-0.37134,117.49242,2026-11-19,548,13.52,n,East Kalimantan,Kutai Timur
-0.38373,116.2671,2026-11-19,548,17.7,n,East Kalimantan,Kutai Kartanegara
-0.45817,116.17984,2026-11-19,548,5.52,n,East Kalimantan,Kutai Kartanegara
-0.46064,117.5433,2026-11-19,548,26.97,n,East Kalimantan,Kutai Timur
-0.49786,116.16299,2026-11-19,548,6.09,n,East Kalimantan,Kutai Kartanegara
-0.50714,116.10873,2026-11-19,548,3.11,n,East Kalimantan,Kutai Kartanegara
-0.71779,116.59538,2026-11-19,548,4.15,n,East Kalimantan,Kutai Timur
-0.78843,116.98902,2026-11-19,548,5.72,n,East Kalimantan,Kutai Timur
-0.81702,116.91568,2026-11-19,548,5.0,n,East Kalimantan,Kutai Timur
-1.35729,116.60712,2026-11-19,548,6.57,n,East Kalimantan,Kutai Timur
-3.60631,112.41275,2026-11-19,548,3.16,n,Di luar daratan,-
-3.96305,113.85664,2026-11-19,548,2.97,n,Di luar daratan,-
-4.74221,113.7275,2026-11-19,548,2.82,n,Di luar daratan,-
-5.57848,116.19284,2026-11-19,548,13.92,n,Di luar daratan,-
--8.95695,140.91966,2026-11-19,1507,1.99,n,Papua,Merauke
--8.95476,140.92265,2026-11-19,1507,2.42,n,Papua,Merauke
--8.94739,140.81871,2026-11-19,1507,0.96,n,Papua,Merauke
--8.94349,140.84851,2026-11-19,1507,2.65,n,Papua,Merauke
--8.94081,140.85172,2026-11-19,1507,2.7,n,Papua,Merauke
--8.41935,140.38437,2026-11-19,1507,0.75,n,Papua,Merauke
--8.41861,140.38553,2026-11-19,1507,0.6,n,Papua,Merauke
-0.48208,127.99067,2026-11-19,1645,4.43,n,North Maluku,Halmahera Tengah
-0.48486,127.98434,2026-11-19,1645,2.22,n,North Maluku,Halmahera Tengah
-0.48823,127.98486,2026-11-19,1645,2.22,n,North Maluku,Halmahera Tengah
-0.48989,127.97415,2026-11-19,1645,1.57,n,North Maluku,Halmahera Tengah
-0.50892,127.89574,2026-11-19,1645,0.82,n,North Maluku,Halmahera Tengah
-0.50949,127.89211,2026-11-19,1645,0.82,n,North Maluku,Halmahera Tengah
-1.49359,127.63372,2026-11-19,1645,6.84,n,North Maluku,Halmahera Barat
-1.49418,127.62998,2026-11-19,1645,6.84,n,North Maluku,Halmahera Barat
-1.49704,127.63415,2026-11-19,1645,6.84,n,North Maluku,Halmahera Barat
-2.77884,125.40536,2026-11-19,1645,14.41,n,North Sulawesi,Siau Tagulandang Biaro
--7.22773,131.60838,2026-11-19,1647,1.02,n,Maluku,Maluku Tenggara Barat
--7.18062,131.54718,2026-11-19,1647,1.19,n,Maluku,Maluku Tenggara Barat
--7.17625,131.54326,2026-11-19,1647,1.6,n,Maluku,Maluku Tenggara Barat
--5.36461,134.56407,2026-11-19,1647,1.2,n,Maluku,Kepulauan Aru
--5.36022,134.56471,2026-11-19,1647,1.2,n,Maluku,Kepulauan Aru
--4.85851,121.94513,2026-11-19,1647,1.9,n,Southeast Sulawesi,Bombana
--4.85841,121.94547,2026-11-19,1647,1.94,n,Southeast Sulawesi,Bombana
--4.70206,119.91777,2026-11-19,1647,0.7,n,South Sulawesi,Bone
--3.9005,122.41264,2026-11-19,1647,1.08,n,Southeast Sulawesi,Konawe
--3.87311,122.40851,2026-11-19,1647,1.83,n,Southeast Sulawesi,Konawe
--3.87242,122.40435,2026-11-19,1647,1.83,n,Southeast Sulawesi,Konawe
--3.87173,122.40018,2026-11-19,1647,2.29,n,Southeast Sulawesi,Konawe
--3.87104,122.39605,2026-11-19,1647,2.29,n,Southeast Sulawesi,Konawe
--3.55381,130.79906,2026-11-19,1647,1.43,n,Maluku,Seram Bagian Timur
--3.10623,126.64933,2026-11-19,1647,1.36,n,Maluku,Buru
--3.07713,126.68778,2026-11-19,1647,0.91,n,Maluku,Buru
--2.22288,115.49661,2026-11-19,1647,2.14,n,South Kalimantan,Tabalong
--2.21006,115.50555,2026-11-19,1647,7.94,n,South Kalimantan,Tabalong
--2.20891,115.49879,2026-11-19,1647,7.89,n,South Kalimantan,Tabalong
--2.17146,115.5728,2026-11-19,1647,0.87,n,South Kalimantan,Tabalong
--2.16574,115.57722,2026-11-19,1647,1.72,n,South Kalimantan,Tabalong
--2.16457,115.57425,2026-11-19,1647,1.23,n,South Kalimantan,Tabalong
--1.92723,115.84797,2026-11-19,1647,1.54,n,East Kalimantan,Paser
--1.89503,115.86979,2026-11-19,1647,1.6,n,East Kalimantan,Paser
--1.46018,127.43768,2026-11-19,1647,0.83,n,North Maluku,Halmahera Selatan
--1.4596,127.43397,2026-11-19,1647,0.83,n,North Maluku,Halmahera Selatan
--1.45679,127.43819,2026-11-19,1647,2.22,n,North Maluku,Halmahera Selatan
--1.45621,127.43447,2026-11-19,1647,2.22,n,North Maluku,Halmahera Selatan
--1.3818,122.47952,2026-11-19,1647,1.55,n,Central Sulawesi,Banggai
--1.35385,116.15553,2026-11-19,1647,2.11,n,East Kalimantan,Paser
--1.34611,122.35456,2026-11-19,1647,0.66,n,Central Sulawesi,Banggai
--1.24338,116.81909,2026-11-19,1647,1.73,n,East Kalimantan,Kota Balikpapan
--1.09336,128.3994,2026-11-19,1647,0.67,n,North Maluku,Halmahera Selatan
--0.75602,115.96846,2026-11-19,1647,2.92,n,East Kalimantan,Kutai Barat
--0.75581,115.96836,2026-11-19,1647,1.92,n,East Kalimantan,Kutai Barat
--0.54697,127.58899,2026-11-19,1647,1.55,n,North Maluku,Halmahera Selatan
-0.12921,116.63979,2026-11-19,1647,3.16,n,East Kalimantan,Kutai Timur
-0.45632,116.17995,2026-11-19,1647,3.76,n,East Kalimantan,Kutai Kartanegara
-0.64929,117.61389,2026-11-19,1647,0.99,n,East Kalimantan,Kutai Timur
-0.69222,117.55015,2026-11-19,1647,2.22,n,East Kalimantan,Kutai Timur
--10.15588,124.34497,2026-11-19,1649,0.8,n,East Nusa Tenggara,Timor Tengah Selatan
--10.14641,124.28844,2026-11-19,1649,1.05,n,East Nusa Tenggara,Timor Tengah Selatan
--10.14355,124.29309,2026-11-19,1649,1.02,n,East Nusa Tenggara,Timor Tengah Selatan
--10.14354,124.29202,2026-11-19,1649,0.97,n,East Nusa Tenggara,Timor Tengah Selatan
--9.82093,130.271,2026-11-19,1649,4.63,n,Di luar daratan,-
--9.82032,130.26686,2026-11-19,1649,4.63,n,Di luar daratan,-
--9.08404,125.73504,2026-11-19,1649,0.48,n,Di luar daratan,-
--8.86203,126.06483,2026-11-19,1649,0.81,n,Di luar daratan,-
--8.82587,126.34914,2026-11-19,1649,0.55,n,Di luar daratan,-
--8.37591,123.53277,2026-11-19,1649,4.02,n,East Nusa Tenggara,Lembata
--8.37584,123.53008,2026-11-19,1649,3.54,n,East Nusa Tenggara,Lembata
--8.37208,123.53299,2026-11-19,1649,2.03,n,East Nusa Tenggara,Lembata
--8.29035,124.57045,2026-11-19,1649,0.9,n,East Nusa Tenggara,Alor
--8.27484,123.5074,2026-11-19,1649,4.41,n,East Nusa Tenggara,Lembata
--8.27418,123.5055,2026-11-19,1649,8.65,n,East Nusa Tenggara,Lembata
--8.27407,123.50291,2026-11-19,1649,4.41,n,East Nusa Tenggara,Lembata
--8.2439,117.98172,2026-11-19,1649,3.37,n,West Nusa Tenggara,Bima
--7.89025,126.37579,2026-11-19,1649,1.03,n,Maluku,Maluku Barat Daya
--7.88968,126.37223,2026-11-19,1649,1.03,n,Maluku,Maluku Barat Daya
--7.40309,131.55934,2026-11-19,1649,1.0,n,Maluku,Maluku Tenggara Barat
-5.58569,104.47629,2026-11-19,1825,1.86,n,Di luar daratan,-
--2.87067,115.2657,2026-11-19,1828,2.41,n,South Kalimantan,Hulu Sungai Selatan
--2.03884,105.89885,2026-11-19,1828,0.72,n,Bangka-Belitung Islands,Bangka
--1.93406,115.8542,2026-11-19,1828,4.4,n,East Kalimantan,Paser
--1.89513,115.86081,2026-11-19,1828,8.68,n,East Kalimantan,Paser
--1.89491,115.86089,2026-11-19,1828,16.03,n,East Kalimantan,Paser
--1.89427,115.85516,2026-11-19,1828,8.68,n,East Kalimantan,Paser
--1.89409,115.85524,2026-11-19,1828,7.41,n,East Kalimantan,Paser
--1.88863,115.86189,2026-11-19,1828,3.17,n,East Kalimantan,Paser
--1.8878,115.85638,2026-11-19,1828,3.17,n,East Kalimantan,Paser
--1.8577,115.87759,2026-11-19,1828,1.97,n,East Kalimantan,Paser
--1.74204,105.83827,2026-11-19,1828,0.62,n,Bangka-Belitung Islands,Bangka
--0.45431,116.14525,2026-11-19,1828,2.39,n,East Kalimantan,Kutai Barat
--0.45383,116.14234,2026-11-19,1828,2.59,n,East Kalimantan,Kutai Barat
--0.41392,115.97282,2026-11-19,1828,2.02,n,East Kalimantan,Kutai Barat
-0.47947,116.6032,2026-11-19,1828,3.08,n,East Kalimantan,Kutai Timur
-0.66841,117.46521,2026-11-19,1828,2.3,n,East Kalimantan,Kutai Timur
-0.67358,117.56395,2026-11-19,1828,3.36,n,East Kalimantan,Kutai Timur
-0.67363,117.5666,2026-11-19,1828,3.46,n,East Kalimantan,Kutai Timur
-0.68046,117.56548,2026-11-19,1828,3.36,n,East Kalimantan,Kutai Timur
-0.68948,117.55638,2026-11-19,1828,4.83,n,East Kalimantan,Kutai Timur
-0.68953,117.55363,2026-11-19,1828,3.77,n,East Kalimantan,Kutai Timur
--8.11347,112.92717,2026-11-19,1830,0.97,n,East Java,Lumajang
--7.24327,111.7324,2026-11-19,1830,1.15,n,East Java,Bojonegoro
--7.09257,110.62215,2026-11-19,1830,0.45,n,Central Java,Grobogan
--6.86686,111.91056,2026-11-19,1830,2.17,n,East Java,Tuban
 -8.95935,140.92003,2026-11-20,344,3.61,n,Papua,Merauke
 -8.95882,140.92386,2026-11-20,344,3.61,n,Papua,Merauke
 -8.92106,140.93768,2026-11-20,344,3.81,n,Papua,Merauke
@@ -4781,3 +4543,237 @@ latitude,longitude,acq_date,acq_time,frp,confidence,provinsi,kab
 -1.87068,110.72599,2026-11-26,656,6.87,n,West Kalimantan,Ketapang
 -1.87023,110.72446,2026-11-26,656,6.23,n,West Kalimantan,Ketapang
 3.57744,102.09512,2026-11-26,658,3.18,n,Di luar daratan,-
+-7.54184,140.51649,2026-11-26,1615,1.57,n,Papua,Merauke
+-7.41541,140.60475,2026-11-26,1615,1.73,n,Papua,Merauke
+-7.40653,140.65578,2026-11-26,1615,1.51,n,Papua,Merauke
+-7.35789,139.181,2026-11-26,1615,2.21,n,Papua,Merauke
+-7.35423,139.18156,2026-11-26,1615,2.21,n,Papua,Merauke
+-7.27091,140.69315,2026-11-26,1615,6.44,n,Papua,Merauke
+-7.26691,140.69374,2026-11-26,1615,4.55,n,Papua,Merauke
+-7.26341,140.69785,2026-11-26,1615,4.55,n,Papua,Merauke
+-7.26291,140.69435,2026-11-26,1615,4.55,n,Papua,Merauke
+-7.25841,140.69147,2026-11-26,1615,2.18,n,Papua,Merauke
+-6.89918,140.94553,2026-11-26,1615,2.86,n,Papua,Merauke
+-6.74069,134.65277,2026-11-26,1615,1.13,n,Maluku,Kepulauan Aru
+-3.35154,128.37624,2026-11-26,1615,0.8,n,Maluku,Seram Bagian Barat
+-3.26574,127.00117,2026-11-26,1615,1.64,n,Maluku,Buru
+-1.70925,128.04599,2026-11-26,1615,1.43,n,North Maluku,Halmahera Selatan
+-1.70873,128.0428,2026-11-26,1615,1.92,n,North Maluku,Halmahera Selatan
+-1.55735,127.42609,2026-11-26,1615,1.67,n,North Maluku,Halmahera Selatan
+-1.5569,127.42625,2026-11-26,1615,2.29,n,North Maluku,Halmahera Selatan
+-1.4566,127.4344,2026-11-26,1615,1.85,n,North Maluku,Halmahera Selatan
+-1.45637,127.43462,2026-11-26,1615,3.17,n,North Maluku,Halmahera Selatan
+0.49529,127.89732,2026-11-26,1615,1.02,n,North Maluku,Halmahera Tengah
+0.49547,127.89905,2026-11-26,1615,0.79,n,North Maluku,Halmahera Tengah
+0.51244,127.89583,2026-11-26,1615,3.24,n,North Maluku,Halmahera Tengah
+0.51259,127.89761,2026-11-26,1615,2.44,n,North Maluku,Halmahera Tengah
+0.51304,127.89211,2026-11-26,1615,2.42,n,North Maluku,Halmahera Tengah
+0.51315,127.89394,2026-11-26,1615,3.8,n,North Maluku,Halmahera Tengah
+1.49288,127.62714,2026-11-26,1615,0.67,n,North Maluku,Halmahera Barat
+1.49415,127.61898,2026-11-26,1615,0.67,n,North Maluku,Halmahera Barat
+1.4988,127.62648,2026-11-26,1615,1.27,n,North Maluku,Halmahera Barat
+1.50029,127.63261,2026-11-26,1615,1.3,n,North Maluku,Halmahera Barat
+-9.8221,130.26761,2026-11-26,1617,7.61,n,Di luar daratan,-
+-8.80612,140.84784,2026-11-26,1617,1.3,n,Papua,Merauke
+-8.80199,140.84846,2026-11-26,1617,13.52,n,Papua,Merauke
+-8.7562,140.66956,2026-11-26,1617,1.31,n,Papua,Merauke
+-8.72936,140.65495,2026-11-26,1617,0.98,n,Papua,Merauke
+-8.54544,140.47226,2026-11-26,1617,1.56,n,Papua,Merauke
+-8.51929,140.49055,2026-11-26,1617,2.94,n,Papua,Merauke
+-8.4592,140.56772,2026-11-26,1617,1.18,n,Papua,Merauke
+-8.44892,140.98958,2026-11-26,1617,3.69,n,Papua,Merauke
+-8.44477,140.99017,2026-11-26,1617,3.69,n,Papua,Merauke
+-8.44422,140.98637,2026-11-26,1617,3.69,n,Papua,Merauke
+-8.44368,140.98259,2026-11-26,1617,2.94,n,Papua,Merauke
+-8.43899,140.9794,2026-11-26,1617,2.47,n,Papua,Merauke
+-8.43845,140.97562,2026-11-26,1617,3.77,n,Papua,Merauke
+-8.39646,140.97801,2026-11-26,1617,0.99,n,Papua,Merauke
+-8.35483,140.31116,2026-11-26,1617,1.11,n,Papua,Merauke
+-8.35219,140.54742,2026-11-26,1617,1.0,n,Papua,Merauke
+-8.35195,138.79726,2026-11-26,1617,4.22,n,Papua,Merauke
+-8.3497,140.58771,2026-11-26,1617,3.42,n,Papua,Merauke
+-8.34919,140.58414,2026-11-26,1617,3.92,n,Papua,Merauke
+-8.34212,140.76961,2026-11-26,1617,1.68,n,Papua,Merauke
+-8.33803,140.77022,2026-11-26,1617,1.68,n,Papua,Merauke
+-8.33753,140.76656,2026-11-26,1617,1.68,n,Papua,Merauke
+-8.32748,140.60561,2026-11-26,1617,1.1,n,Papua,Merauke
+-8.30291,140.6122,2026-11-26,1617,2.03,n,Papua,Merauke
+-8.29787,140.54099,2026-11-26,1617,4.56,n,Papua,Merauke
+-8.29738,140.53746,2026-11-26,1617,4.56,n,Papua,Merauke
+-8.29655,140.5406,2026-11-26,1617,5.61,n,Papua,Merauke
+-8.29604,140.53708,2026-11-26,1617,5.61,n,Papua,Merauke
+-8.29379,140.60625,2026-11-26,1617,1.12,n,Papua,Merauke
+-8.29211,138.49535,2026-11-26,1617,4.62,n,Papua,Merauke
+-8.28295,140.53178,2026-11-26,1617,3.28,n,Papua,Merauke
+-8.2822,140.61163,2026-11-26,1617,1.04,n,Papua,Merauke
+-8.2767,138.71379,2026-11-26,1617,1.55,n,Papua,Merauke
+-8.27455,138.2336,2026-11-26,1617,1.91,n,Papua,Merauke
+-8.25574,138.4716,2026-11-26,1617,2.7,n,Papua,Merauke
+-8.25232,138.54758,2026-11-26,1617,3.42,n,Papua,Merauke
+-8.25153,138.20045,2026-11-26,1617,0.8,n,Papua,Merauke
+-8.247,140.83145,2026-11-26,1617,1.92,n,Papua,Merauke
+-8.2379,138.4743,2026-11-26,1617,1.61,n,Papua,Merauke
+-8.23434,138.47484,2026-11-26,1617,1.61,n,Papua,Merauke
+-8.23142,138.52974,2026-11-26,1617,2.83,n,Papua,Merauke
+-8.23084,138.56616,2026-11-26,1617,2.04,n,Papua,Merauke
+-8.23017,138.4713,2026-11-26,1617,4.57,n,Papua,Merauke
+-8.22967,138.56786,2026-11-26,1617,3.83,n,Papua,Merauke
+-8.2278,138.48001,2026-11-26,1617,3.53,n,Papua,Merauke
+-8.22762,140.7225,2026-11-26,1617,4.03,n,Papua,Merauke
+-8.22726,138.56671,2026-11-26,1617,2.04,n,Papua,Merauke
+-8.22711,140.71886,2026-11-26,1617,4.56,n,Papua,Merauke
+-8.22664,138.56259,2026-11-26,1617,2.04,n,Papua,Merauke
+-8.22548,138.56427,2026-11-26,1617,3.83,n,Papua,Merauke
+-8.22525,138.52917,2026-11-26,1617,2.75,n,Papua,Merauke
+-8.22424,138.48058,2026-11-26,1617,2.68,n,Papua,Merauke
+-8.22406,140.72676,2026-11-26,1617,4.03,n,Papua,Merauke
+-8.22355,140.72308,2026-11-26,1617,4.03,n,Papua,Merauke
+-8.22304,140.71944,2026-11-26,1617,4.56,n,Papua,Merauke
+-8.22246,138.49336,2026-11-26,1617,3.56,n,Papua,Merauke
+-8.21961,140.72627,2026-11-26,1617,5.19,n,Papua,Merauke
+-8.21948,140.72368,2026-11-26,1617,13.19,h,Papua,Merauke
+-8.21908,140.72261,2026-11-26,1617,5.19,n,Papua,Merauke
+-8.21163,138.22278,2026-11-26,1617,1.34,n,Papua,Merauke
+-8.20753,138.24376,2026-11-26,1617,1.43,n,Papua,Merauke
+-8.20666,140.78009,2026-11-26,1617,2.14,n,Papua,Merauke
+-8.2034,138.19153,2026-11-26,1617,0.97,n,Papua,Merauke
+-8.20244,138.37866,2026-11-26,1617,1.78,n,Papua,Merauke
+-8.20226,138.38004,2026-11-26,1617,1.62,n,Papua,Merauke
+-8.20207,138.54526,2026-11-26,1617,2.1,n,Papua,Merauke
+-8.20183,138.37463,2026-11-26,1617,1.78,n,Papua,Merauke
+-8.20167,138.37599,2026-11-26,1617,1.62,n,Papua,Merauke
+-8.20146,138.54117,2026-11-26,1617,2.1,n,Papua,Merauke
+-8.19988,138.19206,2026-11-26,1617,0.97,n,Papua,Merauke
+-8.19369,138.53813,2026-11-26,1617,2.69,n,Papua,Merauke
+-8.19308,138.53404,2026-11-26,1617,2.69,n,Papua,Merauke
+-8.1895,138.53459,2026-11-26,1617,1.83,n,Papua,Merauke
+-8.18715,138.54332,2026-11-26,1617,3.54,n,Papua,Merauke
+-8.18714,138.39751,2026-11-26,1617,2.74,n,Papua,Merauke
+-8.18654,138.53925,2026-11-26,1617,1.83,n,Papua,Merauke
+-8.18593,138.53513,2026-11-26,1617,1.83,n,Papua,Merauke
+-8.18358,138.54387,2026-11-26,1617,0.98,n,Papua,Merauke
+-8.18298,138.39401,2026-11-26,1617,2.54,n,Papua,Merauke
+-8.17943,138.39455,2026-11-26,1617,2.54,n,Papua,Merauke
+-8.16179,138.64423,2026-11-26,1617,2.49,n,Papua,Merauke
+-8.15709,138.24615,2026-11-26,1617,0.77,n,Papua,Merauke
+-8.15649,138.24217,2026-11-26,1617,0.77,n,Papua,Merauke
+-8.1531,138.29166,2026-11-26,1617,1.15,n,Papua,Merauke
+-8.14378,138.62155,2026-11-26,1617,2.99,n,Papua,Merauke
+-8.13737,140.91054,2026-11-26,1617,3.16,n,Papua,Merauke
+-8.1366,138.62263,2026-11-26,1617,2.97,n,Papua,Merauke
+-8.13432,140.91106,2026-11-26,1617,2.91,n,Papua,Merauke
+-8.12853,138.65675,2026-11-26,1617,3.88,n,Papua,Merauke
+-8.12259,138.66615,2026-11-26,1617,1.99,n,Papua,Merauke
+-8.11693,138.72664,2026-11-26,1617,2.74,n,Papua,Merauke
+-8.10573,138.65172,2026-11-26,1617,2.58,n,Papua,Merauke
+-8.09924,140.78505,2026-11-26,1617,4.29,n,Papua,Merauke
+-8.09871,140.7814,2026-11-26,1617,4.86,n,Papua,Merauke
+-8.0947,139.78143,2026-11-26,1617,2.72,n,Papua,Merauke
+-8.08821,140.59622,2026-11-26,1617,1.76,n,Papua,Merauke
+-8.06424,140.65784,2026-11-26,1617,2.58,n,Papua,Merauke
+-8.06415,140.46031,2026-11-26,1617,1.62,n,Papua,Merauke
+-8.0444,140.13281,2026-11-26,1617,1.37,n,Papua,Merauke
+-8.03826,140.47835,2026-11-26,1617,1.21,n,Papua,Merauke
+-8.03785,138.84859,2026-11-26,1617,2.1,n,Papua,Merauke
+-8.03528,140.48587,2026-11-26,1617,1.69,n,Papua,Merauke
+-8.03427,140.47893,2026-11-26,1617,2.03,n,Papua,Merauke
+-8.03152,139.90486,2026-11-26,1617,2.51,n,Papua,Merauke
+-8.03128,140.48647,2026-11-26,1617,1.69,n,Papua,Merauke
+-8.01132,140.48941,2026-11-26,1617,1.61,n,Papua,Merauke
+-8.01082,140.48593,2026-11-26,1617,1.61,n,Papua,Merauke
+-8.00733,140.49001,2026-11-26,1617,1.61,n,Papua,Merauke
+-8.00683,140.48654,2026-11-26,1617,1.61,n,Papua,Merauke
+-7.98008,139.73743,2026-11-26,1617,2.17,n,Papua,Merauke
+-7.97781,139.955,2026-11-26,1617,2.11,n,Papua,Merauke
+-7.96512,140.16751,2026-11-26,1617,3.13,n,Papua,Merauke
+-7.94592,140.08946,2026-11-26,1617,1.31,n,Papua,Merauke
+-7.9445,138.717,2026-11-26,1617,2.96,n,Papua,Merauke
+-7.94029,138.71338,2026-11-26,1617,1.05,n,Papua,Merauke
+-7.93756,140.7598,2026-11-26,1617,7.63,n,Papua,Merauke
+-7.93686,140.99213,2026-11-26,1617,3.35,n,Papua,Merauke
+-7.93599,139.09375,2026-11-26,1617,1.59,n,Papua,Merauke
+-7.93234,140.63652,2026-11-26,1617,0.7,n,Papua,Merauke
+-7.93193,139.82957,2026-11-26,1617,2.33,n,Papua,Merauke
+-7.92879,139.83488,2026-11-26,1617,2.44,n,Papua,Merauke
+-7.92045,139.83131,2026-11-26,1617,4.23,n,Papua,Merauke
+-7.91349,139.8372,2026-11-26,1617,1.81,n,Papua,Merauke
+-7.91219,139.77443,2026-11-26,1617,2.82,n,Papua,Merauke
+-7.90515,139.83362,2026-11-26,1617,1.64,n,Papua,Merauke
+-7.88919,140.56383,2026-11-26,1617,2.08,n,Papua,Merauke
+-7.88634,139.73026,2026-11-26,1617,2.17,n,Papua,Merauke
+-7.87873,139.73138,2026-11-26,1617,9.0,n,Papua,Merauke
+-7.87493,139.73195,2026-11-26,1617,9.0,n,Papua,Merauke
+-7.82294,138.91263,2026-11-26,1617,0.67,n,Papua,Merauke
+-7.8036,139.77312,2026-11-26,1617,7.74,n,Papua,Merauke
+-7.79708,140.14496,2026-11-26,1617,2.43,n,Papua,Merauke
+-7.79573,138.80493,2026-11-26,1617,2.74,n,Papua,Merauke
+-7.7676,138.83919,2026-11-26,1617,2.64,n,Papua,Merauke
+-7.70158,139.89664,2026-11-26,1617,2.55,n,Papua,Merauke
+-1.58618,122.09011,2026-11-26,1756,2.18,n,Central Sulawesi,Banggai
+-1.586,122.08897,2026-11-26,1756,3.36,n,Central Sulawesi,Banggai
+-1.11227,116.74924,2026-11-26,1756,1.17,n,East Kalimantan,Kota Balikpapan
+-1.0521,116.90249,2026-11-26,1756,0.72,n,East Kalimantan,Kutai Kartanegara
+-1.01254,116.7785,2026-11-26,1756,0.62,n,East Kalimantan,Penajam Paser Utara
+-0.94114,117.07825,2026-11-26,1756,0.39,n,East Kalimantan,Kutai Kartanegara
+-0.73514,117.03867,2026-11-26,1756,1.03,n,East Kalimantan,Kutai Kartanegara
+-0.70521,117.11336,2026-11-26,1756,0.67,n,East Kalimantan,Kutai Kartanegara
+-0.58348,121.19059,2026-11-26,1756,3.2,n,Di luar daratan,-
+0.09689,117.47649,2026-11-26,1756,1.53,n,East Kalimantan,Kota Bontang
+0.3755,117.5423,2026-11-26,1756,1.32,n,East Kalimantan,Kutai Timur
+0.80049,110.71071,2026-11-26,1756,1.29,n,West Kalimantan,Sanggau
+0.89576,124.08299,2026-11-26,1756,1.25,n,North Sulawesi,Bolaang Mongondow
+1.18387,124.05831,2026-11-26,1756,9.8,n,Di luar daratan,-
+1.19116,118.09511,2026-11-26,1756,1.17,n,East Kalimantan,Berau
+1.19129,118.09582,2026-11-26,1756,0.87,n,East Kalimantan,Berau
+1.37577,104.15937,2026-11-26,1756,1.93,n,Di luar daratan,-
+1.37666,104.15363,2026-11-26,1756,2.28,n,Di luar daratan,-
+2.73925,102.3948,2026-11-26,1756,1.78,n,Di luar daratan,-
+2.74091,102.39416,2026-11-26,1756,1.98,n,Di luar daratan,-
+3.52435,113.31391,2026-11-26,1756,0.96,n,Di luar daratan,-
+3.76339,112.06578,2026-11-26,1756,3.77,n,Di luar daratan,-
+4.01923,103.34261,2026-11-26,1756,1.04,n,Di luar daratan,-
+4.55557,103.45766,2026-11-26,1756,0.95,n,Di luar daratan,-
+4.56708,103.45558,2026-11-26,1756,1.57,n,Di luar daratan,-
+4.5676,103.45198,2026-11-26,1756,1.57,n,Di luar daratan,-
+4.74042,113.74297,2026-11-26,1756,1.71,n,Di luar daratan,-
+4.97843,112.98373,2026-11-26,1756,1.83,n,Di luar daratan,-
+4.97897,112.98029,2026-11-26,1756,1.43,n,Di luar daratan,-
+-8.11467,112.92631,2026-11-26,1758,9.82,n,East Java,Lumajang
+-8.11404,112.92197,2026-11-26,1758,4.71,n,East Java,Malang
+-8.11391,112.92492,2026-11-26,1758,20.6,n,East Java,Lumajang
+-8.11328,112.92077,2026-11-26,1758,1.42,n,East Java,Malang
+-8.11036,112.92525,2026-11-26,1758,3.28,n,East Java,Lumajang
+-7.54215,110.44447,2026-11-26,1758,1.18,n,Central Java,Magelang
+-7.24139,111.73379,2026-11-26,1758,0.57,n,East Java,Bojonegoro
+-6.31987,113.00585,2026-11-26,1758,1.05,n,Di luar daratan,-
+-3.90553,122.41636,2026-11-26,1758,2.85,n,Southeast Sulawesi,Konawe
+-3.90006,122.42204,2026-11-26,1758,2.85,n,Southeast Sulawesi,Konawe
+-3.89965,122.41801,2026-11-26,1758,3.87,n,Southeast Sulawesi,Konawe
+-3.7385,122.03186,2026-11-26,1758,1.29,n,Southeast Sulawesi,Konawe
+-3.73787,122.02742,2026-11-26,1758,1.28,n,Southeast Sulawesi,Konawe
+-3.70058,116.14912,2026-11-26,1758,0.57,n,South Kalimantan,Kota Baru
+-3.45695,122.04708,2026-11-26,1758,1.6,n,Southeast Sulawesi,Konawe Utara
+-2.94425,115.23212,2026-11-26,1758,1.47,n,South Kalimantan,Tapin
+-2.64982,103.42826,2026-11-26,1758,1.92,n,South Sumatra,Musi Banyuasin
+-2.64892,103.42269,2026-11-26,1758,1.92,n,South Sumatra,Musi Banyuasin
+-2.48074,103.11642,2026-11-26,1758,1.21,n,South Sumatra,Musi Rawas Utara
+-2.38773,114.65272,2026-11-26,1758,0.89,n,Central Kalimantan,Barito Selatan
+-2.38412,114.65327,2026-11-26,1758,0.71,n,Central Kalimantan,Barito Selatan
+-2.21273,115.49564,2026-11-26,1758,2.54,n,South Kalimantan,Tabalong
+-2.21194,115.49321,2026-11-26,1758,1.47,n,South Kalimantan,Tabalong
+-2.17493,115.57883,2026-11-26,1758,1.85,n,South Kalimantan,Tabalong
+-2.16735,115.57994,2026-11-26,1758,1.74,n,South Kalimantan,Tabalong
+-1.94222,115.85143,2026-11-26,1758,1.57,n,East Kalimantan,Paser
+-1.93913,115.85678,2026-11-26,1758,2.29,n,East Kalimantan,Paser
+-1.89691,115.86342,2026-11-26,1758,10.72,n,East Kalimantan,Paser
+-1.89307,115.86401,2026-11-26,1758,10.72,n,East Kalimantan,Paser
+-1.89234,115.85925,2026-11-26,1758,3.02,n,East Kalimantan,Paser
+-1.88924,115.86461,2026-11-26,1758,4.42,n,East Kalimantan,Paser
+-1.8885,115.85986,2026-11-26,1758,2.28,n,East Kalimantan,Paser
+-1.57123,103.68755,2026-11-26,1758,1.81,n,Jambi,Muaro Jambi
+-1.20271,103.38138,2026-11-26,1758,0.59,n,Jambi,Tanjung Jabung Barat
+-1.19067,103.37109,2026-11-26,1758,0.3,n,Jambi,Tanjung Jabung Barat
+-1.17424,103.49015,2026-11-26,1758,0.45,n,Jambi,Tanjung Jabung Timur
+-1.02532,103.36118,2026-11-26,1758,0.66,n,Jambi,Tanjung Jabung Barat
+4.98751,96.69981,2026-11-26,1936,0.93,n,Aceh,Bireuen
+5.22549,97.07378,2026-11-26,1936,0.61,n,Aceh,Kota Lhokseumawe
