@@ -33320,14 +33320,14 @@ ym,provinsi,kab,titik,high,frp
 2026-11,Central Kalimantan,Barito Utara,124,0,1766.4
 2026-11,Central Kalimantan,Gunung Mas,13,0,124.6
 2026-11,Central Kalimantan,Kapuas,997,15,4584.7
-2026-11,Central Kalimantan,Katingan,77,0,473.3
+2026-11,Central Kalimantan,Katingan,78,0,481.2
 2026-11,Central Kalimantan,Kota Palangka Raya,35,1,178.2
-2026-11,Central Kalimantan,Kotawaringin Barat,55,1,585.0
-2026-11,Central Kalimantan,Kotawaringin Timur,87,2,860.4
+2026-11,Central Kalimantan,Kotawaringin Barat,60,1,620.7
+2026-11,Central Kalimantan,Kotawaringin Timur,92,2,889.4
 2026-11,Central Kalimantan,Lamandau,20,0,153.3
 2026-11,Central Kalimantan,Murung Raya,36,2,501.7
 2026-11,Central Kalimantan,Pulang Pisau,168,8,1190.9
-2026-11,Central Kalimantan,Seruyan,429,18,10098.7
+2026-11,Central Kalimantan,Seruyan,434,18,10147.3
 2026-11,Central Kalimantan,Sukamara,12,0,65.1
 2026-11,Central Sulawesi,Banggai,268,2,1431.3
 2026-11,Central Sulawesi,Banggai Kepulauan,74,1,670.2
@@ -33342,7 +33342,7 @@ ym,provinsi,kab,titik,high,frp
 2026-11,Central Sulawesi,Sigi,6,0,31.5
 2026-11,Central Sulawesi,Tojo Una-Una,170,2,2011.1
 2026-11,Central Sulawesi,Toli-Toli,11,0,77.8
-2026-11,Di luar daratan,-,1354,24,7466.7
+2026-11,Di luar daratan,-,1366,24,8292.6
 2026-11,East Java,Banyuwangi,11,0,76.5
 2026-11,East Java,Blitar,2,0,15.6
 2026-11,East Java,Bojonegoro,17,0,64.1
@@ -33375,11 +33375,11 @@ ym,provinsi,kab,titik,high,frp
 2026-11,East Kalimantan,Kota Balikpapan,30,0,59.5
 2026-11,East Kalimantan,Kota Bontang,52,0,494.5
 2026-11,East Kalimantan,Kota Samarinda,24,0,183.9
-2026-11,East Kalimantan,Kutai Barat,430,2,3875.2
-2026-11,East Kalimantan,Kutai Kartanegara,647,6,4259.8
-2026-11,East Kalimantan,Kutai Timur,1180,22,7118.2
+2026-11,East Kalimantan,Kutai Barat,433,2,3901.5
+2026-11,East Kalimantan,Kutai Kartanegara,649,6,4270.8
+2026-11,East Kalimantan,Kutai Timur,1183,22,7141.4
 2026-11,East Kalimantan,Mahakam Hulu,31,1,162.0
-2026-11,East Kalimantan,Paser,378,2,1841.3
+2026-11,East Kalimantan,Paser,386,3,1946.3
 2026-11,East Kalimantan,Penajam Paser Utara,13,0,308.5
 2026-11,East Nusa Tenggara,Alor,167,7,1613.5
 2026-11,East Nusa Tenggara,Belu,21,0,88.8
@@ -33389,7 +33389,7 @@ ym,provinsi,kab,titik,high,frp
 2026-11,East Nusa Tenggara,Lembata,129,5,1064.2
 2026-11,East Nusa Tenggara,Malaka,69,1,371.4
 2026-11,East Nusa Tenggara,Manggarai,9,0,80.2
-2026-11,East Nusa Tenggara,Manggarai Barat,13,1,405.2
+2026-11,East Nusa Tenggara,Manggarai Barat,15,1,433.8
 2026-11,East Nusa Tenggara,Manggarai Timur,83,0,494.0
 2026-11,East Nusa Tenggara,Nagekeo,8,0,49.7
 2026-11,East Nusa Tenggara,Ngada,15,0,92.8
@@ -33503,7 +33503,7 @@ ym,provinsi,kab,titik,high,frp
 2026-11,South Kalimantan,Hulu Sungai Selatan,66,0,381.1
 2026-11,South Kalimantan,Hulu Sungai Tengah,6,0,47.9
 2026-11,South Kalimantan,Hulu Sungai Utara,45,0,219.4
-2026-11,South Kalimantan,Kota Baru,130,2,1108.1
+2026-11,South Kalimantan,Kota Baru,132,3,1122.8
 2026-11,South Kalimantan,Tabalong,140,0,482.8
 2026-11,South Kalimantan,Tanah Bumbu,31,0,207.9
 2026-11,South Kalimantan,Tanah Laut,87,0,447.2
@@ -33533,7 +33533,7 @@ ym,provinsi,kab,titik,high,frp
 2026-11,South Sulawesi,Wajo,57,0,329.3
 2026-11,South Sumatra,Banyu Asin,59,0,183.1
 2026-11,South Sumatra,Empat Lawang,10,0,50.7
-2026-11,South Sumatra,Kota Lubuklinggau,1,0,3.1
+2026-11,South Sumatra,Kota Lubuklinggau,2,0,10.1
 2026-11,South Sumatra,Kota Pagar Alam,2,0,23.0
 2026-11,South Sumatra,Kota Palembang,1,0,4.7
 2026-11,South Sumatra,Kota Prabumulih,7,0,61.7
@@ -33541,8 +33541,8 @@ ym,provinsi,kab,titik,high,frp
 2026-11,South Sumatra,Muara Enim,70,0,362.7
 2026-11,South Sumatra,Musi Banyuasin,79,0,473.2
 2026-11,South Sumatra,Musi Rawas,25,0,154.1
-2026-11,South Sumatra,Musi Rawas Utara,19,0,111.8
-2026-11,South Sumatra,Ogan Ilir,45,0,232.2
+2026-11,South Sumatra,Musi Rawas Utara,20,0,115.3
+2026-11,South Sumatra,Ogan Ilir,46,0,236.4
 2026-11,South Sumatra,Ogan Komering Ilir,275,3,1561.1
 2026-11,South Sumatra,Ogan Komering Ulu,47,0,257.0
 2026-11,South Sumatra,Ogan Komering Ulu Selatan,23,0,159.4
@@ -33588,14 +33588,14 @@ ym,provinsi,kab,titik,high,frp
 2026-11,West Java,Tasikmalaya,1,0,1.6
 2026-11,West Kalimantan,Kapuas Hulu,1,0,7.0
 2026-11,West Kalimantan,Kayong Utara,3,0,12.9
-2026-11,West Kalimantan,Ketapang,89,0,954.3
+2026-11,West Kalimantan,Ketapang,90,0,960.9
 2026-11,West Kalimantan,Landak,5,0,33.4
 2026-11,West Kalimantan,Mempawah,1,0,5.3
 2026-11,West Kalimantan,Sambas,1,0,8.8
 2026-11,West Kalimantan,Sanggau,11,0,114.5
-2026-11,West Kalimantan,Sekadau,2,0,10.8
-2026-11,West Kalimantan,Sintang,2,0,10.2
-2026-11,West Nusa Tenggara,Bima,340,9,3301.5
+2026-11,West Kalimantan,Sekadau,4,0,27.1
+2026-11,West Kalimantan,Sintang,4,0,23.0
+2026-11,West Nusa Tenggara,Bima,343,9,3328.1
 2026-11,West Nusa Tenggara,Dompu,42,0,289.9
 2026-11,West Nusa Tenggara,Kota Bima,2,0,15.2
 2026-11,West Nusa Tenggara,Lombok Barat,3,0,15.6

@@ -5990,3 +5990,62 @@ latitude,longitude,acq_date,acq_time,frp,confidence,provinsi,kab
 2.35886,128.17459,2026-11-28,438,4.45,n,North Maluku,Pulau Morotai
 2.43713,128.67903,2026-11-28,438,2.58,n,North Maluku,Pulau Morotai
 5.99183,125.05009,2026-11-28,440,6.07,n,Di luar daratan,-
+-8.82826,120.22501,2026-11-28,616,14.91,n,East Nusa Tenggara,Manggarai Barat
+-8.82751,120.2289,2026-11-28,616,13.74,n,East Nusa Tenggara,Manggarai Barat
+-8.57648,118.96336,2026-11-28,616,11.27,n,West Nusa Tenggara,Bima
+-8.50101,118.98328,2026-11-28,616,10.2,n,West Nusa Tenggara,Bima
+-8.50043,118.98502,2026-11-28,616,5.19,n,West Nusa Tenggara,Bima
+-3.65724,104.4732,2026-11-28,618,4.22,n,South Sumatra,Ogan Ilir
+-3.49547,116.25887,2026-11-28,618,6.52,n,South Kalimantan,Kota Baru
+-3.49451,116.25982,2026-11-28,618,8.13,h,South Kalimantan,Kota Baru
+-3.15784,102.84316,2026-11-28,618,7.01,n,South Sumatra,Kota Lubuklinggau
+-2.82884,103.04459,2026-11-28,618,3.52,n,South Sumatra,Musi Rawas Utara
+-2.31238,112.76642,2026-11-28,618,7.22,n,Central Kalimantan,Kotawaringin Timur
+-2.24839,115.97787,2026-11-28,618,12.73,n,East Kalimantan,Paser
+-2.24787,115.98118,2026-11-28,618,12.73,h,East Kalimantan,Paser
+-2.24719,115.97909,2026-11-28,618,20.59,n,East Kalimantan,Paser
+-2.24664,115.98241,2026-11-28,618,20.59,l,East Kalimantan,Paser
+-2.24413,115.97049,2026-11-28,618,15.4,n,East Kalimantan,Paser
+-2.24259,115.98022,2026-11-28,618,12.73,n,East Kalimantan,Paser
+-2.23833,115.97282,2026-11-28,618,4.95,n,East Kalimantan,Paser
+-2.17609,111.92545,2026-11-28,618,2.45,n,Central Kalimantan,Kotawaringin Barat
+-2.077,112.6087,2026-11-28,618,6.74,n,Central Kalimantan,Kotawaringin Timur
+-2.07638,112.6126,2026-11-28,618,6.74,n,Central Kalimantan,Kotawaringin Timur
+-2.04816,111.99593,2026-11-28,618,4.91,n,Central Kalimantan,Kotawaringin Barat
+-2.03447,112.21572,2026-11-28,618,17.73,n,Central Kalimantan,Seruyan
+-1.97004,112.0676,2026-11-28,618,10.78,n,Central Kalimantan,Kotawaringin Barat
+-1.95855,112.08791,2026-11-28,618,4.57,n,Central Kalimantan,Seruyan
+-1.95547,112.05416,2026-11-28,618,5.06,n,Central Kalimantan,Kotawaringin Barat
+-1.94056,112.09621,2026-11-28,618,3.06,n,Central Kalimantan,Seruyan
+-1.93708,116.27206,2026-11-28,618,5.2,n,East Kalimantan,Paser
+-1.91375,112.0808,2026-11-28,618,3.18,n,Central Kalimantan,Seruyan
+-1.87345,111.88409,2026-11-28,618,12.54,n,Central Kalimantan,Kotawaringin Barat
+-1.83309,112.25145,2026-11-28,618,20.08,n,Central Kalimantan,Seruyan
+-1.79672,112.48627,2026-11-28,618,5.29,n,Central Kalimantan,Kotawaringin Timur
+-1.79253,112.4856,2026-11-28,618,3.01,n,Central Kalimantan,Kotawaringin Timur
+-1.24436,110.5616,2026-11-28,618,6.62,n,West Kalimantan,Ketapang
+-1.12053,112.5717,2026-11-28,618,7.88,n,Central Kalimantan,Katingan
+-0.69958,116.12097,2026-11-28,618,7.68,n,East Kalimantan,Kutai Barat
+-0.69897,116.11993,2026-11-28,618,7.58,n,East Kalimantan,Kutai Barat
+-0.49101,117.38487,2026-11-28,618,5.25,n,East Kalimantan,Kutai Kartanegara
+-0.3558,115.7894,2026-11-28,618,11.07,n,East Kalimantan,Kutai Barat
+-0.17777,116.45333,2026-11-28,618,5.77,n,East Kalimantan,Kutai Kartanegara
+-0.08017,111.0863,2026-11-28,618,8.09,n,West Kalimantan,Sekadau
+-0.07982,111.08899,2026-11-28,618,8.23,n,West Kalimantan,Sekadau
+0.49441,111.63551,2026-11-28,618,6.41,n,West Kalimantan,Sintang
+0.49852,111.6349,2026-11-28,618,6.41,n,West Kalimantan,Sintang
+1.10395,117.20341,2026-11-28,618,7.35,n,East Kalimantan,Kutai Timur
+1.10856,117.19314,2026-11-28,618,4.84,n,East Kalimantan,Kutai Timur
+1.21734,117.00459,2026-11-28,618,10.92,n,East Kalimantan,Kutai Timur
+3.06838,113.41419,2026-11-28,620,13.81,n,Di luar daratan,-
+3.06913,113.42348,2026-11-28,620,129.37,n,Di luar daratan,-
+3.06989,113.42881,2026-11-28,620,129.37,n,Di luar daratan,-
+3.06998,113.4248,2026-11-28,620,428.32,l,Di luar daratan,-
+3.07078,113.43009,2026-11-28,620,12.81,n,Di luar daratan,-
+3.0732,113.41746,2026-11-28,620,20.04,n,Di luar daratan,-
+3.07396,113.42277,2026-11-28,620,23.46,n,Di luar daratan,-
+3.07401,113.41882,2026-11-28,620,12.82,n,Di luar daratan,-
+3.07471,113.42804,2026-11-28,620,23.46,n,Di luar daratan,-
+3.07481,113.42409,2026-11-28,620,12.82,n,Di luar daratan,-
+3.0756,113.42934,2026-11-28,620,11.94,n,Di luar daratan,-
+3.20208,113.65199,2026-11-28,620,7.71,n,Di luar daratan,-
